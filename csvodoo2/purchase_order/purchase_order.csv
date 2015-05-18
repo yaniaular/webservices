@@ -1,0 +1,20 @@
+id,model,partner_ref,invoice_method,invoiced,payment_term_id:id,minimum_planned_date,shipped,validator:id,date_approve,fiscal_position:id,origin,partner_id:id,location_id:id,pricelist_id:id,type,name,seq_number,location_id:id,pricelist_id:id,rfq_user_id:id,department_id:id
+str,str,str,str,str,search;name,str,str,search;name,str,search;name,str,search;vat,search;name,search;name,str,str,str,search;name,search;name,search;name,search;name
+po_cicsa_001,purchase.order,,picking,0,,2014-12-31,0,,,,,VEJ309364391,,,materials,RFQ-MAT-12-039-CA-PE_1,ODC-0098,Stock,Proveedores Nacionales,Administrator,Gerencia de Compras y Contratos
+po_cicsa_002,purchase.order,,picking,0,,2014-12-31,0,,,,,US0000000004,,,materials,RFQ-MAT-12-039-CA-PE_2,ODC-0099,Stock,Proveedores Extranjeros,Administrator,Gerencia de Compras y Contratos
+po_cicsa_003,purchase.order,,picking,0,,2014-12-31,0,,,,,US0000000002,,,materials,RFQ-MAT-11-107-CA-PE_3,ODC-0133 R1,Stock,Proveedores Extranjeros,Administrator,Gerencia de Compras y Contratos
+po_cicsa_004,purchase.order,,picking,0,,2014-10-01,0,,,,,VEJ303738001,,,materials,RFQ-MAT-12-038-CA-PE_4,ODC-0137,Stock,Proveedores Nacionales,Administrator,Gerencia de Compras y Contratos
+po_cicsa_005,purchase.order,,picking,0,,2014-10-01,0,,,,,US0000000003,,,materials,RFQ-MAT-12-038-CA-PE_5,ODC-0138,Stock,Proveedores Extranjeros,Administrator,Gerencia de Compras y Contratos
+po_cicsa_006,purchase.order,,picking,0,,2014-08-15,0,,,,,VEJ310385203,,,materials,RFQ-MAT-14-013-CA-FA_6,ODC-0200,Stock,Proveedores Nacionales,Administrator,Gerencia de Compras y Contratos
+po_cicsa_007,purchase.order,,picking,0,,2014-08-29,0,,,,,VEJ311315179,,,materials,RFQ-MAT-14-017-CA-FA_7,ODC-0201,Stock,Proveedores Nacionales,Administrator,Gerencia de Compras y Contratos
+po_cicsa_008,purchase.order,,picking,0,,2014-08-29,0,,,,,US0000000005,,,materials,RFQ-MAT-14-017-CA-FA_8,ODC-0202 R1,Stock,Proveedores Extranjeros,Administrator,Gerencia de Compras y Contratos
+po_cicsa_009,purchase.order,,picking,0,,2014-08-29,0,,,,,VEJ302750466,,,materials,RFQ-MAT-14-016-CA-FA_9,ODC-0203,Stock,Proveedores Nacionales,Administrator,Gerencia de Compras y Contratos
+po_cicsa_010,purchase.order,,picking,0,,2014-08-28,0,,,,,VEJ310775699,,,materials,RFQ-MAT-14-016-CA-FA_10,ODC-0204,Stock,Proveedores Nacionales,Administrator,Gerencia de Compras y Contratos
+po_cicsa_011,purchase.order,,picking,0,,2014-08-15,0,,,,,VEJ304558945,,,materials,RFQ-MAT-14-016-CA-FA_11,ODC-0205,Stock,Proveedores Nacionales,Administrator,Gerencia de Compras y Contratos
+po_cicsa_012,purchase.order,,picking,0,,2014-08-08,0,,,,,VEJ310385203,,,materials,RFQ-MAT-14-016-CA-FA_12,ODC-0206,Stock,Proveedores Nacionales,Administrator,Gerencia de Compras y Contratos
+po_cicsa_013,purchase.order,,picking,0,,2014-08-15,0,,,,,VEJ310385203,,,materials,RFQ-MAT-14-015-CA-FA_13,ODC-0207,Stock,Proveedores Nacionales,Administrator,Gerencia de Compras y Contratos
+po_cicsa_014,purchase.order,,picking,0,,2014-08-15,0,,,,,VEJ002487259,,,materials,RFQ-MAT-14-014-CA-FA_14,ODC-0210,Stock,Proveedores Nacionales,Administrator,Gerencia de Compras y Contratos
+po_cicsa_015,purchase.order,,picking,0,,2014-08-22,0,,,,,VEJ070283700,,,materials,RFQ-MAT-14-014-CA-FA_15,ODC-0211,Stock,Proveedores Nacionales,Administrator,Gerencia de Compras y Contratos
+po_cicsa_016,purchase.order,,picking,0,,2014-10-03,0,,,,,VEJ304558945,,,materials,RFQ-MAT-14-016-CA-FA_16,ODC-0212,Stock,Proveedores Nacionales,Administrator,Gerencia de Compras y Contratos
+po_cicsa_017,purchase.order,,picking,0,,2014-09-19,0,,,,,VEJ302750466,,,materials,RFQ-MAT-14-016-CA-FA_17,ODC-0213,Stock,Proveedores Nacionales,Administrator,Gerencia de Compras y Contratos
+po_cicsa_018,purchase.order,,picking,1,,2014-09-12,0,,,,,US0000000001,,,materials,RFQ-MAT-14-015-CA-FA_18,ODC-0214,Stock,Proveedores Extranjeros,Administrator,Gerencia de Compras y Contratos

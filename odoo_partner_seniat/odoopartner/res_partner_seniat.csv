@@ -1,0 +1,2 @@
+id,model,name,street,street2,city,zip,country_id,state_id,vat,phone,mobile,title,function,fax,website,email,lang,active,ref,property_product_pricelist_purchase,property_product_pricelist,property_payment_term,property_supplier_payment_term,supplier,customer,property_account_receivable,property_account_payable,company_id,image,islr_withholding_agent,spn,property_wh_munici_payable,property_wh_munici_receivable,wh_iva_agent,vat_subjected,wh_iva_rate
+mycompany_res_partner_VEP000803702,res.partner,VIKAS VIKAS,,,,,VE,,VEP000803702,,,,,,,,,True,,,,,,True,,,,,,,,,,False,True,100

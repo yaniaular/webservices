@@ -1,0 +1,39 @@
+ID,HU ID,Procesos
+P1,5,"Proceso de adjuntar documento de alcance en una requisición de servicios:
+
+CICSA debe implementar que en el proceso de hacer una requisición de compra de servicios el usuario adjunte el documento de alcance del servicio"
+P2,7,Implementar el proceso mensajería para notificar las cancelaciones de las requisiones de compra
+P3,7,"Implementar el proceso de evaluación de las RFQs:
+
+Se debe implementar el proceso de evaluación de las RFQs de la siguiente manera:
+1. Elaborar las RFQs en Open y enviar los formatos al proveedor
+2. Recibir las RFQs manualmente y analizar los ganadores con las herramientas externas (excel) para escoger un ganador o ganadores por renglones
+3. Modificar en Open SOLAMENTE la(s) RFQ ganadoras para pasarlas a PO para continuar el proceso"
+P4,19,"Implementar la gestión de cambio para la sustitución del código de la REQ :
+
+- Estructura del nuevo código
+- Razones (positivas) del cambio
+- Definir la red de comunicación del cambio (quien comunica? y cómo se aclara en el tiempo?)"
+P5,22,"Implementar proceso de control de cambio de molificación en las P.O:
+
+Se debe documentar los pasos a seguir en el proceso de cambio de la orden de compra tomando en cuenta:
+- Que las recepciones del producto no se han efectuado
+- Que las recepciones se han hecho parcialmente y es necesario cambiar lo que ya se ha recibido o cambiar lo que falta por recibir"
+P6,19,"Agregar una secuencia personalizable a PR:
+
+Al momento de realizar confirm añadir el DPTO a la secuencia.
+El código original es: 
+RFQ-SER-12-349-RH
+
+RFQ = es el tipo de documento, puede ser RFQ y REQ.
+SER = Tipo de bien(Materiales o Servicios)
+12 = año
+349 = número consecutivo.
+RH = Departamento
+
+El código queda de la siguiente forma:
+RFQ-AÑO-CONSECUTIVO-DEPARTAMENTO
+
+Se sustituye lo siguiente:
+
+SER = Se agrega un campo en PR para discriminar."

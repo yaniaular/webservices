@@ -1,0 +1,922 @@
+name,move_id:id,account_id:id,debit,credit,analytic_account_id:id,analytics_id:id,journal_id:id,period_id:id
+str,ref,search;code,str,str,ref,ref,ref,ref
+Adelanto para viaje a Morichal semana 03/02 y 10/02/14/ Nestor Fernandez,am_cicsa_19000000060,11310006,16000,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Adelanto para viaje a Morichal semana 03/02 y 10/02/14/ Nestor Fernandez,am_cicsa_19000000060,20101202,,16000,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Ajuste para completar JE 19/57 gastos de Viaje durante visita al campo  Planta 30MBPD/ Nestor Fernandez,am_cicsa_19000000061,77101004,442,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Ajuste para completar JE 19/57 gastos de Viaje durante visita al campo  Planta 30MBPD/ Nestor Fernandez,am_cicsa_19000000061,20101202,,442,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Retencion 75% iVa no correspondiente. JE 19/193 2011/ Platinum Cars,am_cicsa_19000000062,20140109,1638,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Retencion 75% iVa no correspondiente. JE 19/193 2011/ Platinum Cars,am_cicsa_19000000062,20101002,,1638,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"NC 19,2013. Cancel 25% odc 0098 rev 01./ ",am_cicsa_19000000063,20181002,15866840.68,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"NC 19,2013. Cancel 25% odc 0098 rev 01./ ",am_cicsa_19000000063,11213103,,15866840.68,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Invoice Nro 65,2013/ ",am_cicsa_19000000064,11213103,13109290.8,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Invoice Nro 65,2013/ ",am_cicsa_19000000064,20181002,,13109290.8,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Estacionamiento CICSA  Febrero -2014/ Invoice Nro 00022611/ ODS-00117/ Garaje Torre BVC, C.A",am_cicsa_19000000065,73149002,18080.36,,,cicsa_data.aapi_021,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Estacionamiento CICSA  Febrero -2014/ Invoice Nro 00022611/ ODS-00117/ Garaje Torre BVC, C.A",am_cicsa_19000000065,11203114,2169.64,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Estacionamiento CICSA  Febrero -2014/ Invoice Nro 00022611/ ODS-00117/ Garaje Torre BVC, C.A",am_cicsa_19000000065,20140109,,1627.23,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Estacionamiento CICSA  Febrero -2014/ Invoice Nro 00022611/ ODS-00117/ Garaje Torre BVC, C.A",am_cicsa_19000000065,20140101,,361.61,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Estacionamiento CICSA  Febrero -2014/ Invoice Nro 00022611/ ODS-00117/ Garaje Torre BVC, C.A",am_cicsa_19000000065,20101002,,18261.16,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Estacionamiento PCB  Febrero -2014/ Invoice Nro 00022612/ ODS-00117/ Garaje Torre BVC, C.A",am_cicsa_19000000066,11213103,14732.14,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Estacionamiento PCB  Febrero -2014/ Invoice Nro 00022612/ ODS-00117/ Garaje Torre BVC, C.A",am_cicsa_19000000066,11203113,1767.86,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Estacionamiento PCB  Febrero -2014/ Invoice Nro 00022612/ ODS-00117/ Garaje Torre BVC, C.A",am_cicsa_19000000066,20140109,,1325.9,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Estacionamiento PCB  Febrero -2014/ Invoice Nro 00022612/ ODS-00117/ Garaje Torre BVC, C.A",am_cicsa_19000000066,20140101,,294.64,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Estacionamiento PCB  Febrero -2014/ Invoice Nro 00022612/ ODS-00117/ Garaje Torre BVC, C.A",am_cicsa_19000000066,20101002,,14879.46,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Gastos Administrativos por emision de tarjetas nro 25429-5112  February -2014/ / Fact 22620/ ODS-00117/ Garaje Torre BVC, C.A",am_cicsa_19000000067,73149002,312.5,,,cicsa_data.aapi_021,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Gastos Administrativos por emision de tarjetas nro 25429-5112  February -2014/ / Fact 22620/ ODS-00117/ Garaje Torre BVC, C.A",am_cicsa_19000000067,11203114,37.5,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Gastos Administrativos por emision de tarjetas nro 25429-5112  February -2014/ / Fact 22620/ ODS-00117/ Garaje Torre BVC, C.A",am_cicsa_19000000067,20140109,,28.13,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Gastos Administrativos por emision de tarjetas nro 25429-5112  February -2014/ / Fact 22620/ ODS-00117/ Garaje Torre BVC, C.A",am_cicsa_19000000067,20140101,,6.25,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Gastos Administrativos por emision de tarjetas nro 25429-5112  February -2014/ / Fact 22620/ ODS-00117/ Garaje Torre BVC, C.A",am_cicsa_19000000067,20101002,,315.62,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Gastos Administrativos por emision de tarjetas February -2014/ Fact 22619/ ODS-00117/ Garaje Torre BVC, C.A",am_cicsa_19000000067,73149002,625,,,cicsa_data.aapi_021,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Gastos Administrativos por emision de tarjetas February -2014/ Fact 22619/ ODS-00117/ Garaje Torre BVC, C.A",am_cicsa_19000000067,11203114,75,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Gastos Administrativos por emision de tarjetas February -2014/ Fact 22619/ ODS-00117/ Garaje Torre BVC, C.A",am_cicsa_19000000067,20140109,,56.25,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Gastos Administrativos por emision de tarjetas February -2014/ Fact 22619/ ODS-00117/ Garaje Torre BVC, C.A",am_cicsa_19000000067,20140101,,12.5,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Gastos Administrativos por emision de tarjetas February -2014/ Fact 22619/ ODS-00117/ Garaje Torre BVC, C.A",am_cicsa_19000000067,20101002,,631.25,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Gastos Administrativos Nro 1847  February -2014/  Fact 22624/ ODS-00117/ Garaje Torre BVC, C.A",am_cicsa_19000000067,73149002,156.25,,,cicsa_data.aapi_021,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Gastos Administrativos Nro 1847  February -2014/  Fact 22624/ ODS-00117/ Garaje Torre BVC, C.A",am_cicsa_19000000067,11203114,18.75,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Gastos Administrativos Nro 1847  February -2014/  Fact 22624/ ODS-00117/ Garaje Torre BVC, C.A",am_cicsa_19000000067,20140109,,14.06,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Gastos Administrativos Nro 1847  February -2014/  Fact 22624/ ODS-00117/ Garaje Torre BVC, C.A",am_cicsa_19000000067,20140101,,3.13,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Gastos Administrativos Nro 1847  February -2014/  Fact 22624/ ODS-00117/ Garaje Torre BVC, C.A",am_cicsa_19000000067,20101002,,157.81,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Alquiler de Oficina 6Q. Feb 2014. Fact 382/ Inversiones 225,CA",am_cicsa_19000000068,11203103,10454.74,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Alquiler de Oficina 6Q. Feb 2014. Fact 382/ Inversiones 225,CA",am_cicsa_19000000068,11203113,1254.57,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Alquiler de Oficina 6Q. Feb 2014. Fact 382/ Inversiones 225,CA",am_cicsa_19000000068,20140109,,940.93,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Alquiler de Oficina 6Q. Feb 2014. Fact 382/ Inversiones 225,CA",am_cicsa_19000000068,20140101,,522.74,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Alquiler de Oficina 6Q. Feb 2014. Fact 382/ Inversiones 225,CA",am_cicsa_19000000068,20101002,,10245.64,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Alquiler de Oficina 6P. Feb 2014. Fact 381/ Inversiones 225,CA",am_cicsa_19000000068,11203103,11205.67,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Alquiler de Oficina 6P. Feb 2014. Fact 381/ Inversiones 225,CA",am_cicsa_19000000068,11203113,1344.68,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Alquiler de Oficina 6P. Feb 2014. Fact 381/ Inversiones 225,CA",am_cicsa_19000000068,20140109,,1008.51,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Alquiler de Oficina 6P. Feb 2014. Fact 381/ Inversiones 225,CA",am_cicsa_19000000068,20140101,,560.28,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Alquiler de Oficina 6P. Feb 2014. Fact 381/ Inversiones 225,CA",am_cicsa_19000000068,20101002,,10981.56,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Alquiler de Oficina 6O. Feb 2014. Fact 380/ Inversiones 225,CA",am_cicsa_19000000068,11203103,14201.04,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Alquiler de Oficina 6O. Feb 2014. Fact 380/ Inversiones 225,CA",am_cicsa_19000000068,11203113,1704.12,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Alquiler de Oficina 6O. Feb 2014. Fact 380/ Inversiones 225,CA",am_cicsa_19000000068,20140109,,1278.09,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Alquiler de Oficina 6O. Feb 2014. Fact 380/ Inversiones 225,CA",am_cicsa_19000000068,20140101,,710.05,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Alquiler de Oficina 6O. Feb 2014. Fact 380/ Inversiones 225,CA",am_cicsa_19000000068,20101002,,13917.02,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Alquiler de Oficina 5L. Feb 2014. Fact 379/ Inversiones 225,CA",am_cicsa_19000000068,73301001,18068.3,,,cicsa_data.aapi_021,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Alquiler de Oficina 5L. Feb 2014. Fact 379/ Inversiones 225,CA",am_cicsa_19000000068,11203114,2168.2,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Alquiler de Oficina 5L. Feb 2014. Fact 379/ Inversiones 225,CA",am_cicsa_19000000068,20140109,,1626.15,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Alquiler de Oficina 5L. Feb 2014. Fact 379/ Inversiones 225,CA",am_cicsa_19000000068,20140101,,903.42,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Alquiler de Oficina 5L. Feb 2014. Fact 379/ Inversiones 225,CA",am_cicsa_19000000068,20101002,,17706.93,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Alquiler de Oficina 5J. Feb 2014. Fact 378/ Inversiones 225,CA",am_cicsa_19000000068,73301001,20428.8,,,cicsa_data.aapi_021,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Alquiler de Oficina 5J. Feb 2014. Fact 378/ Inversiones 225,CA",am_cicsa_19000000068,11203114,2451.46,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Alquiler de Oficina 5J. Feb 2014. Fact 378/ Inversiones 225,CA",am_cicsa_19000000068,20140109,,1838.6,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Alquiler de Oficina 5J. Feb 2014. Fact 378/ Inversiones 225,CA",am_cicsa_19000000068,20140101,,1021.44,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Alquiler de Oficina 5J. Feb 2014. Fact 378/ Inversiones 225,CA",am_cicsa_19000000068,20101002,,20020.22,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Alquiler de Oficina 5C. Feb 2014. Fact 377/ Inversiones 225,CA",am_cicsa_19000000068,73301001,17152.96,,,cicsa_data.aapi_021,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Alquiler de Oficina 5C. Feb 2014. Fact 377/ Inversiones 225,CA",am_cicsa_19000000068,11203114,2058.36,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Alquiler de Oficina 5C. Feb 2014. Fact 377/ Inversiones 225,CA",am_cicsa_19000000068,20140109,,1543.77,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Alquiler de Oficina 5C. Feb 2014. Fact 377/ Inversiones 225,CA",am_cicsa_19000000068,20140101,,857.65,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Alquiler de Oficina 5C. Feb 2014. Fact 377/ Inversiones 225,CA",am_cicsa_19000000068,20101002,,16809.9,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Adelanto para fianza de proyecto. 2 copias / Ansari,am_cicsa_19000000069,11310006,2500,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Adelanto para fianza de proyecto. 2 copias / Ansari,am_cicsa_19000000069,20101202,,2500,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Adelanto para fianza de proyecto. 2 copias / Ansari,am_cicsa_19000000069,20101202,2500,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Rec nro 0209 Adelanto para fianza de proyecto. 2 copias / Ansari,am_cicsa_19000000069,10111005,,2500,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Adelanto para pago de Electricidad/ Fernando de la Rosa,am_cicsa_19000000070,11310006,1448.6,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Adelanto para pago de Electricidad/ Fernando de la Rosa,am_cicsa_19000000070,20101202,,1448.6,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Adelanto para pago de Electricidad/ Fernando de la Rosa,am_cicsa_19000000070,20101202,1448.6,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Adelanto para pago de Electricidad/ Fernando de la Rosa,am_cicsa_19000000070,10111005,,1448.6,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Posi# 13 Diluent Injection Line (3/4""x0,065"" AISI 316L)// Fact Nro 10263413RI/ Weatherford Trinidad LTD",am_cicsa_19000000071,11213103,1965600,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Posi# 13 Diluent Injection Line (3/4""x0,065"" AISI 316L)// Fact Nro 10263413RI/ Weatherford Trinidad LTD",am_cicsa_19000000071,20181002,,1965600,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Diluent Injection Line (3/4"" X 0,0655"" AISI 316L) (Item 13) Fact 3013408 RI / ODC-00137/ Evi de Venezuela S.A (Weatherford)",am_cicsa_19000000072,11203103,1233700,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Diluent Injection Line (3/4"" X 0,0655"" AISI 316L) (Item 13) Fact 3013408 RI / ODC-00137/ Evi de Venezuela S.A (Weatherford)",am_cicsa_19000000072,11203114,148044,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Diluent Injection Line (3/4"" X 0,0655"" AISI 316L) (Item 13) Fact 3013408 RI / ODC-00137/ Evi de Venezuela S.A (Weatherford)",am_cicsa_19000000072,20140109,,111033,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Diluent Injection Line (3/4"" X 0,0655"" AISI 316L) (Item 13) Fact 3013408 RI / ODC-00137/ Evi de Venezuela S.A (Weatherford)",am_cicsa_19000000072,20101002,,1270711,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Adelanto para mantenimiento de Jeep AD531EM/ Fernando de la Rosa,am_cicsa_19000000073,11310006,27000,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Adelanto para mantenimiento de Jeep AD531EM/ Fernando de la Rosa,am_cicsa_19000000073,20101202,,27000,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Servicio de Encomiendas septiembre 2013. Fact 626/ Servicios Llamamoto C.A,am_cicsa_19000000074,73121004,2160,,,cicsa_data.aapi_021,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Servicio de Encomiendas septiembre 2013. Fact 626/ Servicios Llamamoto C.A,am_cicsa_19000000074,11203114,259.2,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Servicio de Encomiendas septiembre 2013. Fact 626/ Servicios Llamamoto C.A,am_cicsa_19000000074,20140109,,194.4,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Servicio de Encomiendas septiembre 2013. Fact 626/ Servicios Llamamoto C.A,am_cicsa_19000000074,20140101,,64.8,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Servicio de Encomiendas septiembre 2013. Fact 626/ Servicios Llamamoto C.A,am_cicsa_19000000074,20101002,,2160,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Taxis Services Sr  Samkar, 27-01-14 al 31/01/14 Fact 32521. / Travel Services, C.A.",am_cicsa_19000000075,11203107,3170.8,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Taxis Services Sr  Samkar, 27-01-14 al 31/01/14 Fact 32521. / Travel Services, C.A.",am_cicsa_19000000075,20140101,,63.42,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Taxis Services Sr  Samkar, 27-01-14 al 31/01/14 Fact 32521. / Travel Services, C.A.",am_cicsa_19000000075,20101002,,3107.38,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Taxis Services Sr  Samkar& Hemant , 20-01-14 al 25/01/14. Fact 32516 / Travel Services, C.A.",am_cicsa_19000000075,11203107,5365.8,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Taxis Services Sr  Samkar& Hemant , 20-01-14 al 25/01/14. Fact 32516 / Travel Services, C.A.",am_cicsa_19000000075,20140101,,107.32,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Taxis Services Sr  Samkar& Hemant , 20-01-14 al 25/01/14. Fact 32516 / Travel Services, C.A.",am_cicsa_19000000075,20101002,,5258.48,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Taxis Services Sr  Maiz Frank, 13-01-14 al 17/01/14. Fact 32514. / Travel Services, C.A.",am_cicsa_19000000075,11203107,3736.8,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Taxis Services Sr  Maiz Frank, 13-01-14 al 17/01/14. Fact 32514. / Travel Services, C.A.",am_cicsa_19000000075,20140101,,74.74,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Taxis Services Sr  Maiz Frank, 13-01-14 al 17/01/14. Fact 32514. / Travel Services, C.A.",am_cicsa_19000000075,20101002,,3662.06,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Taxis Services Sr  Maiz Frank  , 06-01-14 al 12/01/14. Fact 32512 / Travel Services, C.A.",am_cicsa_19000000075,11203107,5269.1,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Taxis Services Sr  Maiz Frank  , 06-01-14 al 12/01/14. Fact 32512 / Travel Services, C.A.",am_cicsa_19000000075,20140101,,105.38,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Taxis Services Sr  Maiz Frank  , 06-01-14 al 12/01/14. Fact 32512 / Travel Services, C.A.",am_cicsa_19000000075,20101002,,5163.72,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Traslado de Personal CICSA 29 al 31-01 2013. Fact 32518 ODS-00160 / Travel Services, C.A.",am_cicsa_19000000076,77101001,19454,,,cicsa_data.aapi_021,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Traslado de Personal CICSA 29 al 31-01 2013. Fact 32518 ODS-00160 / Travel Services, C.A.",am_cicsa_19000000076,20140101,,389.08,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Traslado de Personal CICSA 29 al 31-01 2013. Fact 32518 ODS-00160 / Travel Services, C.A.",am_cicsa_19000000076,20101002,,19064.92,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Traslado de Personal CICSA 20 al 26-01 2013. Fact 32515 ODS-00160 / Travel Services, C.A.",am_cicsa_19000000076,77101001,16286,,,cicsa_data.aapi_021,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Traslado de Personal CICSA 20 al 26-01 2013. Fact 32515 ODS-00160 / Travel Services, C.A.",am_cicsa_19000000076,20140101,,325.72,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Traslado de Personal CICSA 20 al 26-01 2013. Fact 32515 ODS-00160 / Travel Services, C.A.",am_cicsa_19000000076,20101002,,15960.28,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Traslado de Personal CICSA 20 al 26-01 2013. Fact 32513 ODS-00160 / Travel Services, C.A.",am_cicsa_19000000076,77101001,7866,,,cicsa_data.aapi_021,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Traslado de Personal CICSA 20 al 26-01 2013. Fact 32513 ODS-00160 / Travel Services, C.A.",am_cicsa_19000000076,20140101,,157.32,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Traslado de Personal CICSA 20 al 26-01 2013. Fact 32513 ODS-00160 / Travel Services, C.A.",am_cicsa_19000000076,20101002,,7708.68,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Traslado de Personal CICSA 20 al 26-01 2013. Fact 32515 ODS-00160/ Travel Services, C.A.",am_cicsa_19000000076,77101001,15199.9,,,cicsa_data.aapi_021,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Traslado de Personal CICSA 20 al 26-01 2013. Fact 32515 ODS-00160/ Travel Services, C.A.",am_cicsa_19000000076,20140101,,304,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Traslado de Personal CICSA 20 al 26-01 2013. Fact 32515 ODS-00160/ Travel Services, C.A.",am_cicsa_19000000076,20101002,,14895.9,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Pago de Retenciones de ISLR Enero 2014/ Tesoro Nacional,am_cicsa_19000000077,20140101,191468.07,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Pago de Retenciones de ISLR Enero 2014/ Tesoro Nacional,am_cicsa_19000000077,20101901,,191468.07,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Banesco,am_cicsa_19000000078,10226014,1500000,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Banesco,am_cicsa_19000000078,20101002,,1500000,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Base Exenta  de Factura Nro 029792. /Bolivariana de Puertos, SA",am_cicsa_19000000079,11203103,1774231.64,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Base Imponible de Factura Nro 029792. /Bolivariana de Puertos, SA",am_cicsa_19000000079,11203103,10453.47,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Factura Nro 029792. /Bolivariana de Puertos, SA",am_cicsa_19000000079,11203113,1254.42,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Factura Nro 029792. /Bolivariana de Puertos, SA",am_cicsa_19000000079,20140109,,940.82,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Factura Nro 029792. /Bolivariana de Puertos, SA",am_cicsa_19000000079,20140101,,209.07,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Factura Nro 029792- Will be Transfer to Caribean Port/ Bolivariana de Puertos, SA",am_cicsa_19000000079,20101002,,1784789.64,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Base exenta de Factura Nro 029850. /Bolivariana de Puertos, SA",am_cicsa_19000000080,11203103,40789.63,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Base Imponible de Factura Nro 029850. /Bolivariana de Puertos, SA",am_cicsa_19000000080,11203103,252,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Base Imponible de Factura Nro 029850. /Bolivariana de Puertos, SA",am_cicsa_19000000080,11203113,30.24,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Base Imponible de Factura Nro 029850. /Bolivariana de Puertos, SA",am_cicsa_19000000080,20140109,,22.68,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Base Imponible de Factura Nro 029850. /Bolivariana de Puertos, SA",am_cicsa_19000000080,20140101,,5.04,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"029850- Will be Transfer to Caribean Port /Bolivariana de Puertos, SA",am_cicsa_19000000080,20101002,,41044.15,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Base exenta de Factura Nro 029874. /Bolivariana de Puertos, SA",am_cicsa_19000000081,11203103,37026.8,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Base Imponible de Factura Nro 029874. /Bolivariana de Puertos, SA",am_cicsa_19000000081,11203103,567,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Factura Nro 029874. /Bolivariana de Puertos, SA",am_cicsa_19000000081,11203113,68.04,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Factura Nro 029874. /Bolivariana de Puertos, SA",am_cicsa_19000000081,20140109,,51.03,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Factura Nro 029874. /Bolivariana de Puertos, SA",am_cicsa_19000000081,20140101,,11.34,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"029874- Will be Transfer to Caribean Port /Bolivariana de Puertos, SA",am_cicsa_19000000081,20101002,,37599.47,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Base Exenta de Factura Nro 029923.  /Bolivariana de Puertos, SA",am_cicsa_19000000082,11203103,27619.61,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Base Imponible de Factura Nro 029923.  /Bolivariana de Puertos, SA",am_cicsa_19000000082,11203103,252,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Factura Nro 029923.  /Bolivariana de Puertos, SA",am_cicsa_19000000082,11203113,30.24,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Factura Nro 029923.  /Bolivariana de Puertos, SA",am_cicsa_19000000082,20140109,,22.68,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Factura Nro 029923.  /Bolivariana de Puertos, SA",am_cicsa_19000000082,20140101,,5.04,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"029973 Will be Transfer to Caribean Port  /Bolivariana de Puertos, SA",am_cicsa_19000000082,20101002,,27874.13,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Base Exenta  de Factura Nro 029960.  /Bolivariana de Puertos, SA",am_cicsa_19000000083,11203103,20093.72,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Base Imponible de Factura Nro 029960.  /Bolivariana de Puertos, SA",am_cicsa_19000000083,11203103,567,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Factura Nro 029960.  /Bolivariana de Puertos, SA",am_cicsa_19000000083,11203113,68.04,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Factura Nro 029960.  /Bolivariana de Puertos, SA",am_cicsa_19000000083,20140109,,51.03,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Factura Nro 029960.  /Bolivariana de Puertos, SA",am_cicsa_19000000083,20140101,,11.34,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"029960  Will be Transfer to Caribean Port  /Bolivariana de Puertos, SA",am_cicsa_19000000083,20101002,,20666.39,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Base Exenta  de Factura Nro 0300210.  /Bolivariana de Puertos, SA",am_cicsa_19000000084,11203103,41937.12,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Base Imponible de Factura Nro 0300210.  /Bolivariana de Puertos, SA",am_cicsa_19000000084,11203103,252,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Factura Nro 0300210.  /Bolivariana de Puertos, SA",am_cicsa_19000000084,11203113,30.24,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Factura Nro 0300210.  /Bolivariana de Puertos, SA",am_cicsa_19000000084,20140109,,22.68,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Factura Nro 0300210.  /Bolivariana de Puertos, SA",am_cicsa_19000000084,20140101,,5.04,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"030010   Will be Transfer to Caribean Port /Bolivariana de Puertos, SA",am_cicsa_19000000084,20101002,,42191.64,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Base Imponible de Factura Nro 030027.  /Bolivariana de Puertos, SA",am_cicsa_19000000085,11203103,9275.55,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Base Imponible de Factura Nro 030027.  /Bolivariana de Puertos, SA",am_cicsa_19000000085,11203103,252,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Factura Nro 030027.  /Bolivariana de Puertos, SA",am_cicsa_19000000085,11203113,30.24,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Factura Nro 030027.  /Bolivariana de Puertos, SA",am_cicsa_19000000085,20140109,,22.68,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Factura Nro 030027.  /Bolivariana de Puertos, SA",am_cicsa_19000000085,20140101,,5.04,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"030027   Will be Transfer to Caribean Port  /Bolivariana de Puertos, SA",am_cicsa_19000000085,20101002,,9530.07,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Base Exenta de Factura Nro 030066.  /Bolivariana de Puertos, SA",am_cicsa_19000000086,11203103,4872.83,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Base Imponible de Factura Nro 030066.  /Bolivariana de Puertos, SA",am_cicsa_19000000086,11203103,252,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+" Factura Nro 030066.  /Bolivariana de Puertos, SA",am_cicsa_19000000086,11203113,30.24,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+" Factura Nro 030066.  /Bolivariana de Puertos, SA",am_cicsa_19000000086,20140109,,22.68,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+" Factura Nro 030066.  /Bolivariana de Puertos, SA",am_cicsa_19000000086,20140101,,5.04,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"030066   Will be Transfer to Caribean Port /Bolivariana de Puertos, SA",am_cicsa_19000000086,20101002,,5127.35,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Base Exenta de Factura Nro 030126.  /Bolivariana de Puertos, SA",am_cicsa_19000000087,11203103,2427.04,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Base Imponible de Factura Nro 030126.  /Bolivariana de Puertos, SA",am_cicsa_19000000087,11203103,567,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Factura Nro 030126.  /Bolivariana de Puertos, SA",am_cicsa_19000000087,11203113,68.04,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Factura Nro 030126.  /Bolivariana de Puertos, SA",am_cicsa_19000000087,20140109,,51.03,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Factura Nro 030126.  /Bolivariana de Puertos, SA",am_cicsa_19000000087,20140101,,11.34,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"030126   Will be Transfer to Caribean Port /Bolivariana de Puertos, SA",am_cicsa_19000000087,20101002,,2999.71,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Base Imponible de Factura Nro 028981.  /Bolivariana de Puertos, SA",am_cicsa_19000000088,11203103,959904.81,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Base Imponible de Factura Nro 028981.  /Bolivariana de Puertos, SA",am_cicsa_19000000088,11203103,181062.61,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+" Factura Nro 028981.  /Bolivariana de Puertos, SA",am_cicsa_19000000088,11203113,21727.51,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+" Factura Nro 028981.  /Bolivariana de Puertos, SA",am_cicsa_19000000088,20140109,,16295.63,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+" Factura Nro 028981.  /Bolivariana de Puertos, SA",am_cicsa_19000000088,20140101,,3621.25,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"028981  Will be Transfer to Caribean Port /Bolivariana de Puertos, SA",am_cicsa_19000000088,20101002,,1142778.05,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Gastos Legales Notaria Publica,am_cicsa_19000000089,73117001,1600,,,cicsa_data.aapi_019,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Adelanto a Mariela Barrueta,am_cicsa_19000000089,11310006,,1600,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Sencamer permiso de importación de la carcasa comercializada por Tenaris Global Services, S.A Factura Nro E00061527/ Emerio Prieto",am_cicsa_19000000090,11203103,3573.8,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Sencamer permiso de importación de la carcasa comercializada por Tenaris Global Services, S.A Factura Nro E00061527/ Emerio Prieto",am_cicsa_19000000090,11310006,,3573.8,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Gastos de Viaje durante visita al campo.  Planta 30MBPD 04 to 05-02-14/ Nestor Fernandez,am_cicsa_19000000091,77101004,3781,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Gastos de Viaje durante visita al campo.  Planta 30MBPD 04 to 05-02-14/ Nestor Fernandez,am_cicsa_19000000091,20101202,,3781,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Gastos de Viaje durante visita al campo.  Planta 30MBPD 08 to 24-1-14/ Jose Jimenez,am_cicsa_19000000092,77101004,10225,,,cicsa_data.aapi_015,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Gastos de Viaje durante visita al campo.  Planta 30MBPD 08 to 24-1-14/ Jose Jimenez,am_cicsa_19000000092,20101202,,10225,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Gastos de Viaje durante visita al campo  Planta 30MBPD 04-02 to 05-02-14/ Jose Campuzano,am_cicsa_19000000093,77101004,3939.92,,,cicsa_data.aapi_015,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Gastos de Viaje durante visita al campo  Planta 30MBPD 04-02 to 05-02-14/ Jose Campuzano,am_cicsa_19000000093,20101202,,3939.92,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Gastos de Viaje durante visita al campo. Reunion con Protem area operacional. Planta 30MBPD 04-02 to 05-02-147 / Jose Campuzano,am_cicsa_19000000093,77101004,3908.8,,,cicsa_data.aapi_015,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Gastos de Viaje durante visita al campo. Reunion con Protem area operacional. Planta 30MBPD 04-02 to 05-02-147 / Jose Campuzano,am_cicsa_19000000093,20101202,,3908.8,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Real Services January 13 Share point Foundation Entreprise 50 GB Fact 19647/ PrivateIP Services, C.A",am_cicsa_19000000094,73137002,15820,,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Real Services January 13 Share point Foundation Entreprise 50 GB Fact 19647/ PrivateIP Services, C.A",am_cicsa_19000000094,11203114,1898.4,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Real Services January 13 Share point Foundation Entreprise 50 GB Fact 19647/ PrivateIP Services, C.A",am_cicsa_19000000094,20140109,,1423.8,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Real Services January 13 Share point Foundation Entreprise 50 GB Fact 19647/ PrivateIP Services, C.A",am_cicsa_19000000094,20140101,,316.4,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Real Services January 13 Share point Foundation Entreprise 50 GB Fact 19647/ PrivateIP Services, C.A",am_cicsa_19000000094,20101002,,15978.2,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Real Service of January 2014 Servicio de Correo Exchange Empresarial Fact Nro 19648/ PrivateIP Services, C.A",am_cicsa_19000000094,73137002,15244.94,,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Real Service of January 2014 Servicio de Correo Exchange Empresarial Fact Nro 19648/ PrivateIP Services, C.A",am_cicsa_19000000094,11203114,1829.39,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Real Service of January 2014 Servicio de Correo Exchange Empresarial Fact Nro 19648/ PrivateIP Services, C.A",am_cicsa_19000000094,20140109,,1372.04,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Real Service of January 2014 Servicio de Correo Exchange Empresarial Fact Nro 19648/ PrivateIP Services, C.A",am_cicsa_19000000094,20140101,,304.9,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Real Service of January 2014 Servicio de Correo Exchange Empresarial Fact Nro 19648/ PrivateIP Services, C.A",am_cicsa_19000000094,20101002,,15397.39,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Servicio de InternetLan Diciembre 2014 - InvN° FM1300000024021 - CANTV,am_cicsa_19000000095,73121003,7503,,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Servicio de InternetLan Diciembre 2014 - InvN° FM1300000024021 - CANTV,am_cicsa_19000000095,11203114,900.36,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Servicio de InternetLan Diciembre 2014 - InvN° FM1300000024021 - CANTV,am_cicsa_19000000095,20140109,,900.36,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Servicio de InternetLan Diciembre 2014 - InvN° FM1300000024021 - CANTV,am_cicsa_19000000095,20140101,,150.06,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Servicio de InternetLan Diciembre 2014 - InvN° FM1300000024021 - CANTV,am_cicsa_19000000095,20101002,,7352.94,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Celulares Diciembre - Fact 47933280 - Telecomunicaciones Movilnet,am_cicsa_19000000096,73121003,37226.1,,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Celulares Diciembre - Fact 47933280 - Telecomunicaciones Movilnet,am_cicsa_19000000096,11203114,4466.61,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Celulares Diciembre - Fact 47933280 - Telecomunicaciones Movilnet,am_cicsa_19000000096,20140109,,4466.61,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Celulares Diciembre - Fact 47933280 - Telecomunicaciones Movilnet,am_cicsa_19000000096,20101002,,37226.1,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Advace Purchase Coffe Maker Room Office 5K/ Fernando de La Rosa,am_cicsa_19000000098,11310006,8000,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Advace Purchase Coffe Maker Room Office 5K/ Fernando de La Rosa,am_cicsa_19000000098,20101202,,8000,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Adjust 19/12 75% Inv Nro 11262/ SPS Risk Vigilancia, C.A",am_cicsa_19000000099,11203114,22.5,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Adjust 19/12 Inv Nro 11262/ SPS Risk Vigilancia, C.A",am_cicsa_19000000099,20140109,7.5,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Adjsut 19/12 Jan 14 - 12% IVA Inv nro 11262/ SPS Risk Vigilancia, C.A",am_cicsa_19000000099,20101002,,30,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"(food)Booking Punta Palma, Steering Committe for January  31 2014/ Hotel Punta Palma C.A",am_cicsa_19000000100,11203105,22874.2,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"(rent of Equipment)Booking Punta Palma, Steering Committe for January  31 2014/ Hotel Punta Palma C.A",am_cicsa_19000000100,11203105,34195,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"(Services) Booking Punta Palma, Steering Committe for January  31 2014/ Hotel Punta Palma C.A",am_cicsa_19000000100,11203105,2287.42,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Iva Invoice Nro 11558 Hotel Punta Palma/ Hotel Punta Palma C.A,am_cicsa_19000000100,11203105,6848.3,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Account Recibale to Hotel Punta Palama related to advance give 20/02./ Hotel Punta Palma C.A,am_cicsa_19000000100,11203106,598.93,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Tax 11558/ Hotel Punta Palma C.A,am_cicsa_19000000100,20140101,,457.48,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Tax 11558/ Hotel Punta Palma C.A,am_cicsa_19000000100,20140101,,1709.75,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Tax 11558/ Hotel Punta Palma C.A,am_cicsa_19000000100,20140101,,45.75,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Avance. Alquiler de salon Punta Palma Treal Including: Coffe Break, Snaks, Lunch; Beverage./ Hotel Punta Palma C.A",am_cicsa_19000000100,11203106,,64590.87,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"160 Horas de Entrenamiento Funcional Fact Nro 312/ Vauxoo, S.A de CV.",am_cicsa_19000000101,73113002,100800,,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"160 Horas de Entrenamiento Funcional Fact Nro 312/ Vauxoo, S.A de CV.",am_cicsa_19000000101,20181002,,100800,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"160 Horas de Entrenamiento Funcional Fact Nro 312/ Vauxoo, S.A de CV.",am_cicsa_19000000102,20101002,13608.26,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Tax Witholding Tax 160 Horas de Entrenamiento Funcional Fact Nro 312/ Vauxoo, S.A de CV.",am_cicsa_19000000102,20140101,,13608.26,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Open ERP Garantía Editorial./ Fact Nro 313/ Vauxoo, S.A de CV.",am_cicsa_19000000103,73113002,80589.6,,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Open ERP Garantía Editorial./ Fact Nro 313/ Vauxoo, S.A de CV.",am_cicsa_19000000103,20181002,,80589.6,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Open ERP Garantía Editorial./ Fact Nro 313/ Vauxoo, S.A de CV.",am_cicsa_19000000104,20101002,10879.76,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Tax Witholding Tax / Open ERP Garantía Editorial./ Fact Nro 313/ Vauxoo, S.A de CV.",am_cicsa_19000000104,20140101,,10879.76,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+ Reverso 19/014 Bolivariana de Puertos Fact 00028981,am_cicsa_19000000088,20140109,16295.63,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+ Reverso 19/014 Bolivariana de Puertos Fact 00028981,am_cicsa_19000000088,20140101,3621.25,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+ Reverso 19/014 Bolivariana de Puertos Fact 00028981,am_cicsa_19000000088,11203103,,19916.88,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Travel Expenses during Field Visit.  Planta 30MBPD 10 to 11-02-14/ Nestor Fernandez,am_cicsa_19000000105,77101004,3003,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Travel Expenses during Field Visit.  Planta 30MBPD 10 to 11-02-14/ Nestor Fernandez,am_cicsa_19000000105,20101202,,3003,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+InternetLan servicio enero  2014- CANTV - InvN° FM140000002302/ CANTV,am_cicsa_19000000106,73121003,7503,,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+IVA Inv Nro  FM140000002302  CANTV January 2014 InternetLan Services/ CANTV,am_cicsa_19000000106,11203114,900.36,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+100% IVA   CANTV Invoice FM140000002302  January 2014 InternetLan Services/ CANTV,am_cicsa_19000000106,20140109,,900.36,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+2% Retencion de ISLR Factura InvN°FM140000002302 / CANTV,am_cicsa_19000000106,20140101,,150.06,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+January  2014 IntenetLan Services Inv.N°FM140000002302 /CANTV,am_cicsa_19000000106,20101002,,7352.94,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+servicio enero  2014- CANTV - InvN° FM140000002302,am_cicsa_19000000107,73121003,1750.82,,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+servicio enero  2014- CANTV - InvN° FM140000002302,am_cicsa_19000000107,11203114,210.1,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+servicio enero  2014- CANTV - InvN° FM140000002302,am_cicsa_19000000107,20140109,,210.1,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+servicio enero  2014- CANTV - InvN° FM140000002302,am_cicsa_19000000107,20101002,,1750.82,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Couriers January 2014 Fact Nro 636/ ODS-00130/ Servicios Llamamoto C.A,am_cicsa_19000000108,73121004,1998,,,cicsa_data.aapi_021,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Couriers January 2014 Fact Nro 636/ ODS-00130/ Servicios Llamamoto C.A,am_cicsa_19000000108,11203114,239.76,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Couriers January 2014 Fact Nro 636/ ODS-00130/ Servicios Llamamoto C.A,am_cicsa_19000000108,20140109,,179.82,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Couriers January 2014 Fact Nro 636/ ODS-00130/ Servicios Llamamoto C.A,am_cicsa_19000000108,20140101,,59.94,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Couriers January 2014 Fact Nro 636/ ODS-00130/ Servicios Llamamoto C.A,am_cicsa_19000000108,20101002,,1998,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Material Supply Cafeteria and Cleaning the Month of January  2013/ Fact 50000907/ Induservi, C.A.",am_cicsa_19000000109,73135001,61471.92,,,cicsa_data.aapi_021,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Material Supply Cafeteria and Cleaning the Month of January  2013/ Fact 50000907/ Induservi, C.A.",am_cicsa_19000000109,11203114,7376.63,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Material Supply Cafeteria and Cleaning the Month of January  2013/ Fact 50000907/ Induservi, C.A.",am_cicsa_19000000109,20140109,,5532.47,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Material Supply Cafeteria and Cleaning the Month of January  2013/ Fact 50000907/ Induservi, C.A.",am_cicsa_19000000109,20140101,,1229.44,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Material Supply Cafeteria and Cleaning the Month of January  2013/ Fact 50000907/ Induservi, C.A.",am_cicsa_19000000109,20101002,,62086.64,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"1 Vehicle for CICSA Alfonso Arroyo Kia Sportage/ Cooperativa Montesacro 100, R.L",am_cicsa_19000000110,73103001,133300,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Anyel Ramirez / Ford - ODS-00130 Fact 0020/Cooperativa Montesacro 100, R.L",am_cicsa_19000000110,73103001,133300,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Jose Marcano/ Gran Cherokee  - ODS-00130 Fact 0020 /Cooperativa Montesacro 100, R.L",am_cicsa_19000000110,73103001,120400,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Gerardo Marquez /BT 50 - ODS-00130 Fact 0020/Cooperativa Montesacro 100, R.L",am_cicsa_19000000110,73103001,107500,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Gerencia /Explorer - ODS-00130 Fact 0020/ Cooperativa Montesacro 100, R.L",am_cicsa_19000000110,73103001,47300,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+5 % Cooperativa Monte Sacro  - ODS-00130 Fact 0020,am_cicsa_19000000110,20140101,,27090,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Cooperativa Monte Sacro  - ODS-00130 Fact 0020,am_cicsa_19000000110,20101002,,514710,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina Dic  2013, 10,551,491./ J.L.R System Solution, c.a",am_cicsa_19000000111,73114004,37977.88,,,cicsa_data.aapi_018,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina Dic  2013. 10,898,037/ J.L.R System Solution, c.a",am_cicsa_19000000111,73114004,41560.93,,,cicsa_data.aapi_025,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina Dic  2013. 11,657,498/ J.L.R System Solution, c.a",am_cicsa_19000000111,73114004,57376,,,cicsa_data.aapi_020,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina Dic   2013,17,900,937/ J.L.R System Solution, c.a",am_cicsa_19000000111,73114004,23179.63,,,cicsa_data.aapi_020,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina Dic   2013, 7,800,290/ J.L.R System Solution, c.a",am_cicsa_19000000111,73114004,64982.43,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina Dic   2013. 5,087,848/ J.L.R System Solution, c.a",am_cicsa_19000000111,73114004,66576.06,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina Dic   2013, 4,212,341/ J.L.R System Solution, c.a",am_cicsa_19000000111,73114004,77169.67,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina Dic   2013, 6,143,833/ J.L.R System Solution, c.a",am_cicsa_19000000111,73114004,39495.28,,,cicsa_data.aapi_020,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina Dic   2013, 13,612,323/ J.L.R System Solution, c.a",am_cicsa_19000000111,73114004,59378.37,,,cicsa_data.aapi_015,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina Dic  2013, 12,066,970/ J.L.R System Solution, c.a",am_cicsa_19000000111,73114004,25092.75,,,cicsa_data.aapi_025,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina Dic  2013, 14,431.703/ J.L.R System Solution, c.a",am_cicsa_19000000111,73114004,39311.5,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina Dic  2013, 16,315.024/ J.L.R System Solution, c.a",am_cicsa_19000000111,73114004,34062.39,,,cicsa_data.aapi_025,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina Dic  2013, 14,330,326/ J.L.R System Solution, c.a",am_cicsa_19000000111,73114004,41444.21,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina Dic  2013 Fact Nro. 13596/ J.L.R System Solution, c.a",am_cicsa_19000000111,11203114,72912.85,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina Dic  2013 Fact Nro. 13596/ J.L.R System Solution, c.a",am_cicsa_19000000111,20140109,,54684.64,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina Dic  2013 Fact Nro. 13596/ J.L.R System Solution, c.a",am_cicsa_19000000111,20140101,,12152.14,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina Dic  2013 Fact Nro. 13596/ J.L.R System Solution, c.a",am_cicsa_19000000111,20101002,,613683.17,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina 01/09 al 30/11/13  2013 Fact Nro 13598/ J.L.R System Solution, c.a",am_cicsa_19000000112,73114004,18713.2,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina 01/09 al 30/11/13  2013 Fact Nro 13598/ J.L.R System Solution, c.a",am_cicsa_19000000112,11203114,2245.58,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina 01/09 al 30/11/13  2013 Fact Nro 13598/ J.L.R System Solution, c.a",am_cicsa_19000000112,20140109,,1684.19,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina 01/09 al 30/11/13  2013 Fact Nro 13598/ J.L.R System Solution, c.a",am_cicsa_19000000112,20140101,,374.26,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina 01/09 al 30/11/13  2013 Fact Nro 13598/ J.L.R System Solution, c.a",am_cicsa_19000000112,20101002,,18900.33,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reimbursement Expenses Luis Delgado Administracion de Nomina 01/09 al 30/11/13  2013. Fact Nro 13599/ J.L.R System Solution, c.a",am_cicsa_19000000113,73114004,23673.1,,,cicsa_data.aapi_015,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reimbursement Expenses Luis Delgado Administracion de Nomina 01/09 al 30/11/13  2013. Fact Nro 13599/ J.L.R System Solution, c.a",am_cicsa_19000000113,11203114,2840.77,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reimbursement Expenses Luis Delgado Administracion de Nomina 01/09 al 30/11/13  2013. Fact Nro 13599/ J.L.R System Solution, c.a",am_cicsa_19000000113,20140109,,2130.58,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reimbursement Expenses Luis Delgado Administracion de Nomina 01/09 al 30/11/13  2013. Fact Nro 13599/ J.L.R System Solution, c.a",am_cicsa_19000000113,20140101,,473.46,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reimbursement Expenses Luis Delgado Administracion de Nomina 01/09 al 30/11/13  2013. Fact Nro 13599/ J.L.R System Solution, c.a",am_cicsa_19000000113,20101002,,23909.83,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reimbursement Expenses Alfonso Arroyo 01/09 al 30/11/13  2013/ Fact Nro 13597/ J.L.R System Solution, c.a",am_cicsa_19000000114,73114004,22848.1,,,cicsa_data.aapi_015,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reimbursement Expenses Alfonso Arroyo 01/09 al 30/11/13  2013/ Fact Nro 13597/ J.L.R System Solution, c.a",am_cicsa_19000000114,11203114,2741.77,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reimbursement Expenses Alfonso Arroyo 01/09 al 30/11/13  2013/ Fact Nro 13597/ J.L.R System Solution, c.a",am_cicsa_19000000114,20140109,,2056.33,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reimbursement Expenses Alfonso Arroyo 01/09 al 30/11/13  2013/ Fact Nro 13597/ J.L.R System Solution, c.a",am_cicsa_19000000114,20140101,,456.96,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reimbursement Expenses Alfonso Arroyo 01/09 al 30/11/13  2013/ Fact Nro 13597/ J.L.R System Solution, c.a",am_cicsa_19000000114,20101002,,23076.58,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Retroactive - Administracion de Nomina December 2013, 10,551,491. / Fact Nro 13595/ J.L.R System Solution, c.a",am_cicsa_19000000115,73114004,35536.23,,,cicsa_data.aapi_018,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Retroactive Administracion de Nomina December 2013. 10,898,037 / Fact Nro 13595/ J.L.R System Solution, c.a",am_cicsa_19000000115,73114004,30986,,,cicsa_data.aapi_025,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Retroactive Administracion de Nomina Deceptember 2013. 11,657,498 / Fact Nro 13595/ J.L.R System Solution, c.a",am_cicsa_19000000115,73114004,41242,,,cicsa_data.aapi_020,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Retroactive Administracion de Nomina December  2013,17,900,937 / Fact Nro 13595/ J.L.R System Solution, c.a",am_cicsa_19000000115,73114004,5569,,,cicsa_data.aapi_020,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Retroactive Administracion de Nomina December  2013, 7,800,290/ Fact Nro 13595/ J.L.R System Solution, c.a",am_cicsa_19000000115,73114004,10310,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Retroactive Administracion de Nomina December  2013. 5,087,848/ Fact Nro 13595/ J.L.R System Solution, c.a",am_cicsa_19000000115,73114004,10310,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro 13595/ J.L.R System Solution, c.a",am_cicsa_19000000115,11203114,16074.39,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro 13595/ J.L.R System Solution, c.a",am_cicsa_19000000115,20140109,,12055.79,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro 13595/ J.L.R System Solution, c.a",am_cicsa_19000000115,20140101,,2679.06,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro 13595/ J.L.R System Solution, c.a",am_cicsa_19000000115,20101002,,135292.77,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Alquiler de Oficina 5. Fact Nro 46./ Inversiones Flea Castle,am_cicsa_19000000116,73301001,21163,,,cicsa_data.aapi_021,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Alquiler de Oficina 5. Fact Nro 46./ Inversiones Flea Castle,am_cicsa_19000000116,11203114,2539.56,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Alquiler de Oficina 5. Fact Nro 46./ Inversiones Flea Castle,am_cicsa_19000000116,20140109,,1904.67,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Alquiler de Oficina 5. Fact Nro 46./ Inversiones Flea Castle,am_cicsa_19000000116,20140101,,1058.15,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Alquiler de Oficina 5. Fact Nro 46./ Inversiones Flea Castle,am_cicsa_19000000116,20101002,,20739.74,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Bank Fee January 14/ Citibank,am_cicsa_19000000117,78260001,531.5,,,cicsa_data.aapi_017,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Bank Fee January 14/ Citibank,am_cicsa_19000000117,10226013,,531.5,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Nor Oriente (Prepress),am_cicsa_19000000118,20101002,2727,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Nor Oriente (Prepress),am_cicsa_19000000118,10226013,,2727,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Araceli Yague,am_cicsa_19000000119,20101202,6006.14,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Araceli Yague,am_cicsa_19000000119,10226013,,6006.14,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Bank Fee January 14,am_cicsa_19000000120,78260001,3213,,,cicsa_data.aapi_017,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Bank Fee January 14,am_cicsa_19000000120,10439033,,3213,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Visita al area operacional, 17-02-14/ Jose Campuzano",am_cicsa_19000000121,77101004,2248.96,,,cicsa_data.aapi_015,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Visita al area operacional, 17-02-14/ Jose Campuzano",am_cicsa_19000000121,20101202,,2248.96,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Recibo Nro 0076 Reintegro Mr Ansari,am_cicsa_19000000122,10111005,471.39,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Recibo Nro 0076 Reintegro Mr Ansari,am_cicsa_19000000122,74110105,2028.61,,,cicsa_data.aapi_022,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Advance for Proyect Fiance 2 copys/ Ansari,am_cicsa_19000000122,11310006,,2500,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Traslado de Personal CICSA 03 al 09-02 2013. Fact 32523/ Travel Services, C.A.",am_cicsa_19000000123,77101001,21267.4,,,cicsa_data.aapi_021,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Traslado de Personal CICSA 03 al 09-02 2013. Fact 32523/ Travel Services, C.A.",am_cicsa_19000000123,20140101,,425.35,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Traslado de Personal CICSA 03 al 09-02 2013. Fact 32523/ Travel Services, C.A.",am_cicsa_19000000123,20101002,,20842.05,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Electricity January 2014/ Fernando de la Rosa,am_cicsa_19000000124,73121005,1448.6,,,cicsa_data.aapi_021,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Electricity January 2014/ Fernando de la Rosa,am_cicsa_19000000124,11310006,,1448.6,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Advance 18/02/13 Notary Expenses (bank Power&banking POA)/ Marriela Barrueta,am_cicsa_19000000125,11310006,1600,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Advance 18/02/13 Notary Expenses (bank Power&banking POA)/ Marriela Barrueta,am_cicsa_19000000125,20101202,,1600,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Celular Enero 2014 - Fact Nro 48327424/ Telecomunicaciones Movilnet C.A,am_cicsa_19000000126,73121003,40519.22,,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Celular Enero 2014 - Fact Nro 48327424/ Telecomunicaciones Movilnet C.A,am_cicsa_19000000126,11203114,4861.76,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Celular Enero 2014 - Fact Nro 48327424/ Telecomunicaciones Movilnet C.A,am_cicsa_19000000126,20140109,,4861.76,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Celular Enero 2014 - Fact Nro 48327424/ Telecomunicaciones Movilnet C.A,am_cicsa_19000000126,20101002,,40519.22,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fecha entrega 07-01-13 . LUV/4x4. Placa A66CC8L. Danny Montaño/ Fact Nro. 35 - Servicios y Mantenimiento de Flota Colina Alta, C.A",am_cicsa_19000000127,11203103,82750,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fecha entrega 04-01-13 . Mazda. Placa: A92AS7B. Luis Moreno/ Fact Nro. 35 - Servicios y Mantenimiento de Flota Colina Alta, C.A",am_cicsa_19000000127,11203103,92680,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fecha entrega 04-01-13 . Mazda. Placa: A81AS9B. Marlon Rojas/ Fact Nro. 35 - Servicios y Mantenimiento de Flota Colina Alta, C.A",am_cicsa_19000000127,11203103,92680,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fecha entrega 06-01-13 . LUV/4x4. Placa A53AR8A. Jhony Palacios/ Fact Nro. 35 - Servicios y Mantenimiento de Flota Colina Alta, C.A",am_cicsa_19000000127,11203103,86060,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fecha entrega 06-01-13 . Silverado. Placa A89AG3K. Cesra Fariñas/ Fact Nro. 35 - Servicios y Mantenimiento de Flota Colina Alta, C.A",am_cicsa_19000000127,11203103,86060,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fecha entrega 07-01-13 . LUV/4x4. Placa A85BV1D. Nellymar Farbos/ Fact Nro. 35 - Servicios y Mantenimiento de Flota Colina Alta, C.A",am_cicsa_19000000127,11203103,82750,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fecha entrega 07-01-13 . LUV/4x4. Placa A51BV8D. Luis Coa/ Fact Nro. 35 - Servicios y Mantenimiento de Flota Colina Alta, C.A",am_cicsa_19000000127,11203103,82750,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fecha entrega 09-01-13 . Mazda . Placa A93AS2B. Lean Velazquez/ Fact Nro. 35 - Servicios y Mantenimiento de Flota Colina Alta, C.A",am_cicsa_19000000127,11203103,72820,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fecha entrega 10-01-13 . Grand Cherokee. Placa AB368PM. Ramon Odreman/ Fact Nro. 35 - Servicios y Mantenimiento de Flota Colina Alta, C.A",am_cicsa_19000000127,11203103,72820,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fecha entrega 14-01-13 . Mazda. Placa A92AS9B. Manuel Risco/ Fact Nro. 35 - Servicios y Mantenimiento de Flota Colina Alta, C.A",am_cicsa_19000000127,11203103,59580,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fecha entrega 23-01-13 . Expedition. Placa KBX18X. Angel Semeco/ Fact Nro. 35 - Servicios y Mantenimiento de Flota Colina Alta, C.A",am_cicsa_19000000127,11203103,3310,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fecha entrega 14-01-13 . Fortuner. Placa AD534HM. Jhoel Zambrano/ Fact Nro. 35 - Servicios y Mantenimiento de Flota Colina Alta, C.A",am_cicsa_19000000127,11203103,59580,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fecha entrega 15-01-13 .Hilux. Placa A39A17N Jose Martinez/ Fact Nro. 35 - Servicios y Mantenimiento de Flota Colina Alta, C.A",am_cicsa_19000000127,11203103,52960,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fecha entrega 23-01-13 . LUV/4x4. Placa A02BS1D. Jorge Rodriguez/ Fact Nro. 35 - Servicios y Mantenimiento de Flota Colina Alta, C.A",am_cicsa_19000000127,11203103,29790,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fecha entrega 23-01-13 .Hilux. Placa A72AS4M. Felix Garcia/ Fact Nro. 35 - Servicios y Mantenimiento de Flota Colina Alta, C.A",am_cicsa_19000000127,11203103,29790,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fecha entrega 28-01-13 .Mazda. Placa A49AT2B. Marcos Rivas/ Fact Nro. 35 - Servicios y Mantenimiento de Flota Colina Alta, C.A",am_cicsa_19000000127,11203103,9930,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fecha entrega 30-01-13 . LUV/4x4. Placa A91AR9V.. Jenny Salazar/ Fact Nro. 35 - Servicios y Mantenimiento de Flota Colina Alta, C.A",am_cicsa_19000000127,11203103,3310,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fecha entrega  30-01-13 . LUV/4x4. Placa A77A10G. Roberto Blanco/ Fact Nro. 35 - Servicios y Mantenimiento de Flota Colina Alta, C.A",am_cicsa_19000000127,11203103,3310,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fecha entrega 30-01-13 . LUV/4x4. Placa A66CC9V. Marcos Vera/ Fact Nro. 35 - Servicios y Mantenimiento de Flota Colina Alta, C.A",am_cicsa_19000000127,11203103,3310,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 35 - Servicios y Mantenimiento de Flota Colina Alta, C.A",am_cicsa_19000000127,11203113,120748.8,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 35 - Servicios y Mantenimiento de Flota Colina Alta, C.A",am_cicsa_19000000127,20140109,,90561.6,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 35 - Servicios y Mantenimiento de Flota Colina Alta, C.A",am_cicsa_19000000127,20140101,,50312,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 35 - Servicios y Mantenimiento de Flota Colina Alta, C.A",am_cicsa_19000000127,20101002,,986115.2,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina Enero  2014, 10,551,491/ Fact Nro 13626 J.L.R System Solution, c.a",am_cicsa_19000000128,73114004,38012.37,,,cicsa_data.aapi_018,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina Enero 2014. 10,898,037/ Fact Nro 13626 J.L.R System Solution, c.a",am_cicsa_19000000128,73114004,42020.41,,,cicsa_data.aapi_025,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina Enero 2014. 11,657,498/ Fact Nro 13626 J.L.R System Solution, c.a",am_cicsa_19000000128,73114004,57902.49,,,cicsa_data.aapi_020,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina Enero 2014,17,900,937/ Fact Nro 13626 J.L.R System Solution, c.a",am_cicsa_19000000128,73114004,23179.63,,,cicsa_data.aapi_020,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina Enero  2014, 7,800,290/Fact Nro 13626 J.L.R System Solution, c.a",am_cicsa_19000000128,73114004,65508.92,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina Enero 2014. 5,087,848/ Fact Nro 13626 J.L.R System Solution, c.a",am_cicsa_19000000128,73114004,67102.55,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina Enero  2014, 4,212,341/ Fact Nro 13626 J.L.R System Solution, c.a",am_cicsa_19000000128,73114004,77726.45,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina Enero  2014, 6,143,833/ Fact Nro 13626 J.L.R System Solution, c.a",am_cicsa_19000000128,73114004,39495.28,,,cicsa_data.aapi_020,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina Enero  2014, 13,612,323/ Fact Nro 13626 J.L.R System Solution, c.a",am_cicsa_19000000128,73114004,59904.86,,,cicsa_data.aapi_015,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina Enero  2014, 12,066,970/ Fact Nro 13626 J.L.R System Solution, c.a",am_cicsa_19000000128,73114004,25092.75,,,cicsa_data.aapi_025,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina Enero  2014, 14,431,703/ Fact Nro 13626 J.L.R System Solution, c.a",am_cicsa_19000000128,73114004,39663,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina Enero  2014 16,315,024/ Fact Nro 13626 J.L.R System Solution, c.a",am_cicsa_19000000128,73114004,34090.22,,,cicsa_data.aapi_025,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina Enero  2014, 14,330,326/ Fact Nro 13626 J.L.R System Solution, c.a",am_cicsa_19000000128,73114004,51348.85,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro 13626 J.L.R System Solution, c.a",am_cicsa_19000000128,11203114,74525.73,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro 13626 J.L.R System Solution, c.a",am_cicsa_19000000128,20140109,,55894.3,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro 13626 J.L.R System Solution, c.a",am_cicsa_19000000128,20140101,,12420.96,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro 13626 J.L.R System Solution, c.a",am_cicsa_19000000128,20101002,,627258.25,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Fact Nro. 00006001/ Informatica Gesfor C.A,am_cicsa_20000000011,20101002,139621.69,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Fact Nro. 5984 / Informatica Gesfor C.A,am_cicsa_20000000011,20101002,174959.32,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Fact. Nro. 00006001 & Fact00004984 / Informatica Gesfor C.A,am_cicsa_20000000011,10226013,,314581.01,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 50000828/ Induservi, C.A",am_cicsa_20000000012,20101002,67182.27,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 50000900/ Induservi, C.A",am_cicsa_20000000012,20101002,67208.16,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 50000828 ^ Fact Nro. 50000900/ Induservi, C.A",am_cicsa_20000000012,10226013,,134390.43,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 13514/ J.L.R System Solutions, C.A",am_cicsa_20000000013,20101002,604275.59,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 13514/ J.L.R System Solutions, C.A",am_cicsa_20000000013,10226014,,604275.59,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 11261/ SPS Risk Vigilancia, C.A",am_cicsa_20000000014,20101002,79051.24,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 11263/ SPS Risk Vigilancia, C.A",am_cicsa_20000000014,20101002,79051.24,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 11262/SPS Risk Vigilancia, C.A",am_cicsa_20000000014,20101002,100321.84,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 11260/ SPS Risk Vigilancia, C.A",am_cicsa_20000000014,20101002,1752.3,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 11261, 11263, 11262, 11260/ SPS Risk Vigilancia, C.A",am_cicsa_20000000014,10226014,,260176.62,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 0600/ Servicios Llamamoto, C.A",am_cicsa_20000000015,20101002,3402,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 0599/ Servicios Llamamoto, C.A",am_cicsa_20000000015,20101002,2970,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 0600 - 0599/ Servicios Llamamoto, C.A",am_cicsa_20000000015,10226014,,6372,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 32483/ Travel Services, C.A",am_cicsa_20000000016,20101002,8235.14,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 32485/ Travel Services, C.A",am_cicsa_20000000016,20101002,26194.62,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 32496/ Travel Services, C.A",am_cicsa_20000000016,20101002,25371.81,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 32501/ Travel Services, C.A",am_cicsa_20000000016,20101002,5510.44,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 32502/ Travel Services, C.A",am_cicsa_20000000016,20101002,1029.2,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 32499/ Travel Services, C.A",am_cicsa_20000000016,20101002,7811.78,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 32483 32485 32496 32501 32502 32499/ Travel Services, C.A",am_cicsa_20000000016,10226014,,74152.99,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 32484/ Travel Services, C.A",am_cicsa_20000000017,20101002,4518.39,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 32486 / Travel Services, C.A",am_cicsa_20000000017,20101002,3862.38,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 32497 / Travel Services, C.A",am_cicsa_20000000017,20101002,4640.59,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 32480 / Travel Services, C.A",am_cicsa_20000000017,20101002,12598.1,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 32479 / Travel Services, C.A",am_cicsa_20000000017,20101002,8205.15,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 32477/ Travel Services, C.A",am_cicsa_20000000017,20101002,3963.12,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 32484 32486 32497 32480 32479 32477 / Travel Services, C.A",am_cicsa_20000000017,10226014,,37787.73,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 43253598/ Telefonica Venezolana, C.A",am_cicsa_20000000018,20101002,17228.33,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. W00730515/ Telefonica Venezolana, C.A",am_cicsa_20000000018,20101002,89.29,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 44048286/ Telefonica Venezolana, C.A",am_cicsa_20000000018,20101002,17326.24,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. W00753940/ Telefonica Venezolana, C.A",am_cicsa_20000000018,20101002,89.29,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 43253598 44040286 W00753940 W0075394/ Telefonica Venezolana, C.A",am_cicsa_20000000018,10226014,,34733.15,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 0001942/ Garaje Torre BVC, C.A",am_cicsa_20000000019,20101002,157.81,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 0001942/ Garaje Torre BVC, C.A",am_cicsa_20000000019,10226014,,157.81,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 19368/ Private IP Services, C.A",am_cicsa_20000000020,20101002,15978.2,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 19369/Private IP Services, C.A",am_cicsa_20000000020,20101002,10901.13,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 19368 - 19369/ Private IP Services, C.A",am_cicsa_20000000020,10226013,,26879.33,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Advance/ Nestor Fernandez,am_cicsa_20000000021,20101202,16000,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Claim/ Nestor Fernandez,am_cicsa_20000000021,20101202,3232,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Claim/ Nestor Fernandez,am_cicsa_20000000021,20101202,442,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Nestor Fernandez 16,000Veb 3,232 VEB  442 VEB",am_cicsa_20000000021,10226014,,19674,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Jose Mantelini,am_cicsa_20000000022,20101202,1620,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Jose Mantelini,am_cicsa_20000000022,10226014,,1620,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. AF 05-082848/ QuoVadis, C.A",am_cicsa_20000000023,20101002,1876.7,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. AF 05-082847/ QuoVadis, C.A",am_cicsa_20000000023,20101002,1040.18,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. AF 05-082848 y AF 05-082847/ QuoVadis, C.A",am_cicsa_20000000023,10226014,,2916.88,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. AF95-041888/ TURISMO MASO INTERNACIONAL, C.A.",am_cicsa_20000000024,20101002,108.57,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. AF95-041887/ TURISMO MASO INTERNACIONAL, C.A.",am_cicsa_20000000024,20101002,252.5,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. AF95-041520/ TURISMO MASO INTERNACIONAL, C.A.",am_cicsa_20000000024,20101002,108.57,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. AF95-041519/ TURISMO MASO INTERNACIONAL, C.A.",am_cicsa_20000000024,20101002,252.5,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. AF95-041518/ TURISMO MASO INTERNACIONAL, C.A.",am_cicsa_20000000024,20101002,108.57,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. AF95-041517/ TURISMO MASO INTERNACIONAL, C.A.",am_cicsa_20000000024,20101002,252.5,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. AF95-042098/ TURISMO MASO INTERNACIONAL, C.A.",am_cicsa_20000000024,20101002,108.57,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. AF95-042097/ TURISMO MASO INTERNACIONAL, C.A.",am_cicsa_20000000024,20101002,252.5,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. AF95-041936/ TURISMO MASO INTERNACIONAL, C.A.",am_cicsa_20000000024,20101002,108.57,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. AF95-041935/ TURISMO MASO INTERNACIONAL, C.A.",am_cicsa_20000000024,20101002,252.5,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. AF95-042212/ TURISMO MASO INTERNACIONAL, C.A.",am_cicsa_20000000024,20101002,108.57,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. AF95-042246/ TURISMO MASO INTERNACIONAL, C.A.",am_cicsa_20000000024,20101002,54.28,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. AF95-042211/ TURISMO MASO INTERNACIONAL, C.A.",am_cicsa_20000000024,20101002,962.34,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. AF95-041261/ TURISMO MASO INTERNACIONAL, C.A.",am_cicsa_20000000024,20101002,108.57,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. AF95-041260/ TURISMO MASO INTERNACIONAL, C.A.",am_cicsa_20000000024,20101002,0,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. AF95-042481/ TURISMO MASO INTERNACIONAL, C.A.",am_cicsa_20000000024,20101002,108.57,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. AF95-042480/ TURISMO MASO INTERNACIONAL, C.A.",am_cicsa_20000000024,20101002,0,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. AF95-042483/ TURISMO MASO INTERNACIONAL, C.A.",am_cicsa_20000000024,20101002,108.57,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. AF95-042482/ TURISMO MASO INTERNACIONAL, C.A.",am_cicsa_20000000024,20101002,0,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. AF95-041845/ TURISMO MASO INTERNACIONAL, C.A.",am_cicsa_20000000024,20101002,108.57,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. AF95-041844/ TURISMO MASO INTERNACIONAL, C.A.",am_cicsa_20000000024,20101002,0,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. AF95-042339/ TURISMO MASO INTERNACIONAL, C.A.",am_cicsa_20000000024,20101002,108.57,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. AF95-042338/ TURISMO MASO INTERNACIONAL, C.A.",am_cicsa_20000000024,20101002,0,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. AF95-041126/ TURISMO MASO INTERNACIONAL, C.A.",am_cicsa_20000000024,20101002,99.28,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. AF95-042780/ TURISMO MASO INTERNACIONAL, C.A.",am_cicsa_20000000024,20101002,1734.49,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. AF95-042778/ TURISMO MASO INTERNACIONAL, C.A.",am_cicsa_20000000024,20101002,2822.95,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. AF95-042760/ TURISMO MASO INTERNACIONAL, C.A.",am_cicsa_20000000024,20101002,5407.03,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. AF95-042762/ TURISMO MASO INTERNACIONAL, C.A.",am_cicsa_20000000024,20101002,3943.33,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Facturas Turismo Maso,am_cicsa_20000000024,10226014,,17480.47,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"75% de Iva retenido no correspondiente del traslado de los vehiculos/ PLATINUM CARS, C.A",am_cicsa_20000000025,20101002,1638,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"75% de Iva retenido no correspondiente del traslado de los vehiculos/ PLATINUM CARS, C.A",am_cicsa_20000000025,10226014,,1638,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Tax witholding tax January 2014/ Tesoro Nacional,am_cicsa_20000000026,20101901,191468.07,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Tax witholding tax January 2014/ Tesoro Nacional,am_cicsa_20000000026,10226014,,191468.07,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Advance Fernando de la Rosa Bateria,am_cicsa_20000000027,20101202,27000,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Advance Fernando de la Rosa Bateria,am_cicsa_20000000027,10226014,,27000,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Advance Fernando de la Rosa Compra de cafetera,am_cicsa_20000000028,20101202,8000,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Advance Fernando de la Rosa Compra de cafetera,am_cicsa_20000000028,10226014,,8000,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 00022612/ Garaje Torre BVC, C.A",am_cicsa_20000000029,20101002,14879.46,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 00022611/ Garaje Torre BVC, C.A",am_cicsa_20000000029,20101002,18261.16,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 00022620/ Garaje Torre BVC, C.A",am_cicsa_20000000029,20101002,315.62,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 00022619/ Garaje Torre BVC, C.A",am_cicsa_20000000029,20101002,631.25,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 00022624/ Garaje Torre BVC, C.A",am_cicsa_20000000029,20101002,148.44,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 00022612 00022611 00022620 00022619 00022624/ Garaje Torre BVC, C.A",am_cicsa_20000000029,10226014,,34235.93,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 00382/ Inversiones 225, C.A",am_cicsa_20000000030,20101002,10245.64,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 00381/ Inversiones 225, C.A",am_cicsa_20000000030,20101002,10981.56,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 00380/ Inversiones 225, C.A",am_cicsa_20000000030,20101002,13917.02,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 00379/ Inversiones 225, C.A",am_cicsa_20000000030,20101002,17706.93,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 00378/ Inversiones 225, C.A",am_cicsa_20000000030,20101002,20020.22,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 00377/ Inversiones 225, C.A",am_cicsa_20000000030,20101002,16809.9,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 00382 00381 00380 00379 00378 00377/ Inversiones 225, C.A",am_cicsa_20000000030,10226014,,89681.27,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+FM 130000024021/ CANTV,am_cicsa_20000000031,20101002,7352.94,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+FM 130000024021/ CANTV,am_cicsa_20000000031,10226014,,7352.94,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 47933280/ Telecomunicaciones Movilnet, C.A",am_cicsa_20000000032,20101002,37226.1,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 47933280/ Telecomunicaciones Movilnet, C.A",am_cicsa_20000000032,10226014,,37226.1,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Claim/ Nestor Fernandez,am_cicsa_20000000033,20101202,3781,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Claim/ Nestor Fernandez,am_cicsa_20000000033,10226014,,3781,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Claim/ Jose Jimenez,am_cicsa_20000000034,20101202,10225,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Claim/ Jose Jimenez,am_cicsa_20000000034,10226014,,10225,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Claim/ Jose Campuzano,am_cicsa_20000000035,20101202,3939.92,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Claim/ Jose Campuzano,am_cicsa_20000000035,20101202,3908.8,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Claim/ Jose Campuzano,am_cicsa_20000000035,10226014,,7848.72,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 3188/ Caribbean Port, C.A",am_cicsa_20000000036,20101202,23400.52,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 3109/ Caribbean Port, C.A",am_cicsa_20000000036,20101202,119763,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 3190/ Caribbean Port, C.A",am_cicsa_20000000036,20101202,2579118.11,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 3188 3109 3190/ Caribbean Port, C.A",am_cicsa_20000000036,10226014,,2722281.63,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 27138/ Controles Electricos DIASA, S.A",am_cicsa_20000000037,20101202,3463972.41,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Fact Nro. 27138/ Controles Electricos DIASA, S.A",am_cicsa_20000000037,10226014,,3463972.41,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Fact Nro. 3012487 RI/ Evi de Vzla,am_cicsa_20000000038,20101202,207367.45,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Fact Nro. 3012488 RI/ Evi de Vzla,am_cicsa_20000000038,20101202,2003622.35,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Fact Nro. 3012490 RI/ Evi de Vzla,am_cicsa_20000000038,20101202,716090.84,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Fact Nro. 3012298 RI/ Evi de Vzla,am_cicsa_20000000038,20101202,55396.04,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Fact Nro. 3012822RI/ Evi de Vzla,am_cicsa_20000000038,20101202,314644.4,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Fact Nro. 3012821RI/ Evi de Vzla,am_cicsa_20000000038,20101202,879723,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Fact Nro. 3012487 488 490 298 822 821/ Evi de Vzla,am_cicsa_20000000038,10226014,,4176844.08,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Claim/ Mariela Barrueta,am_cicsa_20000000039,20101202,1600,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Claim/ Mariela Barrueta,am_cicsa_20000000039,10226014,,1600,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Acumulados Repsol Exploration HH Delegated Activities  Year 2011./ Repsol Venezuela, S.A.",am_cicsa_19000000130,20181001,5724035.21,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Analista Presupuesto, Contabilidad y Reportes/ Repsol Venezuela, S.A.",am_cicsa_19000000130,73114004,10096,,,cicsa_data.aapi_017,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Coordinador de Control Interno y Auditoria Financiera/ Repsol Venezuela, S.A.",am_cicsa_19000000130,73114004,10800.01,,,cicsa_data.aapi_017,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Gerente de Administracion y Finanzas/ Repsol Venezuela, S.A.",am_cicsa_19000000130,73114004,985.09,,,cicsa_data.aapi_017,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Coordinador de Impuestos/ Repsol Venezuela, S.A.",am_cicsa_19000000130,73114004,3795.08,,,cicsa_data.aapi_017,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Gerente de Administracion/ Repsol Venezuela, S.A.",am_cicsa_19000000130,73114004,7452.42,,,cicsa_data.aapi_017,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Coordinador de Impuestos/ Repsol Venezuela, S.A.",am_cicsa_19000000130,73114004,8494.59,,,cicsa_data.aapi_017,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Analista Legal Sr/ Repsol Venezuela, S.A.",am_cicsa_19000000130,73114004,3085.72,,,cicsa_data.aapi_019,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Gerente de Legal/ Repsol Venezuela, S.A.",am_cicsa_19000000130,73114004,2712.81,,,cicsa_data.aapi_019,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Gerente de Legal/ Repsol Venezuela, S.A.",am_cicsa_19000000130,73114004,16039.84,,,cicsa_data.aapi_019,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Responsable de Laborales/ Repsol Venezuela, S.A.",am_cicsa_19000000130,73114004,2606.9,,,cicsa_data.aapi_020,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Gerente de Recursos Humanos/ Repsol Venezuela, S.A.",am_cicsa_19000000130,73114004,14696.6,,,cicsa_data.aapi_020,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Responsable de Servicios de Recursos Humanos/ Repsol Venezuela, S.A.",am_cicsa_19000000130,73114004,8338.73,,,cicsa_data.aapi_020,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Analista TI/ Repsol Venezuela, S.A.",am_cicsa_19000000130,73114004,2323.15,,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Analista TI/ Repsol Venezuela, S.A.",am_cicsa_19000000130,73114004,10037.44,,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Gerente de Proyectos Asociados/ Repsol Venezuela, S.A.",am_cicsa_19000000130,73114004,12721.25,,,cicsa_data.aapi_025,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Responsable de Seguridad/ Repsol Venezuela, S.A.",am_cicsa_19000000130,73114004,17467.99,,,cicsa_data.aapi_015,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Gerente de Proteccion Fisica/ Repsol Venezuela, S.A.",am_cicsa_19000000130,73114004,18331.25,,,cicsa_data.aapi_023,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Gerente de Planificacion y Control (Enc.)/ Repsol Venezuela, S.A.",am_cicsa_19000000130,73114004,5961.94,,,cicsa_data.aapi_027,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Gerente de Subsuelo/ Repsol Venezuela, S.A.",am_cicsa_19000000130,73114004,8437.51,,,cicsa_data.aapi_026,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Geomodelador/ Repsol Venezuela, S.A.",am_cicsa_19000000130,73114004,8494.59,,,cicsa_data.aapi_026,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Geofisico/ Repsol Venezuela, S.A.",am_cicsa_19000000130,73114004,17467.99,,,cicsa_data.aapi_026,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Ingeniero de Perforacion Sr/ Repsol Venezuela, S.A.",am_cicsa_19000000130,73114004,5408.87,,,cicsa_data.aapi_026,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Lider de Ingenieria de Perforacion/ Repsol Venezuela, S.A.",am_cicsa_19000000130,73114004,17467.99,,,cicsa_data.aapi_026,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Ingeniero de Procesos Upstream/ Repsol Venezuela, S.A.",am_cicsa_19000000130,73114004,16971.44,,,cicsa_data.aapi_026,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Gerente de Compras y Contratos Upstream/ Repsol Venezuela, S.A.",am_cicsa_19000000130,73114004,8437.51,,,cicsa_data.aapi_018,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Lider de Proyecto Tuberias/ Repsol Venezuela, S.A.",am_cicsa_19000000130,73114004,1524.75,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Gerente de Produccion Temprana Acelerada/ Repsol Venezuela, S.A.",am_cicsa_19000000130,73114004,25942.93,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Iva Invoice nro 0001248 Repsol Venezuela, S.A/ Repsol Venezuela, S.A.",am_cicsa_19000000130,11203114,718816.27,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"75% Inv Nro 0001248   Repsol Venezuela S,A/ Repsol Venezuela, S.A.",am_cicsa_19000000130,20140109,,539112.2,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Tax witholding Inv 0001248  Repsol Venzuela s.a/ Repsol Venezuela, S.A.",am_cicsa_19000000130,20140101,,299506.78,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Invoice Nro 0001248/ Repsol Venezuela, S.A.",am_cicsa_19000000130,20101002,,5870332.89,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+December 2013  Rent of Office Nro 6A/ Inversiones Cachamay,am_cicsa_19000000131,11203103,22080,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+00053019/ Inversiones Cachamay C.A,am_cicsa_19000000131,11203113,2649.6,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+00053019/ Inversiones Cachamay C.A,am_cicsa_19000000131,20140109,,1987.2,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+00053019/ Inversiones Cachamay C.A,am_cicsa_19000000131,20140101,,1104,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+00053019/ Inversiones Cachamay C.A,am_cicsa_19000000131,20101002,,21638.4,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Alquiler de Oficina Nro 6A Enero/ Inversiones Cachamay,am_cicsa_19000000131,11203103,22080,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+00053020/ Inversiones Cachamay C.A,am_cicsa_19000000131,11203113,2649.6,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+00053020/ Inversiones Cachamay C.A,am_cicsa_19000000131,20140109,,1987.2,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+00053020/ Inversiones Cachamay C.A,am_cicsa_19000000131,20140101,,1104,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+00053020/ Inversiones Cachamay C.A,am_cicsa_19000000131,20101002,,21638.4,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Alquiler de oficina Nro 6A febrero/ Inversiones Cachamay,am_cicsa_19000000131,11203103,22080,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+00053021/ Inversiones Cachamay C.A,am_cicsa_19000000131,11203113,2649.6,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+00053021/ Inversiones Cachamay C.A,am_cicsa_19000000131,20140109,,1987.2,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+00053021/ Inversiones Cachamay C.A,am_cicsa_19000000131,20140101,,1104,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+00053021/ Inversiones Cachamay C.A,am_cicsa_19000000131,20101002,,21638.4,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Alquiler de vehiculos CICSA,am_cicsa_19000000132,20181001,903000,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Alquiler de Vehiculos .Jose Marcano/ Coopertaiva Monte Sacro,am_cicsa_19000000132,73103001,,129000,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Alquiler de Vehiculos . Gerardo Marquez/ Coopertaiva Monte Sacro,am_cicsa_19000000132,73103001,,129000,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Alquiler de Vehiculos -. Alfonso Arrollo/ Coopertaiva Monte Sacro,am_cicsa_19000000132,73103001,,129000,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Alquiler de Vehiculos - Luis Delgado /Coopertaiva Monte Sacro,am_cicsa_19000000132,73103001,,129000,,cicsa_data.aapi_015,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Alquiler de Vehiculos,am_cicsa_19000000132,73103001,,129000,,cicsa_data.aapi_015,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Alquiler de Vehiculos,am_cicsa_19000000132,73103001,,129000,,cicsa_data.aapi_015,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Alquiler de Vehiculos Cicsa . Jose Campuzano ,am_cicsa_19000000132,73103001,,129000,,cicsa_data.aapi_015,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Servico de Supervision civil, mecánica, Instrumentación Sep13 HP/ Los Inspectores de Venezuela, C.A",am_cicsa_19000000132,20181001,39192.5,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Servico de Supervision civil, mecánica, Instrumentación Sep13 Reemb/ Los Inspectores de Venezuela, C.A",am_cicsa_19000000132,20181001,3000,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Servico de Supervision civil, mecánica, Instrumentación Oct13 HP/ Los Inspectores de Venezuela, C.A",am_cicsa_19000000132,20181001,32066.59,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Servico de Supervision civil, mecánica, Instrumentación Sep13 Reemb/ Los Inspectores de Venezuela, C.A",am_cicsa_19000000132,20181001,3000,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Servico de Supervision civil, mecánica, Instrumentación Nov 13 HP/ Los Inspectores de Venezuela, C.A",am_cicsa_19000000132,20181001,39192.5,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Servico de Supervision civil, mecánica, Instrumentación Nov 13 Reemb/ Los Inspectores de Venezuela, C.A",am_cicsa_19000000132,20181001,15750,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Servico de Supervision civil, mecánica, Instrumentación Dic 13 HP/ Los Inspectores de Venezuela, C.A",am_cicsa_19000000132,20181001,67696.14,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Servico de Supervision civil, mecánica, Instrumentación Reem Dic  13/ Los Inspectores de Venezuela, C.A",am_cicsa_19000000132,20181001,16500,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Servico de Supervision civil, mecánica, Instrumentación Enero 14 HP/ Los Inspectores de Venezuela, C.A",am_cicsa_19000000132,20181001,67696.14,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Servico de Supervision civil, mecánica, Instrumentación Reem Jan 14/ Los Inspectores de Venezuela, C.A",am_cicsa_19000000132,20181001,16500,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Servico de Supervision civil, mecánica, Instrumentación Sep 14 HP/ Los Inspectores de Venezuela, C.A",am_cicsa_19000000132,73114001,,39192.5,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Servico de Supervision civil, mecánica, Instrumentación Sep13 Reemb/ Los Inspectores de Venezuela, C.A",am_cicsa_19000000132,73114001,,3000,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Servico de Supervision civil, mecánica, Instrumentación Oct13 HP/ Los Inspectores de Venezuela, C.A",am_cicsa_19000000132,73114001,,32066.59,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Servico de Supervision civil, mecánica, Instrumentación Oct 13 Reemb /Los Inspectores de Venezuela, C.A",am_cicsa_19000000132,73114001,,3000,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Servico de Supervision civil, mecánica, Instrumentación Nov 13 HP/ Los Inspectores de Venezuela, C.A",am_cicsa_19000000132,73114001,,39192.5,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Servico de Supervision civil, mecánica, Instrumentación Nov 13 Reemb/ Los Inspectores de Venezuela, C.A",am_cicsa_19000000132,73114001,,15750,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Servico de Supervision civil, mecánica, Instrumentación Dic  13 HP/ Los Inspectores de Venezuela, C.A",am_cicsa_19000000132,73114001,,67696.14,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Servico de Supervision civil, mecánica, Instrumentación Reem Dic 13/ Los Inspectores de Venezuela, C.A",am_cicsa_19000000132,73114001,,16500,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Servico de Supervision civil, mecánica, Instrumentación Enero 14 HP/ Los Inspectores de Venezuela, C.A",am_cicsa_19000000132,73114001,,67696.14,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Servico de Supervision civil, mecánica, Instrumentación Reem Jan 14/ Los Inspectores de Venezuela, C.A",am_cicsa_19000000132,73114001,,16500,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Contrato de servicio de seguridad Enero 2014/ SPS Risk Vigiliancia ,C..A",am_cicsa_19000000133,20181001,78268.56,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Contrato de servicio de seguridad Enero 2014/ / SPS Risk Vigiliancia ,C..A",am_cicsa_19000000133,73133001,,78268.56,,cicsa_data.aapi_023,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Administracion de Nomina December   2013.,am_cicsa_19000000134,20181001,598292.66,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Administracion de Nomina Dic  2013, 10,551,491.",am_cicsa_19000000134,73114004,,37977.9,,cicsa_data.aapi_018,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Administracion de Nomina Dic  2013. 10,898,037",am_cicsa_19000000134,73114004,,41560.93,,cicsa_data.aapi_025,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Administracion de Nomina Dic  2013. 11,657,498 ",am_cicsa_19000000134,73114004,,57376,,cicsa_data.aapi_020,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Administracion de Nomina Dic   2013,17,900,937",am_cicsa_19000000134,73114004,,23179.63,,cicsa_data.aapi_020,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Administracion de Nomina Dic 2013, 7,800,290",am_cicsa_19000000134,73114004,,64982.43,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Administracion de Nomina Dic 2013. 5,087,848",am_cicsa_19000000134,73114004,,66576.06,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Administracion de Nomina Dic   2013, 4,212,341",am_cicsa_19000000134,73114004,,77169.67,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Administracion de Nomina Dic   2013, 6,143,833",am_cicsa_19000000134,73114004,,39495.28,,cicsa_data.aapi_020,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Administracion de Nomina Dic  2013. 3,604,262 ",am_cicsa_19000000134,73114004,,25524.72,,cicsa_data.aapi_018,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Administracion de Nomina Dic   2013, 13,612,323",am_cicsa_19000000134,73114004,,59378.37,,cicsa_data.aapi_015,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Administracion de Nomina Dic  2013, 12,066,970",am_cicsa_19000000134,73114004,,25092.75,,cicsa_data.aapi_025,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Administracion de Nomina Dic  2013, 14,431.703",am_cicsa_19000000134,73114004,,39311.5,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Administracion de Nomina Dic  2013, 16,315.024",am_cicsa_19000000134,73114004,,22708.26,,cicsa_data.aapi_025,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Administracion de Nomina Dic  2013, 14,330,326",am_cicsa_19000000134,73114004,,17959.16,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Administracion de Nomina enero    2014.,am_cicsa_19000000134,20181001,598292.66,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Administracion de Nomina enero 2014, 10,551,491.",am_cicsa_19000000134,73114004,,37977.9,,cicsa_data.aapi_018,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Administracion de Nomina enero 2014. 10,898,037",am_cicsa_19000000134,73114004,,41560.93,,cicsa_data.aapi_025,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Administracion de Nomina enero 2014. 11,657,498 ",am_cicsa_19000000134,73114004,,57376,,cicsa_data.aapi_020,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Administracion de Nomina enero  2014,17,900,937",am_cicsa_19000000134,73114004,,23179.63,,cicsa_data.aapi_020,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Administracion de Nomina enero 2014, 7,800,290",am_cicsa_19000000134,73114004,,64982.43,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Administracion de Nomina enero  2014. 5,087,848",am_cicsa_19000000134,73114004,,66576.06,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Administracion de Nomina enero 2014, 4,212,341",am_cicsa_19000000134,73114004,,77169.67,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Administracion de Nomina enero   2014, 6,143,833",am_cicsa_19000000134,73114004,,39495.28,,cicsa_data.aapi_020,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Administracion de Nomina enero 2014. 3,604,262 ",am_cicsa_19000000134,73114004,,25524.72,,cicsa_data.aapi_018,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Administracion de Nomina enero  2014, 13,612,323",am_cicsa_19000000134,73114004,,59378.37,,cicsa_data.aapi_015,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Administracion de Nomina enero 2014, 12,066,970",am_cicsa_19000000134,73114004,,25092.75,,cicsa_data.aapi_025,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Administracion de Nomina enero  2014, 14,431.703",am_cicsa_19000000134,73114004,,39311.5,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Administracion de Nomina enero  2014, 16,315.024",am_cicsa_19000000134,73114004,,22708.26,,cicsa_data.aapi_025,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Administracion de Nomina enero   2014, 14,330,326",am_cicsa_19000000134,73114004,,17959.16,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Acumulados Servicios de Limpieza Enero  2014/ Induservi, c.a.",am_cicsa_19000000134,20181001,66542.73,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Acumulados Servicios de Limpieza Enero  2014/ Induservi, c.a.",am_cicsa_19000000134,73135001,,66542.73,,cicsa_data.aapi_021,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulados  Electtricity  Jan   2014/ CORPOELEC,am_cicsa_19000000134,20181001,1395,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulados  Electtricity  Jan   2014/ CORPOELEC,am_cicsa_19000000134,73121005,,1395,,cicsa_data.aapi_021,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulados  Travel Services Jan 2014,am_cicsa_19000000134,20181001,40000,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulados  Travel Services Jan 2014,am_cicsa_19000000134,77101001,,40000,,cicsa_data.aapi_021,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulados  Couriers  Services December   2013/ Servicios Llamamoto C.A,am_cicsa_19000000134,20181001,2160,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulados  Couriers  Services January 2014/ Servicios Llamamoto C.A,am_cicsa_19000000134,20181001,2160,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulados  Couriers  Services December   2013/ Servicios Llamamoto C.A,am_cicsa_19000000134,73121004,,2160,,cicsa_data.aapi_021,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulados  Couriers  Services January 2014/ Servicios Llamamoto C.A,am_cicsa_19000000134,73121004,,2160,,cicsa_data.aapi_021,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Air Conditioning Reparations  December   2013/ HL Servicios Integrales, C.A.",am_cicsa_19000000134,20181001,42500,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Air Conditioning Reparations  December   2013/ HL Servicios Integrales, C.A.",am_cicsa_19000000134,73149002,,42500,,cicsa_data.aapi_021,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Adquisicion de Aplicaciones Electronicas de la Plataforma de Datos y Seguridad de la Infraestructura tecnologica/ It Services Venezuela, S.A",am_cicsa_19000000135,20181001,209445,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Adquisicion de Aplicaciones Electronicas de la Plataforma de Datos y Seguridad de la Infraestructura tecnologica/ It Services Venezuela, S.A",am_cicsa_19000000135,73114004,,209445,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Servicio de Instalacion y Configuracion de Hardware y Software/ Desca C.A Venezuela,am_cicsa_19000000135,20181001,271517.25,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Servicio de Instalacion y Configuracion de Hardware y Software/ Desca C.A Venezuela,am_cicsa_19000000135,73114004,,271517.25,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Servicicio de CAU para las Oficinas de CICsa y Campo Morichal Jan 2014/ Informatica Gesfor Venezuela C.A,am_cicsa_19000000135,20181001,142471.12,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Servicicio de CAU para las Oficinas de CICsa y Campo Morichal Jan 2014/ Informatica Gesfor Venezuela C.A,am_cicsa_19000000135,73137002,,142471.12,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Real Serices Dece 13 Share point Foundation Entreprise 50 GB/ PrivateIP Services, C.A",am_cicsa_19000000135,20181001,15820,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Real Service of Dec  2013 Servicio de Correo Exchange Empresarial/ PrivateIP Services, C.A",am_cicsa_19000000135,20181001,10793.2,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Real Serices Dec 13 Share point Foundation Entreprise 50 GB/ PrivateIP Services, C.A",am_cicsa_19000000135,73137002,,15820,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Real Service of Dec  2013 Servicio de Correo Exchange Empresarial/ PrivateIP Services, C.A",am_cicsa_19000000135,73137002,,10793.2,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulado  DEC  2013  - Servicio telefonico/ CANTV,am_cicsa_19000000135,20181001,2628.46,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulado  DEC  2013  - Servicio telefonico/ CANTV,am_cicsa_19000000135,20181001,7503,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulado  JAN 2014  - Servicio telefonico/ CANTV,am_cicsa_19000000135,20181001,7503,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulado  Jan 2014 - Servicio telefonico/ CANTV,am_cicsa_19000000135,73121003,,2628.46,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulado  DEC  2013  - Servicio telefonico/ CANTV,am_cicsa_19000000135,73121003,,7503,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulado  JAN  2014  - Servicio telefonico/ CANTV,am_cicsa_19000000135,73121003,,7503,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulados Movilnet Diciembre,am_cicsa_19000000135,20181001,75581.9,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulados Movilnet  Dic 2013,am_cicsa_19000000135,73121003,,37790.95,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulados Movilnet  Dic 2013,am_cicsa_19000000135,73121003,,37790.95,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Reembolsables Marzo - Septiembre 2013/ Informatica Gesfor Venezuela C.A,am_cicsa_19000000135,20181001,41066.3,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Reembolsables Cau Services Abril 2013/ Informatica Gesfor Venezuela C.A,am_cicsa_19000000135,73137002,,4456.1,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Reembolsables Cau Services Mayo  2013/ Informatica Gesfor Venezuela C.A,am_cicsa_19000000135,73137002,,5176.82,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Reembolsables Cau Services Marzo13/ Informatica Gesfor Venezuela C.A,am_cicsa_19000000135,73137002,,5116.1,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Reembolsables Cau Services Julio  2013/ Informatica Gesfor Venezuela C.A,am_cicsa_19000000135,73137002,,5176.82,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Reembolsables Cau Services Agosto  2013/ Informatica Gesfor Venezuela C.A,am_cicsa_19000000135,73137002,,9183.02,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Reembolsables Cau eSrvices Septiembre  2013/ Informatica Gesfor Venezuela C.A,am_cicsa_19000000135,73137002,,5176.82,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Reembolsables Cau Services Junio 2013/ Informatica Gesfor Venezuela C.A,am_cicsa_19000000135,73137002,,6780.62,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Licenciamiento de Soporte al Sistema Operativo Multibiligue Ano 2013/ ,am_cicsa_19000000135,73137003,1890,,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Licenciamiento de Soporte al Sistema Operativo Multibiligue Ano 2013/ ,am_cicsa_19000000135,20181001,,1890,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Vb043AA, replicador de Puerto  Marca HP 230W/ ",am_cicsa_19000000135,74110102,3933.72,,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Reverso Vb043AA, replicador de Puerto  Marca HP 230W/ ",am_cicsa_19000000135,20181001,,3933.72,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulados ISLR 2013/ Tesoro Nacional,am_cicsa_19000000136,20181001,5905.26,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulados ISLR 2013/ Tesoro Nacional,am_cicsa_19000000136,78301001,,5905.26,,cicsa_data.aapi_017,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+ReversoAcumulado Audits 2013/ Kpmg,am_cicsa_19000000136,20181001,93000,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+ReversoAcumulado Audits 2013/ Kpmg,am_cicsa_19000000136,73113001,,93000,,cicsa_data.aapi_017,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulado Repsol Exploracion Mano de obra - Actividades delegadas Enero 2014 - LABOR REPSOL Enero 2014,am_cicsa_19000000137,20181001,585857.2,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulado Repsol Exploracion Mano de obra Actividades delegadas Enero 2014. Analista de compras y contratos,am_cicsa_19000000137,73114004,,41064,,cicsa_data.aapi_018,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulado Repsol Exploracion D269:D292ividades delegadas Enero 2014. Gerente de construccion,am_cicsa_19000000137,73114004,,52582.8,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulado Repsol Exploracion Mano de obra - Actividades delegadas Enero 2014. Planta CPF 30/60 Lider. Position,am_cicsa_19000000137,73114004,,45692.4,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulado Repsol Exploracion Mano de obra - Actividades delegadas Enero  2014 Cordinador SHA ,am_cicsa_19000000137,73114004,,41064,,cicsa_data.aapi_015,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulado Repsol Exploracion Mano de obra - Actividades delegadas Enero 2014. Gerente de Legal,am_cicsa_19000000137,73114004,,52582.8,,cicsa_data.aapi_019,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulado Repsol Exploracion Mano de obra - Actividades delegadas Enero 2014. Gerente de Recursos Humanos,am_cicsa_19000000137,73114004,,52582.8,,cicsa_data.aapi_020,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulado Repsol Exploracion Mano de obra - Actividades delegadas Enero Analista de Contratos,am_cicsa_19000000137,73114004,,52582,,cicsa_data.aapi_018,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulado Repsol Exploracion Mano de obra - Actividades delegadas Enero 2014. Gerente de Administracion,am_cicsa_19000000137,73114004,,45692.4,,cicsa_data.aapi_017,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulado Repsol Exploracion Mano de obra - Actividades delegadas Enero 2014. Coordinador de Impuestos,am_cicsa_19000000137,73114004,,41064,,cicsa_data.aapi_017,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulado Repsol Exploracion Mano de obra - Actividades delegadas Enero 2014. Contador,am_cicsa_19000000137,73114004,,37758,,cicsa_data.aapi_017,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulado Repsol Exploracion Mano de obra - Actividades delegadas Enero 2014. Sistemas de Informacion,am_cicsa_19000000137,73114004,,41064,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulado Repsol Exploracion Mano de obra - Actividades delegadas Enero 2014. Seguridad,am_cicsa_19000000137,73114004,,41064,,cicsa_data.aapi_023,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulado Repsol Exploracion Mano de obra - Actividades delegadas Enero  2014. Recursos Humanos,am_cicsa_19000000137,73114004,,41064,,cicsa_data.aapi_020,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso acumulado Repsol Exploracion Mano de obra reembolsables Enero  2014,am_cicsa_19000000138,20181001,4095,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso acumulado Repsol Exploracion Mano de obra reembolsables Enero 2014. Analista de compras y contratos,am_cicsa_19000000138,73114004,,315,,cicsa_data.aapi_018,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso acumulado Repsol Exploracion Mano de obra reembolsables Enero 2014. Gerente de construccion,am_cicsa_19000000138,73114004,,315,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso acumulado Repsol Exploracion Mano de obra reembolsables  Enero  2014. Planta CPF 30/60 Lider Position.,am_cicsa_19000000138,73114004,,315,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso acumulado Repsol Exploracion Mano de obra reembolsables Enero  2014 Cordinador SHA ,am_cicsa_19000000138,73114004,,315,,cicsa_data.aapi_015,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso acumulado Repsol Exploracion Mano de obra reembolsables  Enero 2014 Gerente de Legal,am_cicsa_19000000138,73114004,,315,,cicsa_data.aapi_019,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso acumulado Repsol Exploracion Mano de obra reembolsables  Enero 2014 Gerente de Recursos Humanos,am_cicsa_19000000138,73114004,,315,,cicsa_data.aapi_020,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso acumulado Repsol Exploracion Mano de obra reembolsables  Enero  2014 Gerente de Compras y contratos,am_cicsa_19000000138,73114004,,315,,cicsa_data.aapi_018,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso acumulado Repsol Exploracion Mano de obra reembolsables  Enero  2014. Gerente de Administracion,am_cicsa_19000000138,73114004,,315,,cicsa_data.aapi_017,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso acumulado Repsol Exploracion Mano de obra reembolsables Enero  2014. Cordinador de Impuestos,am_cicsa_19000000138,73114004,,315,,cicsa_data.aapi_017,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso acumulado Repsol Exploracion Mano de obra reembolsables  Enero  2014. Cordinador,am_cicsa_19000000138,73114004,,315,,cicsa_data.aapi_017,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso acumulado Repsol Exploracion Mano de obra reembolsables  Enero  2014. Sistemas de Informacion,am_cicsa_19000000138,73114004,,315,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso acumulado Repsol Exploracion Mano de obra reembolsables Enero  2014. Seguridad,am_cicsa_19000000138,73114004,,315,,cicsa_data.aapi_023,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso acumulado Repsol Exploracion Mano de obra reembolsables Enero  2014. Recursos Humanos,am_cicsa_19000000138,73114004,,315,,cicsa_data.aapi_020,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso acumulado Repsol Exploracion Mano de obra - Actividades delegadas Enero  2014,am_cicsa_19000000139,20181002,578771.68,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso acumulado Repsol Exploracion Mano de obra - Actividades delegadas Enero  2014. Experto Financiero Nueva Posicion,am_cicsa_19000000139,73114004,,171544.34,,cicsa_data.aapi_022,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso acumulado Repsol Exploracion Mano de obra - Actividades delegadas Enero  2014. Gerente de Proyecto,am_cicsa_19000000139,73114004,,218242.46,,cicsa_data.aapi_025,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso acumulado Repsol Exploracion Mano de obra - Actividades delegadas Enero 2014. Gerente HSE,am_cicsa_19000000139,73114004,,188984.88,,cicsa_data.aapi_015,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso acumulado Repsol Exploracion Mano de obra reembolsables  Enero  2014,am_cicsa_19000000140,20181002,259251.67,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso acumulado Repsol Exploracion Mano de obra reembolsables from Enero 2014. Experto Financiero Nueva Posicion,am_cicsa_19000000140,73114004,,86417.21,,cicsa_data.aapi_022,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso acumulado Repsol Exploracion Mano de obra reembolsables from Enero 2014. Gerente de Proyecto,am_cicsa_19000000140,73114004,,86417.23,,cicsa_data.aapi_025,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso acumulado Repsol Exploracion Mano de obra reembolsables from Enero  2014. Gerente HSE,am_cicsa_19000000140,73114004,,86417.23,,cicsa_data.aapi_015,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso acumulado ONGC  Mano de obra - Actividades delegadas Enero 2014,am_cicsa_19000000141,20181002,549514.1,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso acumulado ONGC  Mano de obra - Actividades delegadas Enero 2014. Gerente de Finanzas,am_cicsa_19000000141,73114004,,188984.88,,cicsa_data.aapi_017,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso acumulado ONGC  Mano de obra - Actividades delegadas Enero  2014.  Gerente de Proyecto Aguas Arriba,am_cicsa_19000000141,73114004,,188984.88,,cicsa_data.aapi_026,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso acumulado ONGC  Mano de obra - Actividades delegadas Enero 2014. Posicion de Planificacion y Control,am_cicsa_19000000141,73114004,,171544.34,,cicsa_data.aapi_027,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso acumulado ONGC  Mano de obra Reembolsables  from  Enero 2014,am_cicsa_19000000141,20181001,159497.1,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso acumulado ONGC  Mano de obra Reembolsables from Enero  2013. Gerente de Finanzas,am_cicsa_19000000141,73114004,,53165.7,,cicsa_data.aapi_017,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso acumulado ONGC  Mano de obra Reembolsables from Enero 2014. Gerente de Proyecto Aguas Arriba,am_cicsa_19000000141,73114004,,53165.7,,cicsa_data.aapi_026,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso acumulado ONGC  Mano de obra Reembolsables from Enero  2014. Posicion de Planificacion y Control,am_cicsa_19000000141,73114004,,53165.7,,cicsa_data.aapi_027,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulado ONGC  Mano de Obra - Actividades delegadas Enero  2014,am_cicsa_19000000142,20181001,78822,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulado ONGC  Mano de Obra - Actividades delegadas Enero 2014. Cuentas Por Cobrar,am_cicsa_19000000142,73114004,,37758,,cicsa_data.aapi_017,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulado ONGC  Mano de Obra - Actividades delegadas Enero 2014. Analista de Planificacion,am_cicsa_19000000142,73114004,,41064,,cicsa_data.aapi_027,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulado ONGC  Reembolsables -  Enero   2014,am_cicsa_19000000142,20181001,630,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulado ONGC  Reembolsables -  Enero 2014 Cuentas Por Cobrar,am_cicsa_19000000142,73114004,,315,,cicsa_data.aapi_017,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulado ONGC  Reembolsables -  Enero 2014 Analista de Planificacion,am_cicsa_19000000142,73114004,,315,,cicsa_data.aapi_027,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulado Indoil Mano de obra - Actividades delegadas Enero   2014,am_cicsa_19000000143,20181002,549514.1,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulado Indoil Mano de obra - Actividades delegadas Enero 2014. Gerente de Sistemas,am_cicsa_19000000143,73114004,,188984.88,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulado Indoil Mano de obra - Actividades delegadas Enero 2014.  Gerente financiero del proyecto,am_cicsa_19000000143,73114004,,171544.34,,cicsa_data.aapi_022,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulado Indoil Mano de obra - Actividades delegadas Enero 2014. Analista financiero de Proyecto,am_cicsa_19000000143,73114004,,188984.88,,cicsa_data.aapi_022,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulado Indoil Mano de obra reembolsables  Enero  2014,am_cicsa_19000000143,20181002,159497.1,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulado Indoil Mano de obra reembolsables  Enero 2014. Gerente de Sistemas,am_cicsa_19000000143,73114004,,53165.7,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulado Indoil Mano de obra reembolsables  Enero 2014. Gerente financiero del proyecto,am_cicsa_19000000143,73114004,,53165.7,,cicsa_data.aapi_022,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso Acumulado Indoil Mano de obra reembolsables  Enero 2014 Analista financiero de Proyecto,am_cicsa_19000000143,73114004,,53165.7,,cicsa_data.aapi_022,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado Repsol Exploracion Mano de obra Actividades delegadas Febrero 2014. Analista de compras y contratos,am_cicsa_19000000144,73114004,82128,,,cicsa_data.aapi_018,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado Repsol Exploracion D269:D292ividades delegadas Febrero 2014. Gerente de construccion,am_cicsa_19000000144,73114004,105165.6,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado Repsol Exploracion Mano de obra - Actividades delegadas Ene-Feb 2014. Planta CPF 30/60 Lider. Position,am_cicsa_19000000144,73114004,91384.8,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado Repsol Exploracion Mano de obra - Actividades delegadas Ene-Feb  2014 Cordinador SHA ,am_cicsa_19000000144,73114004,82128,,,cicsa_data.aapi_015,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado Repsol Exploracion Mano de obra - Actividades delegadas Ene-Feb 2014. Gerente de Legal,am_cicsa_19000000144,73114004,105165.6,,,cicsa_data.aapi_019,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado Repsol Exploracion Mano de obra - Actividades delegadas Ene-Feb 2014. Gerente de Recursos Humanos,am_cicsa_19000000144,73114004,105165.6,,,cicsa_data.aapi_020,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado Repsol Exploracion Mano de obra - Actividades delegadas Ene-Feb Analista de Contratos,am_cicsa_19000000144,73114004,105164,,,cicsa_data.aapi_018,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado Repsol Exploracion Mano de obra - Actividades delegadas Ene-Feb 2014. Gerente de Administracion,am_cicsa_19000000144,73114004,91384.8,,,cicsa_data.aapi_017,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado Repsol Exploracion Mano de obra - Actividades delegadas Ene-Feb 2014. Coordinador de Impuestos,am_cicsa_19000000144,73114004,67495.77,,,cicsa_data.aapi_017,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado Repsol Exploracion Mano de obra - Actividades delegadas Ene-Feb 2014. Contador,am_cicsa_19000000144,73114004,75516,,,cicsa_data.aapi_017,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado Repsol Exploracion Mano de obra - Actividades delegadas Ene-Feb 2014. Sistemas de Informacion,am_cicsa_19000000144,73114004,82128,,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado Repsol Exploracion Mano de obra - Actividades delegadas Ene-Feb 2014. Seguridad,am_cicsa_19000000144,73114004,82128,,,cicsa_data.aapi_023,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado Repsol Exploracion Mano de obra - Actividades delegadas Ene-Feb  2014. Recursos Humanos,am_cicsa_19000000144,73114004,82128,,,cicsa_data.aapi_020,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado Repsol Exploracion Mano de obra - Actividades delegadas Ene-Feb 2014 - LABOR REPSOL Ene-Feb 2014,am_cicsa_19000000144,20181001,,1157082.17,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+acumulado Repsol Exploracion Mano de obra reembolsables Ene-Feb 2014. Analista de compras y contratos,am_cicsa_19000000145,73114004,630,,,cicsa_data.aapi_018,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+acumulado Repsol Exploracion Mano de obra reembolsables Ene-Feb 2014. Gerente de construccion,am_cicsa_19000000145,73114004,630,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+acumulado Repsol Exploracion Mano de obra reembolsables  Ene-Feb  2014. Planta CPF 30/60 Lider Position.,am_cicsa_19000000145,73114004,630,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+acumulado Repsol Exploracion Mano de obra reembolsables Ene-Feb  2014 Cordinador SHA ,am_cicsa_19000000145,73114004,630,,,cicsa_data.aapi_015,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+acumulado Repsol Exploracion Mano de obra reembolsables  Ene-Feb 2014 Gerente de Legal,am_cicsa_19000000145,73114004,630,,,cicsa_data.aapi_019,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+acumulado Repsol Exploracion Mano de obra reembolsables  Ene-Feb 2014 Gerente de Recursos Humanos,am_cicsa_19000000145,73114004,630,,,cicsa_data.aapi_020,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+acumulado Repsol Exploracion Mano de obra reembolsables  Ene-Feb  2014 Gerente de Compras y contratos,am_cicsa_19000000145,73114004,630,,,cicsa_data.aapi_018,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+acumulado Repsol Exploracion Mano de obra reembolsables  Ene-Feb  2014. Gerente de Administracion,am_cicsa_19000000145,73114004,630,,,cicsa_data.aapi_017,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+acumulado Repsol Exploracion Mano de obra reembolsables Ene-Feb  2014. Cordinador de Impuestos,am_cicsa_19000000145,73114004,519.75,,,cicsa_data.aapi_017,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+acumulado Repsol Exploracion Mano de obra reembolsables  Ene-Feb  2014. Cordinador,am_cicsa_19000000145,73114004,630,,,cicsa_data.aapi_017,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+acumulado Repsol Exploracion Mano de obra reembolsables  Ene-Feb  2014. Sistemas de Informacion,am_cicsa_19000000145,73114004,630,,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+acumulado Repsol Exploracion Mano de obra reembolsables Ene-Feb  2014. Seguridad,am_cicsa_19000000145,73114004,630,,,cicsa_data.aapi_023,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+acumulado Repsol Exploracion Mano de obra reembolsables Ene-Feb  2014. Recursos Humanos,am_cicsa_19000000145,73114004,630,,,cicsa_data.aapi_020,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+acumulado Repsol Exploracion Mano de obra reembolsables Ene-Feb  2014,am_cicsa_19000000145,20181001,,8079.75,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+acumulado Repsol Exploracion Mano de obra - Actividades delegadas Ene-Feb  2014. Experto Financiero Nueva Posicion,am_cicsa_19000000146,73114004,343088.68,,,cicsa_data.aapi_022,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+acumulado Repsol Exploracion Mano de obra - Actividades delegadas Ene-Feb  2014. Gerente de Proyecto,am_cicsa_19000000146,73114004,436484.92,,,cicsa_data.aapi_025,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+acumulado Repsol Exploracion Mano de obra - Actividades delegadas Ene-Feb 2014. Gerente HSE,am_cicsa_19000000146,73114004,377969.76,,,cicsa_data.aapi_015,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+acumulado Repsol Exploracion Mano de obra - Actividades delegadas Ene-Feb  2014,am_cicsa_19000000146,20181002,,1157543.35,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+acumulado Repsol Exploracion Mano de obra reembolsables from Ene-Feb 2014. Experto Financiero Nueva Posicion,am_cicsa_19000000147,73114004,172834.43,,,cicsa_data.aapi_022,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+acumulado Repsol Exploracion Mano de obra reembolsables from Ene-Feb 2014. Gerente de Proyecto,am_cicsa_19000000147,73114004,172834.43,,,cicsa_data.aapi_025,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+acumulado Repsol Exploracion Mano de obra reembolsables from Ene-Feb  2014. Gerente HSE,am_cicsa_19000000147,73114004,172834.43,,,cicsa_data.aapi_015,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+acumulado Repsol Exploracion Mano de obra reembolsables  Ene-Feb  2014,am_cicsa_19000000147,20181002,,518503.29,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+acumulado ONGC  Mano de obra - Actividades delegadas Ene-Feb  2014. Gerente de Finanzas,am_cicsa_19000000148,73114004,377969.76,,,cicsa_data.aapi_017,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado ONGC  Mano de obra - Actividades delegadas Ene-Feb  2014 Gerente de Proyecto Aguas Arriba,am_cicsa_19000000148,73114004,377969.76,,,cicsa_data.aapi_026,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado ONGC  Mano de obra - Actividades delegadas Ene-Feb  2014. Posicion de Planificacion y Control,am_cicsa_19000000148,73114004,343088.68,,,cicsa_data.aapi_027,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Acumulado ONGC  Mano de obra - Actividades delegadas Ene-Feb  2014. Vatsyayan, Shalab  Upstream Manager",am_cicsa_19000000148,73114004,188984.88,,,cicsa_data.aapi_026,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado ONGC  Mano de obra - Actividades delegadas Ene-Feb  2014,am_cicsa_19000000148,20181002,,1288013.08,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+acumulado ONGC  Mano de obra - Reembolsables Ene-Feb  2014. Gerente de Finanzas,am_cicsa_19000000148,73114004,106331.4,,,cicsa_data.aapi_017,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado ONGC  Mano de obra - Reembolsables Ene-Feb  2014 Gerente de Proyecto Aguas Arriba,am_cicsa_19000000148,73114004,106331.4,,,cicsa_data.aapi_026,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado ONGC  Mano de obra - Reembolsables Ene-Feb  2014. Posicion de Planificacion y Control,am_cicsa_19000000148,73114004,106331.4,,,cicsa_data.aapi_027,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Acumulado ONGC  Mano de obra - Reembolsables Ene-Feb  2014. Vatsyayan, Shalab  Upstream Manager",am_cicsa_19000000148,73114004,53165.7,,,cicsa_data.aapi_026,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado ONGC  Mano de obra - Reembolsables Ene-Feb  2014,am_cicsa_19000000148,20181002,,372159.9,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado ONGC  Mano de Obra - Actividades delegadas Ene-Feb 2014. Cuentas Por Cobrar,am_cicsa_19000000149,73114004,75516,,,cicsa_data.aapi_017,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado ONGC  Mano de obra - Actividades delegadas Ene-Feb  2014,am_cicsa_19000000149,20181001,,75516,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado ONGC  Reembolsables -  Enero 2014 Account Receivable Position.,am_cicsa_19000000149,73114004,630,,,cicsa_data.aapi_017,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado ONGC  Mano de obra - Reembolsables Ene-Feb  2014,am_cicsa_19000000149,20181001,,630,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado Indoil Mano de obra - Actividades delegadas Ene-Feb 2014. Gerente de Sistemas,am_cicsa_19000000150,73114004,377969.76,,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado Indoil Mano de obra - Actividades delegadas Ene-Feb 2014.  Gerente financiero del proyecto,am_cicsa_19000000150,73114004,343088.68,,,cicsa_data.aapi_022,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado Indoil Mano de obra - Actividades delegadas Ene-Feb 2014. Analista financiero de Proyecto,am_cicsa_19000000150,73114004,377969.76,,,cicsa_data.aapi_022,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado Indoil Mano de obra - Actividades delegadas Ene-Feb   2014,am_cicsa_19000000150,20181002,,1099028.2,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado Indoil Mano de obra reembolsables  Ene-Feb 2014. Gerente de Sistemas,am_cicsa_19000000150,73114004,106331.4,,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado Indoil Mano de obra reembolsables  Ene-Feb 2014. Gerente financiero del proyecto,am_cicsa_19000000150,73114004,106331.4,,,cicsa_data.aapi_022,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado Indoil Mano de obra reembolsables  Ene-Feb 2014 Analista financiero de Proyecto,am_cicsa_19000000150,73114004,106331.4,,,cicsa_data.aapi_022,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado Indoil Mano de obra reembolsables  Ene-Feb  2014,am_cicsa_19000000150,20181002,,318994.2,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado Vehiculos CICSA/ Coopertaiva Monte Sacro,am_cicsa_19000000151,73103001,120400,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado Vehiculos CICSA/ Coopertaiva Monte Sacro,am_cicsa_19000000151,73103001,120400,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado Vehiculos CICSA/ Coopertaiva Monte Sacro,am_cicsa_19000000151,73103001,120400,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado Vehiculos CICSA/ Coopertaiva Monte Sacro,am_cicsa_19000000151,73103001,120400,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado Vehiculos CICSA/ Coopertaiva Monte Sacro,am_cicsa_19000000151,73103001,120400,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado Vehiculos CICSA/ Coopertaiva Monte Sacro,am_cicsa_19000000151,20181001,,602000,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Contrato de Supervision de ing Civil, Mecanica e Instrumentacion Sep13 HP",am_cicsa_19000000152,73114001,39192.5,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Contrato de Supervision de ing Civil, Mecanica e Instrumentacion Sep13 Reemb",am_cicsa_19000000152,73114001,3000,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Contrato de Supervision de ing Civil, Mecanica e Instrumentacion Oct13 HP",am_cicsa_19000000152,73114001,32066.59,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Contrato de Supervision de ing Civil, Mecanica e Instrumentacion Sep13 Reemb",am_cicsa_19000000152,73114001,3000,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Contrato de Supervision de ing Civil, Mecanica e Instrumentacion Nov 13 HP",am_cicsa_19000000152,73114001,39192.5,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Contrato de Supervision de ing Civil, Mecanica e Instrumentacion Nov 13 Reemb",am_cicsa_19000000152,73114001,15750,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Contrato de Supervision de ing Civil, Mecanica e Instrumentacion Dic 13 HP",am_cicsa_19000000152,73114001,67696.14,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Contrato de Supervision de ing Civil, Mecanica e Instrumentacion Reem Dic  13",am_cicsa_19000000152,73114001,16500,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Contrato de Supervision de ing Civil, Mecanica e Instrumentacion Jan 14 HP",am_cicsa_19000000152,73114001,67696.14,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Contrato de Supervision de ing Civil, Mecanica e Instrumentacion Reem Jan 14",am_cicsa_19000000152,73114001,16500,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Contrato de Supervision de ing Civil, Mecanica e Instrumentacion Feb 14 HP",am_cicsa_19000000152,73114001,67696.14,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Contrato de Supervision de ing Civil, Mecanica e Instrumentacion Reem Feb  14",am_cicsa_19000000152,73114001,16500,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Contrato de Supervision de ing Civil, Mecanica e Instrumentacion Sep 14 HP",am_cicsa_19000000152,20181001,,39192.5,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Contrato de Supervision de ing Civil, Mecanica e Instrumentacion Sep13 Reemb",am_cicsa_19000000152,20181001,,3000,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Contrato de Supervision de ing Civil, Mecanica e Instrumentacion Oct13 HP",am_cicsa_19000000152,20181001,,32066.59,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Contrato de Supervision de ing Civil, Mecanica e Instrumentacion Oct 13 Reemb",am_cicsa_19000000152,20181001,,3000,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Contrato de Supervision de ing Civil, Mecanica e Instrumentacion Nov 13 HP",am_cicsa_19000000152,20181001,,39192.5,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Contrato de Supervision de ing Civil, Mecanica e Instrumentacion Nov 13 Reemb",am_cicsa_19000000152,20181001,,15750,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Contrato de Supervision de ing Civil, Mecanica e Instrumentacion Dic  13 HP",am_cicsa_19000000152,20181001,,67696.14,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Contrato de Supervision de ing Civil, Mecanica e Instrumentacion Reem Dic 13",am_cicsa_19000000152,20181001,,16500,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Contrato de Supervision de ing Civil, Mecanica e Instrumentacion Jan 14 HP",am_cicsa_19000000152,20181001,,67696.14,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Contrato de Supervision de ing Civil, Mecanica e Instrumentacion Reem Jan 14",am_cicsa_19000000152,20181001,,16500,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Contrato de Supervision de ing Civil, Mecanica e Instrumentacion Feb  14 HP",am_cicsa_19000000152,20181001,,67696.14,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Contrato de Supervision de ing Civil, Mecanica e Instrumentacion Reem Feb  14",am_cicsa_19000000152,20181001,,16500,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Security Contract Services Enero  2014/ SPS Risk Vigiliancia ,C..A",am_cicsa_19000000153,73133001,78268.56,,,cicsa_data.aapi_023,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Security Contract Services Enero 2014/ SPS Risk Vigiliancia ,C..A",am_cicsa_19000000153,20181001,,78268.56,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Security Contract Services febrero  2014/ SPS Risk Vigiliancia ,C..A",am_cicsa_19000000153,73133001,78268.56,,,cicsa_data.aapi_023,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Security Contract Services febrero  2014/ SPS Risk Vigiliancia ,C..A",am_cicsa_19000000153,20181001,,78268.56,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina febrero   2014, 10,551,491./ J.L.R System Solution, c.a",am_cicsa_19000000154,73114004,38012.37,,,cicsa_data.aapi_018,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina febrero 2014. 10,898,037/ J.L.R System Solution, c.a",am_cicsa_19000000154,73114004,42020.41,,,cicsa_data.aapi_025,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina febrero  2014. 11,657,498 /J.L.R System Solution, c.a",am_cicsa_19000000154,73114004,57902.49,,,cicsa_data.aapi_020,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina febrero 2014,17,900,937/ J.L.R System Solution, c.a",am_cicsa_19000000154,73114004,23179.63,,,cicsa_data.aapi_020,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina febrero   2014, 7,800,290/ J.L.R System Solution, c.a",am_cicsa_19000000154,73114004,65508.92,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina febrero  2014. 5,087,848/ J.L.R System Solution, c.a",am_cicsa_19000000154,73114004,67102.55,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina febrero   2014, 4,212,341/ J.L.R System Solution, c.a",am_cicsa_19000000154,73114004,77726.45,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina febrero  2014, 6,143,833/ J.L.R System Solution, c.a",am_cicsa_19000000154,73114004,39495.28,,,cicsa_data.aapi_020,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina febrero   2014, 13,612,323/ J.L.R System Solution, c.a",am_cicsa_19000000154,73114004,59904.86,,,cicsa_data.aapi_015,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina febrero   2014, 12,066,970/ J.L.R System Solution, c.a",am_cicsa_19000000154,73114004,25092.75,,,cicsa_data.aapi_025,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina febrero   2014, 14,431,703/ J.L.R System Solution, c.a",am_cicsa_19000000154,73114004,39663,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina febrero  2014 16,315,024/ J.L.R System Solution, c.a",am_cicsa_19000000154,73114004,34090.22,,,cicsa_data.aapi_025,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina febrero   2014, 14,330,326/ J.L.R System Solution, c.a",am_cicsa_19000000154,73114004,51348.85,,,cicsa_data.aapi_024,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Administracion de Nomina febrero    2014./ J.L.R System Solution, c.a",am_cicsa_19000000154,20181001,,621047.78,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Acumulados Servicios de limpieza febrero  2014/ Induservi, c.a.",am_cicsa_19000000154,73135001,61471.92,,,cicsa_data.aapi_021,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Acumulados Servicios de limpieza febrero  2014/ Induservi, c.a.",am_cicsa_19000000154,20181001,,61471.92,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Electricidad Acumulada febrero 2014/ CORPOELEC,am_cicsa_19000000154,73121005,1448.6,,,cicsa_data.aapi_021,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Electricidad Acumulada febrero 2014/ CORPOELEC,am_cicsa_19000000154,20181001,,1448.6,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Servicio de Taxi Acumulados febrero 2014/ Travel Services,am_cicsa_19000000154,77101001,40000,,,cicsa_data.aapi_021,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Servicio de Taxi Acumulados febrero 2014/ Travel Services,am_cicsa_19000000154,20181001,,40000,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Air Conditioning Reparations  December   2013/ HL Servicios Integrales, C.A.",am_cicsa_19000000154,73149002,42500,,,cicsa_data.aapi_021,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Air Conditioning Reparations  December   2013/ HL Servicios Integrales, C.A.",am_cicsa_19000000154,20181001,,42500,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Adquisicion de Aplicaciones Electronicas de la Plataforma de Datos y Seguridad de la Infraestructura tecnologica ./ It Services Venezuela, S.A",am_cicsa_19000000155,73114004,209445,,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Adquisicion de Aplicaciones Electronicas de la Plataforma de Datos y Seguridad de la Infraestructura tecnologica ./ It Services Venezuela, S.A",am_cicsa_19000000155,20181001,,209445,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Servicio de Instalacion y Configuracion de Hardware y Software/ Desca C.A Venezuela,am_cicsa_19000000155,73114004,271517.25,,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Servicio de Instalacion y Configuracion de Hardware y Software/ Desca C.A Venezuela,am_cicsa_19000000155,20181001,,271517.25,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Servicicio de CAU para las Oficinas de CICsa y Campo Morichal Jan 2014/ Informatica Gesfor Venezuela C.A,am_cicsa_19000000155,73137002,142471.12,,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Servicicio de CAU para las Oficinas de CICsa y Campo Morichal feb 2014/ Informatica Gesfor Venezuela C.A,am_cicsa_19000000155,73137002,142471.12,,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Servicicio de CAU para las Oficinas de CICsa y Campo Morichal Jan 2014/ Informatica Gesfor Venezuela C.A,am_cicsa_19000000155,20181001,,142471.12,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Servicicio de CAU para las Oficinas de CICsa y Campo Morichal feb 2014/ Informatica Gesfor Venezuela C.A,am_cicsa_19000000155,20181001,,142471.12,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Real Serices febrero 13 Share point Foundation Entreprise 50 GB/ PrivateIP Services, C.A",am_cicsa_19000000155,73137002,15820,,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Real Service febrero  2013 Servicio de Correo Exchange Empresarial/ PrivateIP Services, C.A",am_cicsa_19000000155,73137002,15244.94,,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Real Serices febrero 13 Share point Foundation Entreprise 50 GB/ PrivateIP Services, C.A",am_cicsa_19000000155,20181001,,15820,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Real Service of febrero  2013 Servicio de Correo Exchange Empresarial/ PrivateIP Services, C.A",am_cicsa_19000000155,20181001,,15244.94,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado  Feb  2014 - Servicio Telefonico CANTV,am_cicsa_19000000155,73121003,1750.82,,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado  Feb  2014 - Servicio Telefonico CANTV,am_cicsa_19000000155,73121003,7503,,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado  Feb  2014 - Servicio Telefonico CANTV,am_cicsa_19000000155,20181001,,1750.82,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado  Feb  2014 - Servicio Telefonico CANTV,am_cicsa_19000000155,20181001,,7503,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulados Movilnet  Feb 2013,am_cicsa_19000000155,73121003,40519.22,,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulados Movilnet  Feb 2013,am_cicsa_19000000155,20181001,,40519.22,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reembolsables Cau Services Abril 2013/ Informatica Gesfor Venezuela C.A,am_cicsa_19000000155,73137002,4456.1,,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reembolsables Cau Services May  2013/ Informatica Gesfor Venezuela C.A,am_cicsa_19000000155,73137002,5176.82,,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reembolsables Cau Services Mar13/ Informatica Gesfor Venezuela C.A,am_cicsa_19000000155,73137002,5116.1,,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reembolsables Cau Services Julio  2013/ Informatica Gesfor Venezuela C.A,am_cicsa_19000000155,73137002,5176.82,,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reembolsables Cau Services Agosto  2013/ Informatica Gesfor Venezuela C.A,am_cicsa_19000000155,73137002,9183.02,,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reembolsables Cau eSrvices Septiembre  2013/ Informatica Gesfor Venezuela C.A,am_cicsa_19000000155,73137002,5176.82,,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reembolsables Cau Services Junio 2013/ Informatica Gesfor Venezuela C.A,am_cicsa_19000000155,73137002,6780.62,,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reembolsables Marzo - Septiembre/ Informatica Gesfor Venezuela C.A,am_cicsa_19000000155,20181001,,41066.3,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Licenciamiento de Soporte al Sistema Operativo Multibiligue Ano 2013/ ,am_cicsa_19000000155,73137003,1890,,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Licenciamiento de Soporte al Sistema Operativo Multibiligue Ano 2013/ ,am_cicsa_19000000155,20181002,,1890,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Vb043AA, replicador de Puerto  Marca HP 230W/ ",am_cicsa_19000000155,74110102,3933.72,,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"Vb043AA, replicador de Puerto  Marca HP 230W/ ",am_cicsa_19000000155,20181002,,3933.72,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulados Tax 2013/ Tesoro Nacional,am_cicsa_19000000156,78301001,5905.26,,,cicsa_data.aapi_017,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulados Tax 2013/ Tesoro Nacional,am_cicsa_19000000156,20181001,,5905.26,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado de Auditoria 2013 / KPMG,am_cicsa_19000000156,73113001,93000,,,cicsa_data.aapi_017,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Acumulado de Auditoria 2013 / KPMG,am_cicsa_19000000156,20181001,,93000,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Transfer from PCB PCB,am_cicsa_19000000157,10439033,41122953.9,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+NC 0000028 PREGUNTAR A PAULL,am_cicsa_19000000157,73115901,443924.96,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+0000132/ Cobranza Petrocarabobo,am_cicsa_19000000157,73115901,,152050.12,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+0000136/ Cobranza Petrocarabobo,am_cicsa_19000000157,73115901,,120204,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+0000137/ Cobranza Petrocarabobo,am_cicsa_19000000157,11213103,,15866840.68,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+0000145/ Cobranza Petrocarabobo,am_cicsa_19000000157,73115901,,8397.9,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+0000148/ Cobranza Petrocarabobo,am_cicsa_19000000157,73115901,,13696.26,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+0000160/ Cobranza Petrocarabobo,am_cicsa_19000000157,73115901,,220500,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+0000163/ Cobranza Petrocarabobo,am_cicsa_19000000157,73115901,,9283.87,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+0000177/ Cobranza Petrocarabobo,am_cicsa_19000000157,73115901,,9016340.26,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+0000178/ Cobranza Petrocarabobo,am_cicsa_19000000157,73115901,,764489.88,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+0000207/ Cobranza Petrocarabobo,am_cicsa_19000000157,11213103,,24651.21,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+0000209/ Cobranza Petrocarabobo,am_cicsa_19000000157,73115901,,361670.4,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+0000210/ Cobranza Petrocarabobo,am_cicsa_19000000157,73115901,,1210115.84,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+0000231/ Cobranza Petrocarabobo,am_cicsa_19000000157,11213103,,9471627.27,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+0000234/ Cobranza Petrocarabobo,am_cicsa_19000000157,73115901,,361670.4,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+0000235/ Cobranza Petrocarabobo,am_cicsa_19000000157,73115901,,55944,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+0000236/ Cobranza Petrocarabobo,am_cicsa_19000000157,73115901,,48195,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+0000237/ Cobranza Petrocarabobo,am_cicsa_19000000157,73115901,,14987.7,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+0000238/ Cobranza Petrocarabobo,am_cicsa_19000000157,73115901,,1416810.84,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+0000239/ Cobranza Petrocarabobo,am_cicsa_19000000157,73115901,,148396.5,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+0000263/ Cobranza Petrocarabobo,am_cicsa_19000000157,11213103,,189000,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Anticipo pendiente por pagar a Petrocarabobo Transf hecha el dia 19-02-14,am_cicsa_19000000157,20181002,,2092006.73,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Transfer from PCB / Petrocarabobo,am_cicsa_19000000158,10226013,200000,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Transfer from PCB  Duplicate / Petrocarabobo,am_cicsa_19000000158,10226014,200000,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Transfer from PCB / Petrocarabobo,am_cicsa_19000000158,20101002,,400000,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Transferd from PCB 12-02-14/ Petrocarabobo,am_cicsa_19000000159,10226014,15768972.48,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Descuento del anticipo duplicado de 200.00 dados por Petrocarabobo,am_cicsa_19000000159,20101002,400000,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+0000133/ Petrocarabobo,am_cicsa_19000000159,73115901,,7883637.65,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+0000225/ Petrocarabobo,am_cicsa_19000000159,11213103,,6743273.98,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+0000257/ Petrocarabobo,am_cicsa_19000000159,73115901,,504325.58,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+0000258/ Petrocarabobo,am_cicsa_19000000159,73115901,,62586.2,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+0000260/ Petrocarabobo,am_cicsa_19000000159,73115901,,128642.83,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+0000261/ Petrocarabobo,am_cicsa_19000000159,73115901,,226189.5,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+0000262/ Petrocarabobo,am_cicsa_19000000159,73115901,,439270.3,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+0000271/ Petrocarabobo,am_cicsa_19000000159,73115901,,181046.44,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso/ Banesco VEB,am_cicsa_19000000160,10226014,,1500000,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso/ Banesco VEB,am_cicsa_19000000160,20101002,1500000,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+fee feb 2014/ Citibank,am_cicsa_19000000161,78260001,206.3,,,cicsa_data.aapi_017,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+fee feb 2014/ Citibank,am_cicsa_19000000161,10226013,,206.3,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+fee by check feb 2014/ Citibank,am_cicsa_19000000162,78260001,384,,,cicsa_data.aapi_017,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+fee by check feb 2014/ Citibank,am_cicsa_19000000162,10226014,,384,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso 19/062 Retencion 75% iVa no correspondiente. JE 19/193 2011 / Platinum Cars,am_cicsa_19000000163,20101002,1638,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso 19/062 Retencion 75% iVa no correspondiente. JE 19/193 2011 / Platinum Cars,am_cicsa_19000000163,20140109,,1638,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Claim/ Jose Campuzano,am_cicsa_20000000040,20101202,2248.96,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Claim/ Jose Campuzano,am_cicsa_20000000040,10226013,,2248.96,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Claim/ Nestor Fernandez,am_cicsa_20000000041,20101202,3003,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Claim/ Nestor Fernandez,am_cicsa_20000000041,10226013,,3003,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+FM 140000002302/ CANTV,am_cicsa_20000000042,20101002,7352.94,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+FM 140000002302/ CANTV,am_cicsa_20000000042,10226013,,7352.94,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+F000237345247/ CANTV,am_cicsa_20000000043,20101002,1750.82,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+F000237345247/ CANTV,am_cicsa_20000000043,10226013,,1750.82,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Fact Nro. 48327424/ Movilnet,am_cicsa_20000000044,20101002,40519.22,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Fact Nro. 48327424/ Movilnet,am_cicsa_20000000044,10226013,,40519.22,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+46/ Inversiones Flea Castle,am_cicsa_20000000045,20101002,20739.74,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+46/ Inversiones Flea Castle,am_cicsa_20000000045,10226013,,20739.74,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+53019/ Inversiones Cachamay,am_cicsa_20000000046,20101002,21638.4,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+53020/ Inversiones Cachamay,am_cicsa_20000000046,20101002,21638.4,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+53021/ Inversiones Cachamay,am_cicsa_20000000046,20101002,21638.4,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+53019/53020/53021/ Inversiones Cachamay,am_cicsa_20000000046,10226013,,64915.2,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"62,2013/  INC.",am_cicsa_21000000001,20181002,13109290.8,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"62,2013/  INC.",am_cicsa_21000000001,10439033,,13109290.8,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"1186/ Controles Electricos Panama, S.A",am_cicsa_21000000002,20181002,2805695.93,,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+"1186/ Controles Electricos Panama, S.A",am_cicsa_21000000002,10439033,,2805695.93,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso 19/049 reverso se hizo 2 veces 19/956 y 19/049 de Instalacion y Configuracion de Hardware y Software/ Desca C.A Venezuela,am_cicsa_19000000129,73114004,601431.25,,,cicsa_data.aapi_016,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02
+Reverso 19/049 reverso se hizo 2 veces 19/956 y 19/049 de Instalacion y Configuracion de Hardware y Software/ Desca C.A Venezuela,am_cicsa_19000000129,20181001,,601431.25,,,cicsa_data.aj_cicsa_general,cicsa_data.ap_cicsa_02

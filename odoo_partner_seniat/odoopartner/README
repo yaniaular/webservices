@@ -1,0 +1,130 @@
+# vim: syntax=rst
+
+======
+README
+======
+
+odoopartner is a tool that let you to make a query of a record inside a odoo
+instance. This query return the xml id of the record given. In the case that
+the record do not exists in the instance, then will try to consult the seniat
+page to extract the record data and will create a csv file with the neccesary
+data to be load into oddo instance via csv plataform using a third party tool.
+
+This script was designed to be use principal with the res.partner model to make
+querys about the partner vat in the seniat site. However, can be extended and
+can be use to search/create another type of odoo objects.
+
+Install
+-------
+
+Open your command line promt and go to the downloaded package folder to run
+this command::
+
+    # sudo python setup.py install
+
+After the installation check the installation. Go to another window of youre
+console an type::
+
+    # odoopartner
+
+this will show you the mini help of the command like this::
+
+    usage: odoopartner [-h] -d DATABASE -m MODEL -f FIELD -v VALUE
+                       [--defualts DEFAULTS] [--verbose] [-s SERVER]
+                       [--protocol PROTOCOL] [-p PORT]
+    odoopartner: error: argument -d/--db is required
+
+for detail full definition of the odoopartner options (long and short versions)
+    you can type:: 
+
+    # odoopartner --help
+
+Configure
+---------
+
+No need previuos configuration. However requires this python librarys to be
+installed:
+
+- oerplib
+- argparse
+- argcomplete
+
+Actions
+-------
+
+Install this python package will install some script that are avaible in your
+system:
+ 
+ - ``odoopartner``: a console script (CLI).
+
+Example
+-------
+
+The basic syntax you need to run this tool is::
+
+    # odoopartner -d 2158_cd -m res.partner -f vat -v VEV1234567
+
+odoopartner will requiere a odoo instance configuration to now were to look,
+this configuration includes server ip, protocol and port to connect. The tool
+have some defaults defines, if you want to change it then you can add this
+options to the command line you are writing.
+
+The last example command configuration means:
+
+- ``-d 2158_cd``: represent youre odoo instance data base name, in the example
+  the data base is 2158_cd.
+- ``-m res.partner``: indicate the odoo model into the qeuery will be made, in
+  this case the partner model.
+- ``-f vat``: indicate the name of the field used to make the query. In this
+  case the field name is ``vat``.
+- ``-v VEV1234567``: indicate the value of used to make the query. This is the
+  value of the field given in ``-f``. In the example the value is a vat number
+  for venezuela. If youre value is a string with separate string then you need
+  to put youre value between semi colons like ``... -v "a string value" ...``.
+
+The result given by odoopartner tool differ of the given values to the query:
+
+1. If the record exist in the odoo instance data base will return the xml_id of
+the record, something like this in your console output::
+
+    xml_id  res_partner_mycompany_123
+
+2. if the record do not exist in the odoo instance will try consult the seniat
+page to get the information of the partner and to create a new record for this
+partner by creating a csv file with the necesary data to be use to load the
+new record via csv. The command will not return anything in youre command
+line, only will add the csv file into the folder were you are running
+odoopartner tool. this csv file will have the name of the format
+``model_name_company_xxx``. In the example will be something like::
+
+    # mycompany_res_partner_VEV1234567.csv
+
+.. note:: If you run ``odoopartner`` with the --verbose option will show you in
+ the console output the progess of the query.
+
+3. If the record do not exist in the odoo instance neither in the seniat vat
+consult page return anything. The script will create a csv file named
+``mycompany_seniat_error.csv`` This is a csv with one field named ``value``
+that indicate the values that fail the query and can not be created.
+
+Extra options can be pass the company name to name the new csv files and
+records to be created.
+
+Troubleshooting
+---------------
+
+You need to use the correct server ip, protocol and port to run youre odoo
+instance, if not will throw you an error like this::
+
+    The sever configuration given is not valid, please check.
+
+Uninstall
+---------
+
+In the install folder there is a uninstall file. This is an executable file.
+Just run in your console::
+
+    $ sudo ./uninstall
+
+If the file have not excecution permissions then just change the file
+permissions (chmod) and execute the above command.

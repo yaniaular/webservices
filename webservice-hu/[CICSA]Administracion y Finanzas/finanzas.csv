@@ -1,0 +1,295 @@
+date,ID,Historias de Usuario,Criterios de Aceptación,Check,Prioridad,Creador,Existe,Nivel de Dificultad,Observaciones Técnicas,Observaciones Generales,Estimación (min)
+2014-02-04,1,"Yo como 5 necesito cerrar periodos, para no permitir efectuar operaciones financieras en el mismo.","Al realizar una operación contable en el sistema que incluya como periodo, un periodo cerrado, el sistema no debe permitir realizar los asientos, debido a que el periodo esta cerrado.",,,Gabriela,SI,NO APLICA,"a) Documentar proceso de apertura y cierre de períodos fiscales (90 min)
+b) Documentar proceso de cierre de un Ejercicio Fiscal (90 min)
+c) Documentar proceso de traslado de Saldos Iniciales (90 min)
+d) Documentar proceso de eliminación de Saldos Iniciales (90 min)
+e) Despliegue con usuario final (60min)",,420
+,2,Yo como 5 necesito poder validar el monto de la factura de compra en físico con el monto de la factura en el sistema.,"Al tener una factura de proveedor en físico, se necesita que al validar la misma, se pueda corroborar que  el monto total en el sistema es igual al monto en la factura en físico.",,,Gabriela,SI,NO APLICA,"a) Documentar el Formulario de Factura de Proveedor (120 min)
+b) Despliegue con usuario final (30min)",,150
+,3,"Yo como 5 requiero No tener que ingresar desde 0 la información de la factura que me llega en físico, lo que requiero es que la información sea heredada desde la orden de compra.","Cuando me llega una factura nueva, requiero poder generar la factura de forma automática con todos los datos que se habían ingresado en la orden de compra.",,,Gabriela,SI,NO APLICA,"a) Documentar Proceso General de Requisión de Compra / Orden de Compra / Recepción de Mercancía-servicios / Facturación de Mercancia-servicios:
+-a.1.- Requisicion (1200 min)
+-a.2.- Compras (600 min)
+-a.3.- Recepción de Bienes y/o Servicios (1200 min)
+-a.4.- Facturación de Bienes y/o servicios (1200 min)
+Incluir como se genera generan procesos multimonedas para cumplir con H.U. (34). Este proceso tambien satisface a H.U. (43)
+b) Despliegue con usuario final (210min)",,4410
+,4,"Yo como 5 requiero poder visualizar el vencimiento de las CxP y CxC en diferentes monedas, para realizar análisis de vencimiento en multimoneda","1.- Contar con un reporte en formato pdf donde se pueda visualizar el vencimiento de las CxP y CxC en multimoneda.
+2.- Contar con una reporte donde se pueda visualizar el vencimiento de las CxC.
+3.- Contar con una reporte donde se pueda visualizar el vencimiento de las CxP.",,,Gabriela,"NO
+SI
+NO","ALTA
+NO APLICA
+MEDIA","1.- Se utilizará el de ingelub. Se modificaran del reporte de ingelub lo siguiente: base imponible=Gastos Reembolsables, 
+Quitar: ret. iva, ret. islr, ret. mun, n/c.
+2.- Reporting, Generic Reporting, aged partner balance
+3.- Se utilizará el de ingelub pero para las CxP.
+
+a) heredar módulo de addons-vauxoo aging_due_report como ""cicsa_aging_due_report"", del reporte detail_due_report.rml generar dos parsers uno para AP y otro para AR, Cambiar el string ""Base Imponible"" por ""Gastos Reembolsables"", quitar las columnas: ret. iva, ret. islr, ret. mun, n/c. Agregar columna de Moneda del Documento (240 min)
+b) heredar módulo de addons-vauxoo aging_due_report como ""cicsa_aging_due_report"", del reporte aging_due_report.rml generar dos parsers uno para AP y otro para AR, en las filas para cada registro de período imprimir los valores y sus respectivas monedas, en la columna final, colocar la sumatoria por moneda y sus respectivos codigos de monedas. (480 min)
+c) Documentar como se obtiene el reporte de Analisis de vencimiento (120 min)
+d) Documentar como se obtiene el reporte detallado de Facturas (120 min)
+e) Despliegue con usuario final (90min)",,1050
+,5,"Yo como 5, requiero cargar la fecha de vencimiento y la fecha de factura, para poder llevar un control de las facturas vencidas.","1.- En la factura requiero poder contar con un campo donde pueda ingresar la fecha de vencimiento.
+2.- En la factura requiero poder contar con un campo donde pueda ingresar la fecha de la factura de proveedor.",,,Gabriela,"SI
+SI","NO APLICA
+NO APLICA","due date (Fecha de Vencimiento)
+date_invoice (Fecha de Contabilización)
+date_document (Fecha de Factura Proveedor)
+
+a) Se cumple al cumplirse la tarea a) de la historia de usuario [2] (0 min)",,0
+,6,"Yo como 5, requiero poder modificar la factura independientemente de los datos que contengan las Ordenes de Compra.","Al generar una factura de compra proveniente de una Orden de Compra requiero que la factura sea editable para poder modificarla, independientemente de los datos que tenga la Orden de Compra",,,Gabriela,SI,NO APLICA,"a) Se cumple al cumplirse la tarea a) de la historia de usuario [2] bajo dos condiciones: 1) que la factura esté en borrador, 2) que no colide con las condiciones de la historia de usuario (46) se cargará en el la historia de usuario respectiva el tiempo por concepto de documentación (0 min)",,0
+,7,Yo como 5 solicito tener la posibilidad de no perder la rastreabilidad de los gastos incurridos.,"Al tomar una cuenta de gasto que se descarga por facturación, quiero saber cuales fueron las transacciones cargadas por gastos, y cuales fueron los descargados tomados por facturación.",,,Gabriela,SI,NO APLICA,"a) Documentar el proceso de filtrado de Entry Lines por cuentas contables con períodos, diarios, fechas y débitos y créditos, así como agrupaciones. (120 min)
+b) Despliegue con usuario final (60min)",,180
+,8,"Yo como 3 requiero poder asociar a una factura de proveedor, una factura digital previamente escaneada para que quede soporte de los documentos asociados a la misma",Al ingresar a la factura de proveedor poder tener la posibilidad de agregar documentos escaneados a una factura en particular.,,,Gabriela,SI,NO APLICA,"Adjuntar archivos a una factura
+
+a) Documentar el proceso para adjuntar un documento digital a un registro en Openerp (60 min)
+b) Despliegue con usuario final (20min)",,80
+,9,"Yo como 5, requiero poder visualizar lo que se debe a los empleados para realizar el pago a los mismos.","1.- Poder ver el asiento de gasto que se le debe al empleado.
+2.- Poder liquidar el asiento de gasto que se le debe al empleado.",,,Gabriela,"SI
+SI","NO APLICA
+NO APLICA","a) Documentar el proceso de generación de anticipos a empleados (res.partner no asociados a CICSA) home_address_id en el hr.employee.
+-a.1.- Generar Partner tipo proveedor, y establecer cuenta por pagar a empleados. y RIF (60 min)
+-a.2.- Asociar Empleado a Direccion de Casa con el partner recien creado. (60 min)
+b) Documentar el proceso de reposición de gastos a empleados:
+-b.1.- Generar Reposicion de Gastos (30 min)
+-b.2.- Asociación de Facturas de Gastos (60 min)
+-b.3.- Aprobación de la Reposición (30 min)
+-b.4.- Confirmación de las Facturas de Gastos (60 min)
+-b.5.- Aplicación de Anticipos del empleado (60 min)
+-b.6.- Pago en caso de Deuda al Empleado (60 min)
+-b.7.- Generación de Asientos (30 min)
+-b.8.- Impresión de Asientos contables (30 min)
+c) Documentar generación de Reporte de Cuentas por Pagar al Empleado con Mayor Analitico (120 mun)
+d) Esta requerimiento tambien satisface a la H.U. (36) y (41)
+e) Despliegue con usuario final (20min)",,560
+,10,"Yo como 4, requiero poder emitir un reporte donde se especifique el impuesto al IVA y el código que se colocó para solicitar el producto al SENIAT(código de recuperación y crédito fiscal CRCF), para poder reportar a petrocarabobo las retenciones fiscales.","1.- El producto debe tener un campo alfanumérico de 64 caracteres almacenable, donde se pueda ingresar el CRCF.
+2.- En la linea de la factura, quiero poder ver mas no editar el CRCF.
+3.- En el reporte debe incluir el IVA y el CRCF.(libro de compras)",,,Gabriela,"NO
+NO
+NO","BAJA
+BAJA
+BAJA","2.- onchange a partir de la orden de compra
+3.- Se utilizará el reporte de libro de compras.
+
+a) Agregar campo crdf tipo char al modelo product.template (30 min)
+b) Agregar campo crdf al modelo product.product (30 min)
+c) Documentar campo para indicar como se debe llenar y como pasa este campo a los demas modelos (90 min)
+d) Establecer proceso para escribir los codigos en el libro de compra con un metodo en el modelo fiscal.book (120 min)
+e) Agregar campo crdf al modelo fiscal book (30 min)
+f) Agregar campo crdf a la vista de las lineas de fiscal book (30 min)
+g) Agregar campo crdf al modelo account.invoice.line (30 min)
+h) Agregar campo crdf a la vista _tree_ / _form_ del modelo account.invoice.line (30min)
+i) Despliegue con usuario final (40min)",,430
+,11,"Yo como 4, requiero poder revisar las facturas cargadas por el empleado una a una para luego proceder a validarlas.","1.- Poder ingresar a una interface donde pueda revisar todas facturas de proveedor asociadas a un empleado, facturas de proveedor que el empleado cargo previamente.
+2.- Poder validar las facturas que el empleado cargó, para producir el asiento:
+GASTO 1600
+CXP .........1600",,,Gabriela,"SI
+SI","NO APLICA
+NO APLICA",Historia de usuario (9),,0
+,12,"Yo como 4 requiero poder agregar nuevos conceptos de retención de islr, modificarlos y/o eliminarlos.","Contar con una interface donde se puedan ingresar conceptos de retención, con su porcentaje de retención, sustraendo, código del concepto, si es persona natural o jurídica, si es persona residente o no.",,,Gabriela,SI,NO APLICA,"Agregar un concepto de retención de islr nuevo:
+
+a) Documentar proceso de Adición de Nuevos conceptos de retención de ISLR y tasas de retención (120 min)
+b) Despliegue con usuario final (20min)",,140
+,13,"Yo como 4 requiero poder ingresar, modificar y/o eliminar los impuestos al valor agregado.","Contar con la posibilidad de agregar el impuesto con sus porcentaje, 8%, 12%, 22%, 0%",,,Gabriela,SI,NO APLICA,"Agregar un taxes, iva
+
+a) Documentar proceso de Adición de Nuevas Alícuotas de IVA (120 min)
+b) Despliegue con usuario final (20min)",,140
+,14,"Yo como 4 requiero poder manipular la tasa de retención de los proveedores, de 75% a 100% o viceversa.",Contar con un campo donde se pueda ingresar y modificar la tasa de retención  por proveedor.,,,Gabriela,SI,NO APLICA,"Campo en el partner donde se modifica el 75% y 100%
+
+a) Documentar Formulario de Partner (120 min)
+b) Despliegue con usuario final (30min)",,150
+,15,Yo como 4 requiero poder definir si mi compañía y proveedores son agente de retención de IVA e ISLR.,Contar con un campo donde se pueda definir si una empresa es agente de Retención de IVA e ISLR.,,,Gabriela,SI,NO APLICA,"Campo en partner y compañía
+
+Se cumple con la documentación de la Historia de Usuario (14)",,0
+,16,"Yo como 4 requiero poder tener en una misma vista todos los asientos contables asociados a la factura, como lo son: ISLR, IVA, FACTURA. ","Poder ver desde la factura, todos los asientos de la misma agrupados en uno solo. Esto incluye el asiento como tal de la factura, iva, islr.",,,Gabriela,NO,ALTA,"Agregar un boton en la factura donde se pueda visualizar todos los asientos asociados a la factura como 1.
+
+a) Agregar boton a la vista account.invoice tal como en: http://goo.gl/nMg36l (30 min)
+b) Agregar metodo al modelo account.invoice tal como en: http://goo.gl/YAF9sP (30 min)
+c) Despliegue con usuario final (20min)",,80
+,17,Yo como 4 requiero poder generar la retención de IVA de una factura de proveedor.,Teniendo una factura de proveedor requiero poder generar la retención de IVA de la misma,,,Gabriela,SI,NO APLICA,"a) Documentar la Generación de la retención de IVA desde Factura de Proveedor, incluir como se evita la generación de una Retención (240 min)
+b) Documentar Generación de retenciones de IVA a terceros segun H.U. 28 (0 min - se suma en  H.U 28)
+c) Despliegue con usuario final (20min)",,260
+,18,Yo como 4 requiero poder excluir a una factura de proveedor de la retención de IVA( para el caso de cxc directas a los socios).,Dado un atributo en la factura de compra se pueda evitar la generación de la retención de IVA.,,,Gabriela,SI,NO APLICA,"Check box que ya existe en la factura de proveedor para no generar retención de iva.
+Al cumplir con la H.U. (17)",,0
+,19,Yo como 4 requiero poder realizar retención de ISLR en base a una factura de compra que contenga items donde aplica la retención.,Dada una factura de proveedor con conceptos de retención se requiere poder generar retención de ISLR a la factura de compra en cuestión.,,,Gabriela,SI,NO APLICA,"a) Documentar la Generación de retención de islr automáticamente, incluyendo visualización de asientos contables e impresion de reportes. (240 min)
+b) Despliegue con usuario final (20min)",,260
+,20,Yo como 4 requiero poder imprimir comprobante de retención de ISLR.,"Dada una retención de ISLR realizada en base a una factura, requiero poder imprimir en formato pdf el  comprobante de retención de islr.",,,Gabriela,SI,NO APLICA,"Imprimir comprobante de retención de islr desde la retención de islr.
+al cumplir con la H.U. (19) se cumple este requerimiento",,0
+,21,"Yo como 6 requiero poder  tener en formato pdf(o algún formato con que se pueda imprimir) el asiento de la factura de compra y/o venta, asiento de retención de ISLR y asiento de retención de IVA para tenerlo como soporte junto con la factura en físico.","Poder imprimir los asientos realizados en cada documento para anexarlos a la factura en físico. Documentos: Factura de Compra y Venta, Retención de ISLR e IVA.",,,Gabriela,SI,NO APLICA,"a) Documentar impresion de un vista en lista de los Entry Lines que se muestran al cumplir la H.U.(16) (60 min)
+b) Despliegue con usuario final (20min)",,80
+,22,"Yo como 4 requiero poder generar de forma automática, el archivo xml para declarar al SENIAT las retenciones de ISLR.","1.- Posibilidad de acceder a una interface donde pueda cargar todas las retenciones por periodo. para luego a partir de estos datos generar el archivo xml.
+2.- Poder almacenar el archivo xml generado para tenerlo disponible en cualquier momento.",,,Gabriela,"SI
+SI","NO APLICA
+NO APLICA","a) Documentar la generación del XML de ISLR, incluyendo la impresión del resumen de retenciones y como poder obtener a partir de la vista en tree del formulario de generación hacia un hoja de calculo (180 min)
+b) Despliegue con usuario final (15min)",,195
+,23,Yo como 5 requiero poder enviar a Leila el análisis de vencimiento de CxP para que ella apruebe cuales pagos se realizaran.,Posibilidad de imprimir el reporte análisis de vencimiento de CxP en formato pdf para enviarlo a Leila.,,,Gabriela,SI,NO APLICA,"Reporte realizado en ingelub, de analisis de vencimiento, traerse el de ingeub que tiene islr
+1.- Traer el que esta en addons-vauxoo y colocarle una capa en la localizacion para hacerlo localizable.
+Terminar de testear este modulo: account_aged_partner_balance_vw
+2.- Adaptar para localización ve este modulo que el reporte, le hacen falta los impuestos: aging_due_report
+Reporting, Generic Reporting, aged partner balance
+
+Al cumplir con la H.U. (4) se cumple este requerimiento",,0
+,24,"Yo como 5 requiero que al validar una factura, se pueda realizar el impacto financiero y a su vez el impacto analítico, como un centro de costos.","1.- Al crear la factura poder asignar en las lineas de la factura una distribución analítica.
+2.- Al validar la factura con distribución analítica en sus lineas se realicen automáticamente los asientos financieros y analíticos. Los analíticos de acuerdo a la distribución seleccionada por linea, y los financieros de la siguiente forma:
+Gasto x
+CxP........x
+3.- Posibilidad de revisar como fue realizada la distribución analítica.
+4.- Poder crear, modificar o borrar la distribución analítica.",,,Gabriela,"SI
+SI
+SI
+SI","NO APLICA
+NO APLICA
+NO APLICA
+NO APLICA","1.- Crear la Factura de proveedor con un producto ejemplo boleto.
+2.- Crear Distribución analítica para el producto boleteria, ya con las cuentas analiticas creadas previamente.
+3.- Validar la factura.
+4.- Revisar asiento financiero:
+Gasto x
+CxP.........x
+5.- Revisar como fue realizada la distribucion analítica, de la siguiente forma:
+Plan Analitico
+Journal Entrys(Con posibilidad de realizar filtrado inteligente)
+6.-Poder crear, modificar o borrar la distribución analítica.
+
+a) Documentar la generación de un plan de Cuentas Analítico, (120 min)
+b) Documentar la generación de Distribuciones Analíticas (DA), (120 min)
+c) Documentar el uso de las DA en la purchase.requisition(.line), (60 min)
+d) Documentar el uso de las DA en la purchase.order(.line), (60 min) 
+e) Documentar el uso de las DA en la account.invoice(.line), (60 min)
+f) Documentar el uso de las DA en la account.move(.line), (60 min)
+g) Documentar el analisis de las DA. en las analytic entry lines, filtros, agrupaciones, intervalos en filtros, considerar los campos nuevos agregados en otras H.U., Formas de como acceder a las analytic entry lines, i.e., Analytic char of Accounts. (300 min)
+h) Este requerimiento debe satisfacer a la H.U. (39) y (29) y (42) (0 min)
+i) Despliegue con usuario final (120min)",,900
+,25,Yo como 5 requiero poder personalizar las secuencias de los journal entry en el sistema.,"1.- Posibilidad de personalizar la secuencia para cada journal entry.
+2.- Al generar un journal entry el mismo debe tener la secuencia personalizada.",,,Gabriela,"SI
+SI","NO APLICA
+NO APLICA","a) Documentar la metadata de los CSVs para el modelo ir.sequence (90 min)
+b) Despliegue con usuario final (15min)",,105
+,26,"Yo como 3 requiero generar el reporte de revisión de quincena(relación de facturas), para reportar a petrocarabobo y lograr que petrocarabobo me reconozca los costos.","1.- Posibilidad de obtener los siguientes datos en una misma vista en lista desde openerp, los datos son: Nombre del Proveedor,RIF,N° Factura,N° de Control,Fecha Factura, Fecha Recibido, Total Factura, Base 12%, Base 8%, Monto no sujeto a IVA o exento, IVA 12%, IVA 8%, Número de Journal Entry.
+2.- Posibilidad de extraer los datos a una hoja de calculo.",,,Gabriela,"SI
+SI","BAJA
+NO APLICA","Dropbox/CICSA/Coaching/Admin&Finanzas/Adjuntos_Admin & Finanzas/Factura 0000175 - PF-0000123 - 2Q mes de Marzo 2013 Gastos reemb CICSA.xls    Pestaña 3 -> 2QMarzo2013 Bs
+Visualizar además de las columnas que ya tiene el libro de compras de openerp: fecha de recepción, numero de journal entry.
+
+a) Agregar al modelo fiscal.book.lines los campos fecha de recepción (fecha contable), journal entry (journal entry), crcf en un módulo que lo herede. (60 min)
+b) Agregar los campos fecha de recepción (fecha contable), journal entry (de la factura), crcf a la vista en _tree_ del modelo fiscal.book.lines en la vista en _form_ del modelo fiscal.book (60 min)
+c) Agregar metodos para poder traer los campos agregados en a) hacia el modelo fiscal book de los modelos en los cuales estos se encuentren declarados y grabados inicialmente. (120 min)
+d) Modificar metodo de generación de fiscal.book, que actualmente es mensual para poder incluir quincenas (fortnights) (180 min)
+e) Documentar como se genera un libro de compra por fechas y como se obtienen los valores en documento de hoja de cálculo (120 min)
+f) Despliegue con usuario final (120min)",,660
+,27,Yo como 4 requiero poder realizar el análisis de las retenciones de ISLR realizadas en un periodo de tiempo predeterminado.,"Poder visualizar la información en forma de lista, las retenciones de ISLR realizadas, la información incluye: VAT, Partner, Invoice Number, Concept Code, Base Amount, Withholding Rate, Withheld Amount.",,,Gabriela,SI,NO APLICA,"Vista de la linea del documento antes de generar el xml, Esas lineas son las que le funcionaran.
+
+Se cumple con la H.U. (22)",,0
+,28,Yo como 6 requiero colocar un tercero como agente de retención en el reporte de retenciones de IVA.,Al generar el reporte de retención de IVA poder elegir un tercero para que aparezca en el reporte.,,,Gabriela,NO,BAJA,"Agregar un partner_id2 en el modelo de retenciones de IVA.
+Al imprimir el reporte pdf de retenciones de IVA, validar que si existe este partner_id2 el nombre de la empresa debe ser partner_id2 y no el que ya tiene predeterminado el reporte.
+
+a) Agregar módulo de la ovl para retenciones de IVA a terceros (l10n_ve_wh_iva_third_party):
+-a.1.- Agregar al módulo l10n_ve_withholding_iva en el modelo de retenciones IVA el campo third_party (m2o: res.partner). (30 min)
+-a.2.- Agregar al módulo l10n_ve_wh_iva_third_party en la vista _form_ del modelo de retencion IVA al proveedor el campo third_party_id, xpath = /field[@name='partner_id'] position=after, incluir en la vista domain=[(company_id = False), (id!=partner_id)]. (30 min)
+-a.3.- Modificar lineas 171 al 173 de este reporte: http://goo.gl/ZFxqhp en ovl para incluir third_party_id (60 min)
+-a.4.- Prueba YAML para retencion de IVA de terceros (120 min)
+b) Documentar Generación de Retenciones de IVA a terceros en proceso de generación de Retenciones de IVA en H.U. 17 (60 min)
+c) Despliegue con usuario final (60min)",,360
+,29,"Yo como 3 requiero poder realizar filtrado de las distribuciones analíticas, para poder determinar cual es el monto total de la factura de venta con sus impuestos.","Poder visualizar el monto para realizar factura de venta, visualizando las distribuciones analíticas por bases imponibles.",,,Gabriela,NO,ALTA,"a) Agregar partner_id, analytics_id y tax_code_id en el modelo account.analytic.lines (30 min)
+b) Agregar super de metodo create del modelo account.analytic.lines para agregar los valores correspondientes de partner_id, analytics_id y tax_code_id para que se pueda capturar esta escritura: http://goo.gl/SxYREC (60 min)
+c) Agregar campos partner_id, analytics_id y tax_code_id a vista _tree_ y _form_ del modelo account.analytic.lines (60 min)
+d) Agregar partner_id, analytics_id y tax_code_id como elementos de agrupación en la vista _search_ ubicada en: Reporting-> Accounting -> Analyitic Entries Analysis (60 min)
+e) Agregar modificaciones al método write de account_analytic_plans que ejecuta las modificaciones de las Distribuciones Analíticas (180 min)
+f) Agregar Documentación sobre Agrupación por estos dos campos a la H.U. (24) (60 min)
+g) Despliegue con usuario final (45min)",,495
+,30,Yo como 3 requiero poder realizar un cobro de varias facturas de venta.,Posibilidad de realizar el cobro varias facturas de venta.,,,Gabriela,SI,NO APLICA,"Customer Payment
+a) Documentar proceso de cobro a Clientes en Openerp, tanto para moneda local como para moneda extranjera, explicar como se generan los asientos, y cuando se genera un asiento de diferencial cambiario. E indicar dónde se configuran las cuentas de diferencial cambiario (300 min)
+b) Despliegue con usuario final (60min)",,360
+,31,Yo como 3 requiero poder realizar el asiento de Banco contra CxC al momento de realizar el pago.,Al momento de realizar el cobro generar automáticamente el asiento de Banco contra CxC.,,,Gabriela,SI,NO APLICA,Se cumple con H.U.30 (0 min),,0
+,32,"Yo como 5 requiero poder disponer de los reportes de balance general, estado de resultados, mayor analítico, reporte de IFRS personalizable.","1.- Generar en formato pdf el reporte de Balance General.
+2.- Generar en formato pdf el reporte de Estado de Resultados.
+3.- Generar en formato pdf el reporte de Mayor Analítico.
+4.- Generar el formato pdf en reporte de IFRS.",,,Gabriela,"SI
+SI
+SI
+SI","NO APLICA
+NO APLICA
+NO APLICA
+NO APLICA","a) Documentar Generación de Plantillas de Reportes con módulo Account Financial Report
+-a.1.- Documentar Formulario de la Plantilla (180 min)
+-a.2.- Documentar Cómo generar un Balance General, (90 min)
+-a.3.- Documentar Cómo genarar un Estado de Resultados, (90 min)
+-a.4.- Documentar Cómo generar un Balance de Comprobación. (90 min)
+-a.5.- Documentar Cómo generar un Reporte de Asientos Diarios (90 min)
+-a.6.- Documentar Cómo generar un Reporte Mayor Analítico (90 min)
+b) Documentar como se imprimen los reportes Plantilla (60 min)
+c) Documentar Formulario de módulo IFRS (180 min)
+d) Documentar Cómo generar un reporte IFRS (240 min).
+e) Despliegue con usuario final (60min)",,1170
+,33,"Yo como 4 requiero que en todo documento donde aparezca la denominación social de CICSA, aparezca el RIF de la empresa.","Para cualquier reporte generado que contenga la denominación social de CICSA, aparezca el RIF.",,,Gabriela,NO,,"a) modificar reportes heredando según sea el caso para agregar RIF a todo documento que se necesite impreso , rought stimation (30 min x 50 reportes)",,1500
+,34,Yo como 6 requiero poder realizar las facturas de compra en openerp en multi moneda.,"Al realizar factura de compra, poder realizarlas tanto en bolívares como en dolares.",,,Gabriela,SI,NO APLICA,"Cargar las monedas.
+Al cumplir H.U (3) se cumple este requerimiento
+Despliegue con usuario final (20min)",,20
+,35,"Yo como 6 requiero poder emitir el reporte de balance general con los montos solo en Bs y también difrenciados por las distintas monedas, de forma que aparezca una columna de Bs y una columna de $, pero sin recalcular el monto de la columna bs en la de $, si no que la columna de $ tenga lo acumulado en esa cuenta durante cada una de las transacciones al cambio en ese momento.","1.- Al generar el balance general en pdf poder visualizar el valor de cada cuenta en bs y $ pero por conversión histórica y no al momento.
+2.- Al generar el balance poder emitir el mismo solo en bs para efectos de la legislación venezolana",,,Gabriela,"NO
+SI","ALTA
+NO APLICA","Reporte de account_financial_report modificado
+El que ya esta en openerp
+
+a) Modificación de Parser de account_financial_report para hacerlo sensible a multimonedas sin conversion (720 min)
+b) Modificación de Reporte para hacerlo ajustado a las nuevas celdas para monedas (240 min)
+c) Despliegue con usuario final (45min)",,1005
+,36,"Yo como 5 requiero poder gestionar la caja chica en el sistema, para poder descontar la caja y reembolsar el dinero.","1.- Posibilidad de cargar facturas de gastos por empleado.
+2.- Posibilidad de procesar facturas contablemente.
+3.- Posibilidad de diferencias facturas según sean deducibles o no deducibles.",,,Gabriela,"SI
+SI
+SI","NO APLICA
+NO APLICA
+NO APLICA","Se cumple con H.U. 9 (0 min)
+Despliegue con usuario final (45min)",,45
+,37,Yo como 8 requiero que se establezcan los roles para determinar los niveles de aprobación según tabla: Book of Power Delegation,"1.- Al revisar la tabla comparar con openerp para establecer si se cumplen los permisos de acuerdo a cada modelo.
+2.- Asunsiones: Segun cada departamento existiran niveles que se han modificado.",,,Gabriela,"NO
+NO","ALTA
+ALTA",Botones de aprobar o no como el de la compra.,8/10/2011,
+,38,Yo como 4 requiero poder descontar el impuesto(crédito fiscal) que se tiene al proveedor y que petrocarabobo luego descontará en sus pagos a CICSA de las facturas de proveedor.,"1.- Poder rastrear las facturas y retenciones de compra y venta.
+2.- Poder conciliar las relación de retenciones que envía petrocarabobo con las retenciones ya realizadas en el sistema.",,,Gabriela,SI,NO APLICA,"Yo como 4 requiero poder descontar el impuesto(crédito fiscal) que se tiene al proveedor y que petrocarabobo luego descontará en sus pagos a CICSA de las facturas de proveedor.        
+a) Documentar proceso de Descuento del credito fiscal retenido en Nombre de PetroCarabobo por CICSA (240 min)
+b) Despliegue con usuario final (120min)",,360
+,39,Yo como 5 requiero poder distribuir el impacto de un departamento CICSA en los centros de distribución.,"1.- Posibilidad de agregar los Centros de Costos por Departamento por departamento y los proyectos por departamento.
+2.- Posibilidad de agregar distribución analítica basados en las cuentas analíticas creadas para cada proyecto y departamento.",,,Gabriela,SI,NO APLICA,"Esta H.U. se satisface con H.U. (24) y (29) (0 min)
+Despliegue con usuario final  (20min)",,20
+,40,Yo como 6 requiero realizar cierres mensuales en las cuentas de resultados,Al generar un asiento con las respectivas cuentas de gastos y con una que lanza ese saldo al balance debe  observarse en el estado de resultados saldo cero.,,,Gabriela,SI,NO APLICA,"Proceso Manual
+
+a) Documentar proceso de Cierre Mensual de Cuentas de Resultados, este proceso se complementa con la documentación de los Asientos Recurrentes (120 min)",,120
+,41,Yo como 8 requiero poder realizar anticipos a los empleados.,1.- Al realizar un anticipo a algún empleado requiero que afecte una cuenta definida por empleado. Realizando el siguiente asiento de anticipo.,,,Gabriela,SI,NO APLICA,"Hacer proceso de anticipos.
+imagen de pizarra.
+
+Esta H.U. se satisface con Documentación de H.U. (9)
+Despliegue con usuario final (60min)",,60
+,42,Yo como 5 requiero colocar en cada linea de la requisición la distribución analítica.,"1.- Al momento de crear una línea en la requisición de compra debo poder asignar la distribución analítica correspondiente.
+2.- La distribución analítica que asigné en la compra, debo poder visualizarla en la factura de compra.",,,Gabriela,NO,ALTA,"Agregar campo en la linea de la PR la distribución analítica. (30)
+Heredar distribución analítica a la PO. (40)
+Heredar al PK la DA de PO(no es necesario mostrar en lineas) (40)
+Heredar en la Factura de Compra la Distribución Analítica de Picking (60)
+
+a) Este requerimiento es parcialmente satisfecho por H.U. (6) de Compras & Contrataciones. (0 min)
+b) Agregar super a metodo _prepare_invoice_line() de stock.picking: http://goo.gl/SfS2f1 , para trasladar la Distribución Analítica de la purchase.order.line hacia la account.invoice.line, actualizando el diccionario de la siguiente forma dic['analytics_id'] = move_line.purchase_line_id.analytics_id.id (60 min)
+c) Documentar esta información en el H.U. 24 (0 min)",,60
+,43,Yo como 5 requiero poder generar facturas a partir de la recepción de la factura original con la correspondiente PO.,"1.- Poder verificar las condiciones de orden de compra con respecto a factura en físico.
+2.- Poder verificar el precio de la factura en físico vs precio de lo acordado en orden de compra.
+3.- Verificar montos consumidos contra PO.
+4.- Registrar compras parciales contra PO.",,,Gabriela,SI,NO APLICA,"1.- Como 2.
+2.- Buscar la orden de compra en sistema según orden de compra en físico y comparar factura en físico con orden de compra en sistema.
+3.- Verifico en pk in lo recibido contra factura en físico.
+4.- Crear varios pk por PO.
+
+Este requerimiento se satisface con H.U. (3) 
+Despliegue con usuario final (45min)","1,2,3,4,5,9",45
+,44,"Yo como 5 requiero que al momento de la recepción del servicio se realice automáticamente un asiento de Good Receive de la siguiente forma:
+Gastos x
+Acrual....x",,,,Gabriela,,,Este requerimiento no se considerará en esta etapa. tal como se discutió durante el coaching,,0
+,45,Yo como 5 requiero generar los asientos contables de las facturas de socios ,"1. Que se impute los gastos y el IVA en una cuenta transitoria a cobrar
+2. Al momento de facturar al socio se genere la real cuenta por cobrar y se descargue en la cuenta transitoria",,,,,,"a) Documentar proceso de generación de Factura de Proveedores que serán cobradas en el Futuro a los socios (120 min)
+b) Despliegue con usuario final (60min)",,180
+,46,"Yo como 5 solicito que el precio unitario y la cantidad en la factura de compra debe ser menor o igual al de la orden de compra, pero no mayor.","1.- Se tiene una PO con un producto de 10 unidades.
+2.- Se genera una factura de proveedor con el mismo producto pero de 11 unidades.
+3.- Resultado Esperado: El sistema debería advertir que el producto x, supera la cantidad de unidades de la factura de compra. ",,,NO,,,"a) Agregar campo purchase_line_id a modelo account.invoice.line (30 min)
+b) Agregar super a metodo _prepare_invoice_line() de stock.picking: http://goo.gl/SfS2f1 , para trasladar la relación purchase_line_id del stock.move hacia la account.invoice.line, actualizando el diccionario de la siguiente forma dic['purchase_line_id'] = move_line.purchase_line_id.id (60 min)
+c) Agregar super a metodo write() de account.invoice.line para que sense los cambios en los campos 'price_unit' y 'quantity' y los compare con sus elementos respectivos en purchase.order.line, informando en los casos en el que el 'price_unit' sea superior, al de la purchase.order.line, la cantidad a facturar supera la cantidad remanente a facturar en la purchase.order.line, o cuando el price_subtotal a facturar sea mayor al price_subtotal remanente por facturar. (180 min)
+d) Agregar método para escribir log en account.invoice de lo que sucede en c) (120 min)
+e) Despliegue con usuario final (60min)",,450

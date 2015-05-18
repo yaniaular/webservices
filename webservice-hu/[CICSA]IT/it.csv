@@ -1,0 +1,17 @@
+date,ID,Historias de Usuario,Criterios de Aceptación,Existe,Nivel de Dificultad,Observaciones Técnicas,
+2014-02-06,1,Yo como analista IT requiero manejar la entrada de salida de equipos de informática y consumibles para controlar el inventario asociado al departamento ,"1. Dar entrada y salida de almacén a equipos de computación y tener rastreabilidad a través de serial único de los movimientos
+2. Dar entrada y salida de almacén a equipos de computación que no estén serializados y mantener la rastrabilidad de los movimientos
+3. Poder hacer una búsqueda por ""descripción"" en los movimientos de inventario para ubicar los moviemientos de productos no serializados",YES,NA,"Para el criterio 2, se debe procedimentar colocar una descripción mas ampliada del movimiento de inventario 
+
+a) Documentación de Proceso de Ingreso de Mercancía Serializada, indicar en la documentación de Formulario de Productos que esto se hará unica y exclusivamente para IT, (120 min)
+b) Documentación proceso humano o metodo programado en python para mantener las relaciones en los elementos del wizard recepcion con los de purchase.order.line (240 min)
+",360
+,2,Yo como analista de IT requiero mover de una locación a otra equipos informáticos que no estén asociados a una persona en partícular,"1. Poder mover un equipo de un departamento o área de CICSA a otra área operativa de la misma compañía.
+2. Visualizar en un reporte la cantidad de equipos que se encuentra en cada locación de CICSA
+",YES,NA,"Se debe configurar las locaciones de acuerdo a .csv provisto por IT. La mayoría serían locaciones internas porque los equipos siempre serán de CICSA
+
+a) Documentación de Generación de Arboles de Ubicaciones, (120 min)
+b) Documentación de Salida de Mercancía Serializada. (120 min)
+c) Documentación de Informes para determinar ubicación y mercancias, tanto desde ubicaciones como desde mercancia. (120 min)",360
+,3,"Yo como encargado de servicios generales requiero consumir los conceptos de los contratos de servicios de acuerdo a como se vayan ejecutando, para poder tener la relación de lo contratado versus lo consumido","1. Dar aceptación del servicio prestado y que se disminuya automáticamente del total esperado
+2. Tener un reporte en dinero y cantidades de los servicios contratados en términos de consumido vs consumir",YES,N/A,El trabajo realizado en la HU de los Servicios Generles aplica idem para esta HU de IT. La explicación que se haga a Servicios Generales sobre esta funcionalidad debe ser la misma que se haga con IT (en simultáneo). Por tanto la estimaión de tiempo de la explicación de este proceso ya esta considerada en la estimación hecha e la HU de servicios generales,

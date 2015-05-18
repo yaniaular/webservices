@@ -1,0 +1,3 @@
+id,model,name,ref,date,period_id:id,journal_id:id
+str,str,str,str,str,ref,ref
+am_cicsa_19000000000,account.move,Comp-19000000000,Saldos iniciales 2014,2014-01-01,cicsa_data.ap_cicsa_00,cicsa_data.aj_cicsa_general

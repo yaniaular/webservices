@@ -1,0 +1,289 @@
+date,ID,Historias de Usuario,project_id,Criterios de Aceptación,Check,Prioridad,Existe,Observaciones Técnicas,Nivel de Dificultad,Estimación (min)
+2014-02-07,2,Yo como 2 requiero activar/desactivar un proveedor para poder incorporarlo/desincorporarlo dentro de los proveedores disponibles para realizar compras,162,"1. Tener la opción de activar/descativar un proveedor
+2. Consultar el histórico de transacciones de un proveedor que este inactivo",OK,1,YES,"-a) Documentacion de Ficha res.partner (300 min)
+a) Documentación de proceso en Openerp (45 min)
+b) Revisión funcional y entrega a usuario (30min)",BAJA,375
+,3,Yo como 1 deseo un usuario con privilegios de Product Manager y Partner Manager para evitar que cualquier usuario pueda modificar las fichas de proveedores y productos ,162,"1. Hacer pruebas de modificación de productos y partners (proveedores) con un usuario con privilegios para hacerlo.
+2. Hacer las mismas pruebas de modificación de productos y partners (proveedores) del criterio anterior con un usuario sin privilegios y que el sistema no le permita dicha opción",OK,1,YES,"-b) Generar ir.model.access/ir.rules? para objecto product.product C[si]R[si]U[si]D[si]
+-b) Generar ir.model.access/ir.rules? para objecto product.product C[no]R[si]U[no]D[no]
+-b) Generar ir.model.access/ir.rules? para objecto res.partner C[si]R[si]U[si]D[si]
+-b) Generar ir.model.access/ir.rules? para objecto res.partner C[no]R[si]U[no]D[no]
+-c) Hacer prueba yaml para comprobar los permisos de los usuarios.
+a) DocumentaciOn de proceso en Openerp de cOmo configurar un usuario con privilegios para modificaciOn de Productos (45 min)
+b) DocumentaciOn de proceso en Openerp de cOmo configurar un usuario sin privilegios para modificaciOn de Productos (45 min)
+c) DocumentaciOn de proceso en Openerp de cOmo configurar un usuario con privilegios para modificaciOn de Partners (45 min)
+d) DocumentaciOn de proceso en Openerp de cOmo configurar un usuario sin privilegios para modificaciOn de Partners (45 min)
+e) Revisión funcional y entrega a usuario (60min)
+NOTA: queda pendiente discutir si será la creación de ir rule o access rule
+http://goo.gl/MkumcL",BAJA,240
+2014-02-07,4,"Yo como 1 requiero ver las requisiciones de compra por orden de prioridad, para hacer una evaluación de prioridades",162,"1. Dado una requisición de compra, el usuario debe poder colocar la prioridad de su requerimiento: emergencia, urgencia, normal
+2. Dado una lista de las requesiciones con prioridades, el analista de compras debe poder re-priorizar las requisiones de acuerdo a los criterios propios
+3. Dada la lista de requesiciones de compra, se debe poder filtrar por el campo de prioridad",OK,2,NO,"a) Agregar campo selection priority  [(05,'emergency'),(10,'urgent'),(15,'normal')] al modelo purchase requisition (30 min)
+b) Agregar campo selection priority a la vista _form_ del modelo purchase requisition (30 min)
+c) Agregar campo selection priority a la vista _tree_ del modelo purchase requisition (30 min)
+d) Agregar parAmetro _order = 'priority asc' en modelo purchase.requisition (30 min)
+e) Agregar Filtro segUn priority en vista _search_ del modelo purchase requisition (30 min)
+f) Agregar Agrupacion por priority en vista _search_ del modelo purchase requisition (30 min)
+g) Agregar el campo priority como campo buscable en la vista _search_ hacerlo como en http://goo.gl/STTFcx para obtener goo.gl/ph1YzT (30 min)
+h) Revisión funcional y entrega a usuario (60min)
+i) Documentar el formulario de purchase.requisition (300 min)
+j) Documentar la búsqueda por campo prioridad (30 min)",MEDIA,600
+2014-02-07,5,Yo como 2 requiero que la persona que hace una requisisión pueda colocar en la requisición de compra la descripción exacta del producto que requiere,162,"1. Dada la requisición de compra, se debe poder escribir la descripción del producto en un campo junto a la selección de la categoría de dicho producto. Categoría = Tubos. Descripción = detalle específico del requisitor ",OK,1,NO,"a) Agregar campo description tipo texto en modelo purchase.requisition.line (30 min)
+b) Agregar campo description en vista _form_ xpath/line_ids/product_id after http://goo.gl/4ySMwN (30 min)
+c) Agregar super a mEtodo make_purchase_order http://goo.gl/6jbWm0 de modelo purchase.requisition para poder trasladar campo description de purchase.requisition.line al campo name del modelo purchase.order.line (60 min)
+d) Revisión funcional y entrega a usuario (60min) [explicar también proceso P1]
+e) Documentación del campo description en la ficha del modelo purchase.requisition (30 min)",BAJA,210
+2014-02-07,6,Yo como 2 requiero que el requisitor pueda colocar el centro de costo en cada renglón o línea de la requisición de compra,162,"1. Dado el proceso de creación de una requisición, se debe asignar por cada línea de la requisición el centro de costo al que se va imputar la compra",,3,NO,"Crear una columna en la ficha de requisición con la ""Distribución"" analítica. Por cada departamento de CICSA existe una cuenta analítica y esa se desglosa en los diferentes proyectos asignados. Luego se genera una distribución con el nombre del departamento. En dicha distribución se estipulan los porcentajes a prorratear de los proyectos. Ver imagen adjunta (39-HU1, 39-HU2, 39-HU3, todas de finanzas)
+a) Agregar campo analytics_id m2o (account.analytic.plan.instance) al modelo purchase.requisition.line (30 min)
+b) Agregar campo analytics_id en vista _form_ xpath/line_ids/product_id after required in view (30 min)
+c) Agregar super a mEtodo make_purchase_order de modelo purchase.requisition para poder trasladar campo analytics_id de purchase.requisition.line al campo analytics_id del modelo purchase.order.line (60 min)
+d) Revisión funcional y entrega a usuario (60min)
+e) Documentación del campo Distribución Analítica en la ficha de Purchase.Requisition (30 min)",MEDIA,210
+2014-02-07,7,"Yo como 1 requiero que las notificaciones de las requisiciones (y sus correcciones sucesivas), las aprobaciones y ordenes de procesamiento queden registradas en el sistema",162,"1. Se escribe las correcciones u observaciones en el cuadro de mensaje del documeto Requisición de Compra y se evidencia que queda registro de la persona que escribió, la fecha y hora.
+2. Se comprueba que llega un correo electrónico a los seguidores del documento Requisición de Compras, inmediatamente después de haberse escrito el mensaje del punto anterior.",,,YES,"1.- Sobre-escribir método write del módelo purchase.requisition. usando esta aproximación http://goo.gl/vKwPXo (60m)
+2.- Evaluar el tipo de campos que vienen el diccionario, si no es relacional se busca el valor anterior y se muestra la disferencias en el mensaje. Si el campo es o2m o m2m, evalua el 1er elemento de la lista para determinar la acción que se está realizando. (70m)
+Note: No es necesario sobre-escribir en las lineas porque con el padre puedo saber si se modificaron o no. 
+3. - Dcoumentación, Revisión funcional y entrega a usuario (150min) [Revisar y explicar procesos P2 y P3]",BAJA,280
+2014-02-07,8,Yo como 1 requiero que los usuarios de niveles de aprobación superiores al usuario que llena la requisición de compra sean seguidores de dicho documento,162,"1.- Dado que un usuario A llena una requisición de compras, se debe agregar automáticamente como seguidor del documento los usuarios con nível de aprobación superior a ""A"" cuando se salve el documento.
+2.- Dados unos niveles de aprobación desde la Purchase Requesition se deben poder agregar estos niveles para que no se pueda avanzar con la misma hasta que este aprobada por los entes asociados.",,,NO,"a) Agregar al modelo 'hr.job' el campo 'auth_level' selection ('L1', 'L2', 'PM', 'CM', 'BOD').
+b) Agregar data a 'hr.job' on lo contenido en el BOF/Attachment 1 ""LIST OF OFFICER"".
+c) Agregar al modelo 'hr.employee' el campo 'level_ids' tipo m2m(hr.job) con domain =[(auth_level=True)].
+d) Agregar nuevo modelo 'approval.line'.
+e) Agregar al modelo 'approval.line' el campo 'type' tipo selection([L1,L2,PM,MC,BOD]).
+f) Agregar al modelo 'approval.line' el campo 'amount' tipo float().
+g) Agregar nuevo modelo 'schedule.power'.
+h) Agregar al modelo 'schedule.power' campo 'name' tipo char tipo char.
+i) Agregar al modelo 'schedule.power' campo 'line_ids' tipo o2m(approval.line).
+j) Agregar al modelo 'schedule.power' campo 'state' tipo selection('draft',etc.)
+k) Agregar al modelo 'schedule.power' campo 'model' typo reference(ir.model).
+l) Agregar data conveniente de requisition al modelo 'schedule.power' de la tabla BOD/SCHEDULE OF POWERS. Esto data debe ir en un nuevo modulo aparte de data de inicialización.
+m) Agregar nuevo modelo 'schedule.power.line'.
+n) Agregar al modelo 'schedule.power.line' el campo 'requisition_id' tipo m2o(purchase.requisition).
+o) Agregar al modelo 'schedule.power.line' el campo 'type' tipo selection([L1,L2,PM,MC,BOD]).
+p) Agregar al modelo 'schedule.power.line' el campo 'employee_id' tipo m2o.(hr.employee).
+q) Agregar al modelo 'schedule.power.line' el campo 'approved' tipo bool().
+r) Agregar al modelo 'schedule.power.line' el campo 'state/stage' (VAGO).
+s) Agregar al modelo 'purchase.requisition' campo 'requisitor_employee_id' tipo m2o(hr.employee).
+t) Agregar al modelo 'purchase.requisition' campo 'requisitor_department_id' tipo m2o(hr.department).
+u) Agregar al modelo 'purchase.requisition' campo 'state' tipo selection('draft',etc).
+v) Agregar al modelo 'purchase.requisition' campo 'power_ids' tipo o2m(schedule.power.line).
+w) agregar al modelo ''schedule.power.line"" el campo 'departmetn_id', tipo m2o(hr.department).
+x) agregar al modelo ''schedule.power.line"" el campo 'max_amount' tipo float().
+-------
+EJEMPLO
+-------
+
+_model='purchase.requisition'
+_column = {
+*amount*
+requisitor_employee_id:m2o(hr.employee)
+requisitor_department_id:m2o(hr.department)
+state:selection('draft',etc)
+power_ids : o2m(schedule.power.line)
+}
+
+_model='schedule.power'
+_columns = {
+'name'
+'line_ids':o2m(approval.line)
+'state':selection('draft',etc.)
+'model':reference()
+}
+
+_model=''approval.line""
+_columns = {
+'type':selection([L1,L2,PM,MC,BOD])
+'amount':float()
+}
+
+_inherit='hr.employee'
+_columns={
+level_ids: m2m(hr.job) domain =[(auth_level=True)]
+}
+
+_name = 'hr.job'
+_column = {
+'auth_level' :selection([L1,L2,PM,MC,BOD])
+*'department_id': m2o('hr.deparment')*
+}
+
+_model=''schedule.power.line""
+_columns = {
+'requisition_id':m2o(purchase.requisition)
+'type':selection([L1,L2,PM,MC,BOD])
+'employee_id': m2o(hr.employee)
+'approved':bool()
+state/stage
+}
+
+",ALTA,240
+2014-02-07,9,Yo como gerente de compras requiero que se pueda asignar a una requisición un analista de compras para consultar cuales casos está manejando cada analista,162,"1. Dada el formulario de la requisición, debe haber un campo para asignar a un usuario (analista de compra) del sistema
+2. Dada la lista de requisiciones, debe habe un filtro para agrupar por analista de compra todas las requisiciones",OK,2,NO,"a) Agregar campo purchaser_id (res.users) m2o al modelo purchase.requisition (30 min)
+b) Agregar campo purchaser_id a la vista _form_ xpath /field[@name='user_id'] position=after (30 min)
+c) Agregar campo purchaser_id a la vista _tree_ xpath /field[@name='user_id'] position=after (30 min)
+d) Agregar Agrupación para campo purchaser_id en vista _search_ (30 min)
+e) Agregar ACL para que user_id solo pueda ver purchase.requisition donde ['|', '|', ('user_id', '=', uid), ('purchaser_id', '=',uid), ('purchaser_id', '=', False) ], esto es, que un usuario pueda ver las purchase.requisition que ha creado, las purchase.requisition que le han sido asignadas, o las purchase.requisition que no tienen asignación (30 min)
+f) Revisión funcional y entrega a usuario (30min)
+g) Documentacion campo purchase_id en formulario de purchase.requisition y seguridad del mismo (30 min)",BAJA,210
+2014-02-07,11,"Yo como 2 requiero que no se permita aceptar un producto/servicio en caso de que la duración del contrato con el proveedor haya expirado, para así evitar que se carguen y/O paguen facturas a proveedor fuera de contrato",162,"1. Dado que la fecha de recepción del producto/servicio está fuera del rango de fecha del contrato, el sistema debe bloquear la recepción con un mensaje de alerta.
+2. Dado que no ha habido recepción de producto/servicio no se puede cargar la factura de proveedor",OK,1,NO,"a) Agregar campo date_contract_expiry tipo date que se llame ""Expiración de Contrato"" al modelo purchase.order (30 min)
+b) Agregar campo date_contract_expiry a la vista _form_ de purchase.order (30 min)
+c) Agregar campo date_contract_expiry tipo date que se llame ""Expiración de Contrato"" al modelo stock.picking (30 min)
+d) Agregar super a método _create_pickings() del modelo purchase.order para trasladar el campo date_contract_expiry al modelo stock.picking (60 min)
+e) Agregar super a método action_process() del modelo stock.picking para validar que la fecha de recepción (today) no es mayor que la fecha de Expiración de Contrato, si la fecha es mayor se eleva una advertencia y se sale del processo, en caso contrario se llama al metodo original (60 min) 
+f) Agregar un workaround al metodo action_process() del modelo stock.picking para que se pueda validar sin importar si la fecha de Expiración de Contrato se ha superado. (30 min)
+g) Agregar super a metodo copy() para tomar del id original el campo date_contract_expiry y escribirlo en el elemento nuevo stock.picking (30 min)
+h) Agregar super a metodo open_invoice() del modelo stock.invoice.onshipping para que compare la fecha date_contract_expiry de los elementos que van en el context('active_ids') si algún elemento tiene una fecha anterior a la fecha de hoy (today) cuando la fecha no esté vacía, entonces eleve una excepción. (45 min)
+i) Agretar un workaround a g) para poder generar facturas a partir de picking sin importar que la fecha de Expiración de Contrato se ha superado. (45 min)
+j) Agregar boton para workaround h) en la vista del modelo stock.picking (30 min)
+k) Agregar boton para workaround i) en la vista del modelo stock.invoice.onshipping (30 min)
+l) Revisión funcional y entrega a usuario (60min)
+m) agregar a vista __search__ el campo date_contract_expiry para que sea buscable
+n) Documentacion de proceso de Validación de Fecha de Expiración de Contrato. (180 min)
+o) Validar que metodo open_invoice() del modelo stock.invoice.onshipping no permita generar facturas si stock.picking.state!=done (45 min)",ALTA,705
+2014-02-07,12,"Yo como 2 requiero tener reportes de duración, de aprobación, de requisición y orden de compra",162,"1. Se emite un reporte con la lista de requesiciones y una columna que contenga el total de días desde que se creo la requisición de compra hasta que se aprobo la requisición.
+2. Se emite un reporte con la lista de ordenes de compra con una columna que indique el total de días desde que se aprobo la requisición hasta que se aprobo (se emitió) la orden de compra",OK,1,NO,"a) Workflow de requisición: ( draft ) --trans--> ( budget approval ) --trans--> ( bdp approval ) --trans--> ( approved ) --trans--> ( assigned ) --trans--> ( sent2bidders ) --trans--> ( awarded ) ,  ( bdp approval ) / ( budget approval ) / ( approved ) / ( assigned ) / ( sent2bidder ) --trans--> (cancel) --trans--> (draft) (720 min)
+b) campos fecha para cambios entre transiciones y traslados a modelo purchase.order 12x30min (360 min)
+c) campos de usuarios que hicieron transiciones en el modelo purchase requisition y log correspondiente 12 x 30 min (360 min)
+http://www.mindmeister.com/383760669
+d) Revisión funcional y entrega a usuario (60min)
+e) Documentación del Workflow de purchase.requisition y uso del reporte (180 min)",,1680
+2014-02-10,13,"Yo como 1 requiero definir en cada linea de la PR y PO un renglón (número de secuencia), para poder organizar las mismas.",162,"1.- Dada una PR se requiere poder agregar un renglón o secuencia por cada linea.
+2.- Dada una PO se requiere poder agregar un renglón o secuencia por cada linea
+3.- Si una PR generará una PO, el renglón añadido en la PR debe ser el mismo de la PO.",,,"NO
+NO
+NO","por Ergonomia y evitar que el sequence que es susceptible de ser modificado sin previo aviso, decidimos no usar el nombre sequence y usar priority.
+a) Agregar campo priority al modelo purchase.requisition.line (30 min)
+b) Agregar campo priority a la vista tree del modelo purchase.requisition.line (30 min)
+c) Agregar campo priority al modelo purchase.order.line (30 min)
+d) Agregar campo priority a la vista tree del modelo purchase.order.line (30 min)
+e) Agregar super a metodo make_purchase_order() para trasladar los valores priority del PRL al POL (60 min)
+f) Agregar al modelo POL y PRL order by sequence (30 min)
+f) Revisión funcional y entrega a usuario (30min)
+g) Documentacion del campo en la ficha del PR y PO (30 min)","MEDIA
+MEDIA
+MEDIA",240
+2014-02-10,15,"Yo como 3 y 1 requiero colocar en purchase requisition  que tipo de estimación se maneja, los tipos son: previous service, marker survey, other. Con other se habilita un campo texto para escribir.",162,Dada una purchase requesition se requiere poder agregar  el tipo de estimación.,OK,,NO,"1.- Agregar campo selection en purchase.requisiton llamado Tipo de Estimación(estimate) con los valores: Previous Service(pservice), Marker Survey(marker), Other(other). (30m)
+2.- Agregar campo de tipo texto, estimate_other, el cual se habilitará solo cuando el valor en el campo selection definido en (1) sea other.(40m)
+3.- Agregar a la vista un readonly!=other para el campo estimate_other (30 min)
+3.- Añadir traducción a cada campo nuevo añadido. (40m)
+4.- Revisión funcional de cada item desarrollado. (60m)",MEDIA,200
+2014-02-10,16,Yo como 1 requiero poder utilizar proveedores de la bd o sugerir proveedores que no existan en la PR.,162,Dada una PR se requiere poder sugerir un proveedor que no exista en el sistema,OK,1,NO,"1.- Agregar campo de tipo texto llamado Suggested Partner suggested_partner en purchase.requisition. (40m)
+2.- Agregar campo m2m suggested_partner_ids en purchase.requisition (180m)
+3.- Añadir traducción a cada campo nuevo añadido. (40m)
+4.- Revisión funcional de cada item desarrollado. (60m)",BAJA,330
+2014-02-10,17,"Yo como 1 requiero agregar a la PR el tiempo que se tardará en ejecutar el servicio y el tiempo en que se comenzará a recibir el producto.
+Delivery /Execution Time(Cuanto va a durar/Cuanto va tardar en entregarmelo)",162,"1.- Dada una PR poder visualizar el Execution Time, que es el tiempo en que se tardará en ejecutar el servicio
+2.- Dada una PR poder visualizar el Delivery, que es el tiempo en que se tardará en comenzar a recibir el producto.",OK,1,"NO
+NO","1.- Añadir nuevo campo llamado execution_time(Execution Time) de tipo date al modelo purchase requisition. (40m)
+2.- Añadir nuevo campo llamado delivery_time(Delivery Time) de tipo date a la purchase.requisition. (40m)
+3.- Añadir traducción a cada campo nuevo añadido. (40m)
+4.- Revisión funcional de cada item desarrollado. (60m)","MEDIA
+MEDIA",180
+2014-02-10,19,"Yo como 2 requiero agregar una secuencia personalizable PR, la secuencia debe ser asi: RFQ-%Year-%SEQ-DPTO",162,Por cada PR generar el código de secuencia consecutivo según este formato: RFQ-%Year-%SEQ-DPTO,OK,1,NO,"1.- Crear una secuencia con los valores RFQ-%Year-%SEQ (40m)
+2.- Añadir al modelo hr.department un campo código. (40m)
+3.- Al momento de confirmar la purchase.requisition añadir a la secuencia el código del departamento. (240m)
+4.- Añadir traducción a cada campo nuevo añadido. (30m)
+5.- Revisión funcional de cada item desarrollado. (60m)
+Documento asociado: http://www.mindmeister.com/383653482",MEDIA,410
+2014-02-10,20,Yo como 1 requiero poder discriminar las PR entre PR de servicios o PR de materiales.,162,Dada una PR poder especificar el tipo de PR.,OK,1,NO,"1.- Agregar un campo de tipo selection en el modelo purchase.resquisition, los valores del campo serán: Servicios(service), Materiales(materials). (40m)
+2.- Añadir traducción a cada campo nuevo añadido. (30m)
+3.- Revisión funcional de cada item desarrollado. (50m)
+4.- Agregar filtro para campo tipo (30 min)",MEDIA,150
+2014-02-10,21,Yo como 1 requiero saber de que departamento proviene la PR.,162,Posibilidad de añadir a la purchase requisition el departamento.,OK,1,NO,"1.- Agregar un m2o hacia hr.department con widget selection en purchase.requisition. (50m). El nombre del campo será Departamento y mostrará el name del modelo hr.department.
+2.- Añadir traducción a cada campo nuevo añadido. (30m)
+3.- Revisión funcional de cada item desarrollado. (50m)",MEDIA,130
+2014-02-10,1,Yo como 1 deseo ver desde la ficha del proveedor los productos/categoría que éste puede vendernos,162,"1. Cuando estoy cargando un proveedor, requiero cargar los productos que vende dicho proveedor. 
+2. Cuando consulto la ficha del proveedor puedo ver la información de los productos que están asociados a dicho proveedor
+3. CUANDO SE BUSCA POR PRODUCTO, SE LISTAN LOS PROVEEDORES DE ESE PRODUCTO",OK,1,NO,"Vamos a contextualizar el producto como una categoría, de manera que se use el campo de descripción como la identificación precisa del producto.
+Lo que para CICSA es una categoría, Open lo va a manejar como un producto
+
+a) crear campo product_ids en res.partner (30 min)
+b) agregar vista _view_ a res.partner del campo product_ids (30 min)
+c) super de metodo copy() en res.partner para blanquear el metodo copy (30 min)
+d) super de metodo search() en res.partner para generar bUsquedas en res.partner a partir de un producto (30 min)
+e) agregar vista _search_ a res.partner para poder buscar por los productos que tiene asociado, es decir, dado un producto, arroje los partner que tienen ese producto (30 min)
+f) super de mEtodo search() a res.partner para poder buscar por los productos que tiene asociado un partner (90 min)
+
+g) Documentacion de proceso en Openerp (60 min)
+h) Revisión funcional y entrega a usuario (60min)",BAJA,360
+2014-02-10,22,Yo como 1 requiero poder modificar la PO una vez haya sido aprobada.,162,"1.- Poder modificar la PO una vez aprobada, bien sea para agregar lineas o eliminar lineas.
+2.- Tener un historial de todos los cambios realizados con respecto a lineas agregadas o lineas modificadas, una vez se haya vuelto a aprobar.
+3.- Tener un numero de revisión en la PO que se genere automáticamente de acuerdo a cada aprobación.
+4.- Al modificar la PO en cuanto a cantidades no se debe permitir disminuir las lineas a cantidades menores de las que ya fueron recibidas.
+5.- Poder visualizar la ultima fecha de modificacion, la cual es distinta a la fecha original de la PO.",OK,1,"NO
+SI
+NO
+NO
+NO","-e) Agregar super a metodo write de purchase.order para que cuando llegue a estado 'approved' cambie a la fecha de hoy (30 min)
+-d) Agregar campo last_update al la vista _form_ del modelo purchase.order (30 min)
+-c) Agregar campo last_update tipo fecha al modelo purchase.order (30 min)
+-b) Agregar campo version al modelo purchase.order tipo integer (30 min)
+-a) Agregar campo version a vista _form_ del del modelo purchase.order (30 min)
+a) modificar workflow de modelo purchase.order: agregar conjunto [picking] ---transición----> (router_2): en este proceso la transicion entre los dos se dispara con un botón ""Modificar Orden de Compra"", / Escribir transicion / escribir nodo router_2  (60 min)
+b) Agregar Boton tipo workflow a la vista _form_ con string ""Modificar Orden de Compra"" solo visible cuando la purchase.order su estado sea ""approved"" (30 min)
+c) Modificar workflow de modelo purchase.order: agregar conjunto (router_2) ---transición ---validar-cancelación-total---> (cancel) se incrementa en uno el campo de versiones. (120 min)
+d) Modificar workflow de modelo purchase.order: agregar conjunto (router_2) ---transición ---validar-cancelación-parcial---> (cancel_2) (120 min)
+e) Modificar workflow de modelo purchase.order: agregar conjunto (cancel_2) ---transición ---buton-devolver-me-arrepiento---> [picking]. Esto es llevar a la purchase.order a su estado ""approved"" nuevamente (120 min)
+f) Agregar Boton tipo workflow a la vista _form_ con string ""Devolver a Estado Normal"" solo visible cuando la purchase.order su estado sea ""cancel_2"" (30 min)
+g) Modificar workflow de modelo purchase.order: agregar conjunto (cancel_2) ---transición ---buton-proceder-modificación-PO---> (new_draft). Esto es llevar a la purchase.order a su estado nuevo ""new_draft"" aqui todos los campos de la PO se hacen modificables tal como se muestran en ""draft"" nuevamente, se incrementa en 1 el valor de la version de la PO (300 min)
+h) Agregar super a método write() de purchase.order  y purchase.order.line para:
+h.1.- si una linea de purchase.order es nueva se realiza el cambio y se escribe en el log, si se modifica posteriormente, no realizar alertas. (120 min)
+h.2.- si una línea de purchase.order se está modificando:
+h.2.a.- si el valor que nuevo es mayor a la cantidad recibida, realizar el cambio, escribirlo en log, y continuar (120 min)
+h.2.b.- si el valor nuevo es menor que la cantidad recibida, dejar valor anterior silenciosamente y escribir en el log que el cambio no se pudo realizar, (120 min)
+h.3.- si una línea de puchase.order se está eliminando
++h.3.a.- y se han recibido mercancía, no ejecutar la eliminación silenciosamente, escribirlo en log diciendo que el cambio no se realizó por dicha razon, y dejar el valor original (120 min)
++h.3.b.- y no se recibió mercancía, ejecutar la eliminación y escribirlo en el log (120 min)
+i) Modificar workflow de modelo purchase.order: agregar conjunto (new_draft) ---transición ---buton-aprobar-modificación---> [picking]. 
+-i.1.-Esto es llevar a la purchase.order a su estado ""approved"" nuevamente de manera forzada, pues [picking] no volverá a ejecutar su método, (240 min)
+-i.2.- Habiendo hecho la consolidación del picking considerando:
++i.2.a.- eliminar / o anular lineas que ya se consideren totalmente recibidas del picking que aún tiene estos elementos por recibir (240 min) 
++i.2.b.- consolidar lineas que no se han realizado en un picking en estado por recibir (240 min)
++i.2.c.- si el picking se queda con cero elementos entonces realizar trigger para finalización del workflow. (180 min).
+j) Agregar Boton tipo workflow a la vista _form_ con string ""Aprobar Modificación"" solo visible cuando la purchase.order su estado sea ""new_draft"" (30 min)
+k) Revisión funcional y entrega a usuario (80min)
+l) Documentación del proceso de Modificación de una Orden de Compra Aprobada (240 min)","ALTA
+NO APLICA
+BAJA
+ALTA
+MEDIA",2720
+2014-02-10,23,Yo como 1 requiero poder manejar la PO en bolívares o dolares.,162,Poder emitir ordenes de compra en bolívares o en dolares.,OK,1,SI,"Proceso a Explicar:
+0.- Documentacion de proceso en Openerp (70 min)
+1.- Qué son las listas de precios. (30m)
+2.- Cómo configurar la lista de precio para multimoneda.(30m)
+3.- Realizar una orden de compra donde se pueda elegir la lista de precio según sea la moneda a utilizar.(30m)
+4.- Revisar que los montos en las lineas y totales son correctos con respecto a la lista de precio elegida.(30m) ",NO APLICA,190
+2014-02-10,28,Yo como 1 requiero poder generar el reporte de Purchase Requisition desde openerp parecido o mejor al que se tiene actualmente,162,"1.- Dada una PR poder generar el reporte  que cuente con todos los datos requeridos tomando como guía el reporte de PR Actual.
+2.- Dada una PR poder generar el reporte en formato pdf tanto en español como en inglés.",,,NO,"
+1.- Buscar reportes de PR en Vauxoo mostrar y realizar la comparación con el usuario final. Como resultado de esto se debe tener un modelo en blanco y negro del reporte que se desarrollará. (180m)
+2.- Desarrollar el reporte definido en el item 1 para openerp. (960m)
+3.- Emitir el reporte en multilenguaje, dependiendo del lenguaje que tenga definido el proveedor. (320)
+4.- Revisión funcional del reporte desarrollado. (90m)",,1550
+2014-02-10,29,Yo como 1 requiero poder generar el reporte de Purchase Order desde openerp parecido o mejor al que se tiene actualmente,162,"1.- Contar con un campo en la PO donde se pueda agregar la descripción general.
+2.- Poder modificar los términos y condiciones particulares por cada purchase order.
+3.- Dada una PO poder generar el reporte en formato pdf tanto en español como en inglés.
+4.- Dada una PO poder generar el reporte  que cuente con todos los datos requeridos tomando como guía el reporte de PO Actual.
+5.- El reporte no debe contener el impuesto al valor agregado.",,,NO,"1.- Añadir nueva pestaña a purchase.order llamada Other Observations (30m)
+2.- Añadir campo de tipo texto en purchase.order llamado description que funja como Descripción General. El campo será añadido en la pestaña creada en item 1. (30)
+3.- Agregar al modelo un campo llamado conditions(Condiciones Generales) de tipo texto. El campo será añadido en la pestaña creada en item 1. (30m)
+4.- Buscar reportes de PO en Vauxoo mostrar y realizar la comparación con el usuario final. Como resultado de esto se debe tener un modelo en blanco y negro del reporte que se desarrollará. (180m)
+5.- Desarrollar el reporte definido en el item 3 para openerp. (960m)
+6.- Emitir el reporte en multilenguaje, dependiendo del lenguaje que tenga definido el proveedor. (320)
+7.- Revisión funcional del reporte desarrollado. (90m)
+8.- Revisión funcional de los nuevos campos y características añadidas al modelo. (40m)",,1620
+2014-02-10,30,Yo como 1 requiero poder generar el reporte de RFQ desde openerp parecido o mejor al que se tiene actualmente (el que tiene CICSA en Word),162,"1. Al imprimir el formato de la RFQ que se envía al proveedor, debe aparecer que la fecha máxima para recepción de ofertas es la fecha fijada en el campo en cuestión
+2.- Dada una RFQ poder generar el reporte en formato pdf tanto en español como en inglés.
+3.- Dada una RFQ poder generar el reporte  que cuente con todos los datos requeridos tomando como guía el reporte de PO Actual",,,NO,"1.- Agregar campo date_deadline de tipo date al modelo purchase.order. (30m)
+2.- Agregar campo date_deadline a vista _form_ xpath = /field[@name='date_order'] position=after (20m)
+3.- Agregar campo date_deadline al reporte imprimible RFQ (20m)
+4.- Buscar reportes de RFQ en Vauxoo mostrar y realizar la comparación con el usuario final. Como resultado de esto se debe tener un modelo en blanco y negro del reporte que se desarrollará. (180m)
+5.- Desarrollar el reporte definido en el item 4 para openerp. (960m)
+6.- Emitir el reporte en multilenguaje, dependiendo del lenguaje que tenga definido el proveedor. (320)
+7.- Revisión funcional del reporte desarrollado. (90m)
+8.- Revisión funcional de los nuevos campos y características añadidas al modelo. (40m)
+e) Documentacion campo date_deadline en formulario de purchase.order (30 min)",,1690
+2014-02-10,31,Yo como 1 requiero poder manejar multimoneda en la purchase.requisition.,162,1.- Dada una requisition contar con la posibilidad de realizarla en diferentes monedas.,,,NO,"1.- Agregar m2o hacia product.pricelist en el modelo purchase.requisition, llamado Price List. (30m)
+2.- Añadir funcionalidad de multimoneda con product.price.list tal cual lo hace purchase.order. (300)
+2.- Revisión funcional de la nueva funcionalidad desarrollado. (40m)
+3.- Revisión funcional de los nuevos campos y características añadidas al modelo. (30m)",,400

@@ -1,0 +1,1 @@
+Esto es para poder probar el modulo de base_synchro localmente

@@ -1,0 +1,268 @@
+date,ID,Historias de Usuario,,Criterios de Aceptación,Check,Prioridad,Existe,Nivel de Dificultad,"Observaciones Técnicas
+(tareas)",Tiempo Estimado (min),Tiempo Estimado (hr),
+2014-03-17,1,"Yo como (1) deseo poder contar con una instancia de Openerp Migrada a V7 para poder seguir realizando las operaciones del día a día en Openerp.
+
+Hito(**): 1.0. Migración a Version 7.
+
+(**) Un hito representa el valor que se tiene en el Plan Inicial que encuentra vinculado en la Celda E3 (origen)",,1.- Poder acceder a realizar trabajos de ILT en v7,,ALTA,NO,MEDIA,"- Hacer backup de la instancia 6.1
+- Subir respaldo a migration.openerp.com
+- Descargar respaldo migrado y preparar instancia
+- Reportar fallas en la actualización de la BD
+- Corregir fallas reportadas (Módulos CORE Openerp / Módulos Vauxoo)
+- Mantener actualizada la instancia de pruebas",300,5.00,http://wise.iltlatam.com:7069/
+2014-03-17,2,"Yo como (1) deseo poder contar con base de datos depurada de clientes
+
+Hito: 1.1. Limpieza de Clientes.",,"1.- Cuando se vea la entidad Costa Rica solo se vean los clientes de Costa Rica.
+2.- Los clientes de Costa Rica esten claramente definidos y no hayan clientes de Argentina en la entidad ILT Costa Rica. En SSOD, los clientes estan identificados con un ID único por entidad.
+3.- No existe intersección de conjunto de los clientes que pertenecen a Argentina y los que pertenecen a Costa Rica y/o a Latin America.
+4.- Esto quiere decir que cuando esté como empresa Costa Rica, no Veré los clientes de la empresa Argentina y/o LATAM.
+5.- Entrega de CSV con Estructura de Datos (MetaData) de todos los campos de res.partner en v7 a Marutza, para que luego los pueda completar y poblar adecuadamente a los campos
+
+",OK,ALTA,NO,ALTA,"1.- Crear un campo de tipo entero en el modelo res.partner
+    que indique la sucursal del SSOD, dicho campo debe
+    ser mostrado en las vistas tree y form de este 
+    modelo (60 min)
+
+2.- Se debe crear un script que actualice el nuevo campo
+    creado en [1], para que posteriormente sea utilizado 
+    para filtrar los parnter por sucursal. (80 min)
+
+3.- Modificar el script de importacion para importar
+    y cargar  el nuevo campo creado en [1] (60 min)
+
+4.- Creación de una ir.rule que debera ser colocada como
+    data inicial en el modulo import_data, esta ir.rule debe
+    permitir ver los clientes(res.partner) que pertenezcan a 
+   la misma sucursal de la compañia actual.
+    ([('ssod_sucursal', '=', user.company_id.sucursal)]) (60 min)
+
+5.- Exportar un csv del modelo res.partner en version 7 con todos los campos(30 min)
+
+6.- Documentar todos los campos del modelo res.partner, para facilitar la   comprension de [4](2 dias=960 min). 
+    ",1250,20.83,"* ) https://docs.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hQzVEZHUzZXRjelU/edit?usp=drivesdk
+* ) https://docs.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hWGxHOTd3ZU02Qzg/edit?usp=drivesdk
+* ) https://docs.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hdDNSUElBcUM1UE0/edit?usp=drivesdk
+* ) https://docs.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hRldoeWhXZlJvLTA/edit?usp=drivesdk"
+2014-03-17,3,"Yo como (1) deseo que lo Atributos Contables de la version 6 sean congruentes con los de la version 7
+
+Hito: 1.2. Revisión de Atributos Contables",,"Integridad de datos de los siguientes registros:
+1.2.1. -Ejercicios y Períodos Fiscales,
+1.2.2. - Diarios de Asientos Contables,
+1.2.3. - Secuencias de Asientos Contables,",,ALTA,NO,BAJA,"1.- Generar ambientes de prueba con ambas versiones(90 min)
+2.- Generar screenshot con de ambas versiones para 
+     comparar el resultado de la migracion  (60 min)
+3. Entrega y Aceptación con el Cliente (30 min)",180,3.00,"Cuentas Contables: Total de Cuentas [124]
+v6: https://docs.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hMjMtMlJHOW5ZMzQ/edit?usp=drivesdk
+v7: https://docs.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hYk0wU1N3dUV1eEU/edit?usp=drivesdk
+Saldos Contables:
+v6: https://drive.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hVjJxSVFKTDlkbU0/edit?usp=sharing
+v7: https://drive.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hbHZ3UzV4Q0JnVG8/edit?usp=sharing
+Ejercicios Fiscales: Total Ejercicios [4]
+v6: https://docs.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hVVhZUDVkVkZlM0k/edit?usp=drivesdk
+v7: https://docs.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hbHdrOENkQ2Fob00/edit?usp=drivesdk
+Períodos Fiscales: Total Periodos [52]
+v6: https://docs.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9ha0gxd2QzMHBQLW8/edit?usp=drivesdk
+v7: https://docs.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hWWhraTdPVVpTX2s/edit?usp=drivesdk
+Diarios Contables: Total Diarios Contables [19]
+v6: https://docs.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hVXYzZzI1T3ZBN0k/edit?usp=drivesdk
+v7: https://docs.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hTmJ1M29iVkR3SmM/edit?usp=drivesdk
+Secuencias Contables: Total Secuencias [49] = v6 [47] + [2] (Analytic account sequence AA id = 48 - Se desactivará; y Sales Order - SO, nuevo modulo de Ventas, id=49)
+v6: https://docs.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hVm14dDh5d0IzZ3c/edit?usp=drivesdk
+v7: https://docs.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hSS1TcWt1UnVkRm8/edit?usp=drivesdk"
+2014-03-17,4,"Yo como (1) deseo que las Transacciones Fiscales de la version 6 sean congruentes con los de la versión 7
+
+Hito: 1.2 (repetido) -Revisión de Transacciones Fiscales",,"Integridad de datos de los siguientes registros:
+1.2.1 - Facturas de Proveedor,
+1.2.2 - N/C de Proveedor,
+1.2.3 - Facturas de Clientes,
+1.2.4 - N/C de Clientes,
+1.2.5 - Productos",,ALTA,NO,BAJA,"1.- Generar ambientes de prueba con ambas versiones(0)
+2.- Generar screenshot con de ambas versiones para 
+     comparar el resultado de la migracion  (60 min)
+3. Entrega y Aceptación con el Cliente (30 min)",90,1.50,"Facturas de Clientes: 
+v6: https://docs.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hUmdRUnFnYW9aYWc/edit?usp=drivesdk
+v7: https://docs.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hendtVjJteUFCbFk/edit?usp=drivesdk
+Facturas Rectificativas de Cliente:
+v6: https://docs.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hdS1UV0gxUUpPQ2s/edit?usp=drivesdk
+v7: https://docs.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hbGg0endkTUtVRTQ/edit?usp=drivesdk
+Facturas de Proveedor: 
+v6: https://docs.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hWkVhSHFKY0xhR2s/edit?usp=drivesdk
+v7: https://docs.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hcE96Rk9XMmhHbHc/edit?usp=drivesdk
+Facturas Rectificativas de Proveedor: 
+v6: https://docs.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9haF9HWnlQVUdNY1E/edit?usp=drivesdk
+v7: https://docs.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hR1hVcTItWkpQckE/edit?usp=drivesdk
+Productos: https://docs.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hVU5vWTlHRWNaLVE/edit?usp=drivesdk , v6=29116, v7=29117, existe un producto adicional en v7, corresponde al producto por defecto denominado ""Servicio"" con id=29117 bajo la categoría todos los productos"
+2014-03-17,5,"Yo como (1) deseo poder realizar el proceso de revision de Cobranzas y Pagos, y sus transacciones
+
+Hito: 1.3 Revision de Pagos",,"Integridad de los procesos:
+1.3.1 - Revisión de Cobros a Clientes,
+1.3.2 - Revisión de Pagos a Proveedor,",,ALTA,NO,BAJA,"1.- Generar ambientes de prueba con ambas versiones(0)
+2.- Generar screenshot con de ambas versiones para 
+     comparar el resultado de la migracion  (60 min)
+3. Entrega y Aceptación con el Cliente (30 min)",90,1.50,"Pago de Clientes:
+v6: https://docs.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9heUFWTjNDeDJ1NHM/edit?usp=drivesdk
+v7: https://docs.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hWnNMT1Y1RzRZeWs/edit?usp=drivesdk
+Pago de Proveedores:
+v6: https://docs.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9haHdodEl1NC1PaDQ/edit?usp=drivesdk
+v7: https://docs.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hQkk1Q0xCQVg0aW8/edit?usp=drivesdk"
+2014-03-17,6,"Yo como (1) deseo que los datos de las Transacciones Contable sean congruentes entre los de la version 6 y versión 7
+
+Hito: 1.4 Revisión de Transacciones Contables",,"Integridad de las transacciones:
+1.4.1 - Asientos Contables,
+1.4.2 - Saldos de Cuentas para la fecha de corte,",,ALTA,NO,BAJA,"1.- Generar ambientes de prueba con ambas versiones(0)
+2.- Generar screenshot con de ambas versiones para 
+     comparar el resultado de la migracion  (60 min)
+3. Entrega y Aceptación con el Cliente (30 min)",90,1.50,"Asientos Contables: total de asientos [9170]
+v6: https://docs.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hUU1KUFQzTHBaZFU/edit?usp=drivesdk
+v7: https://docs.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hUEpBSW9JVHRJeUU/edit?usp=drivesdk
+Apuntes Contables: total de apuntes [280169] total débitos y créditos [6,929,669,894.1880]
+v6: https://docs.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9heVRscUZ4X0xzS1k/edit?usp=drivesdk
+v7: https://docs.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hZG52WXpkc3NfVWs/edit?usp=drivesdk"
+2014-03-17,7,"Yo como (1) deseo contar con los reportes Contables Primordiales con los que he venido contando en la version 6, y que se encuentren disponibles en la versión 7
+
+Hito: 1.4 (repetido) -Revisión de Reportes Contables",,"1.4.1 - Multireportes,
+[Criterios de Aceptación]
+Seguir teniendo las prestaciones de la v6, más las nuevas que ofrece el módulo en la v7, es decir, poder seleccionar una cuenta, obtener sus resultados por saldo inicial, debito, credito, balance, diferencia del periodo consultado, reportes, de Una columna, Dos Columnas, Cuatro, Cinco, QTRs, 12MESES.
+",,ALTA,NO,BAJA,"1.- Generar ambientes de prueba con ambas versiones(0)
+2.- Generar screenshot con de ambas versiones para 
+     comparar el resultado de la migracion  (60 min)
+3. Entrega y Aceptación con el Cliente (30 min)",90,1.50,"v6: 
+* ) Vista: https://docs.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hMm5aZTJrZ3I1Tms/edit?usp=drivesdk
+* ) Reporte a cinco columnas: https://drive.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hU0Z6S3R2U2FCaTA/edit?usp=sharing
+v7: 
+* ) Vista: https://docs.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hbUVtekcwRDJmYVk/edit?usp=drivesdk
+* ) Reporte de Cuentas por Partners [nuevo reporte]: https://drive.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hcmlPcWE2WnFSZlk/edit?usp=sharing
+* ) Reporte de Asientos por Cuentas [nuevo reporte]: https://drive.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hZGpFM2RWR1c2Z0E/edit?usp=sharing
+* ) Reporte a cinco columnas: https://drive.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hMW9ZYmU4eXVTMXM/edit?usp=sharing"
+2014-03-17,8,"Yo como (1) deseo contar con los reportes Contables Auxiliares con los que he venido contando en la version 6, y que se encuentren disponibles en la version 7
+
+Hito: 1.5 - Reportes Auxiliares,",,"1.5.1.- El reporte de Envejecimiento de Cuentas por Cobrar en lapsos de 30, 60, 90, 120, y mas de 120 dias.
+1.5.2.- Reportes Contables (IFRS):
+- Poder ver la moneda en el reporte
+- Poder obtener un cociente entre conceptos del reporte.
+- Poder obtener una substracción entre conceptos del reporte.
+
+",,ALTA,NO,BAJA,"1.- Generar ambientes de prueba con ambas versiones(0)
+2.- Generar screenshot con de ambas versiones para 
+     comparar el resultado de la migracion  (60 min)
+3. Entrega y Aceptación con el Cliente (30 min)",90,1.50,"Envejecimiento de Saldos 30 dias:
+* ) Seleccion de todos los Clientes de ILT Costa Rica: https://docs.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hWUFCWFVBSTdrbjg/edit?usp=drivesdk
+* ) Reporte de Envejecimiento a 30 días de Clientes: https://drive.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hX3JaMlpRTjRsbkk/edit?usp=sharing
+Reportes IFRS/NIIF:
+v6: https://drive.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hdGg5Q3RhRU1JY0E/edit?usp=sharing
+v7: https://drive.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hdDExWDhOcFAySnc/edit?usp=sharing"
+2014-03-17,9,"Yo como (1) deseo un Paseo de Navegación y Reacondicionamiento en la Nueva Version (7.0) de Openerp
+
+Hito: 1.6 - Usabilidad",,"1.6.1. - Paseo de Navegación y Reacondicionamiento en Nueva Versión.
+
+",,MEDIA,SI,BAJA,"1.- Acceso a Material Funcional de Openerp V7 (1500USD/User) (***)
+2.- Horas de Soporte con Asesor Funcional (180 min)
+
+(***) Producto adicional fuera del Alcance de este Plan",180,3.00,
+2014-03-17,10,"Yo como (1) deseo seguir contando con la Sincronización FrontEnd/BackEnd entre SSOD y Openerp
+
+Hito: 1.7 - Sincronización FrontEnd/BackEnd",,"1.- Poder tener una valorización de costos similares al que ofrece SSOD
+2.- Obtener los costos estándares de Openerp y poder compararlos contra los de SSOD.
+
+1.7.1.- Revisión de Funcionalidades de los procesos de Sincronización",,ALTA,NO,ALTA,"1. Obtener [Valor Diferencial_Compras] entre [Valor de Inventario Comprado en Openerp] (Compras = STOCK_IN + DIFF PRICE) y [Valor de Inventario Comprando en SSOD] (Compras = Reporte de SSOD de compras para el Período_Consultado) (120 min), 
+
+2. Determinar el Destino de uso del [Valor Diferencial_Compras] 
+2.1.- para corrobar el valor de Compras, Abelardo obtiene los valores de las compras realizadas ILT LATAM  [Valor de Inventario Comprado en SSOD] , y las compra  contra el Valor de Inventario en Openerp STOCK IN + DIFF PRICE [Valor de Inventario Comprado en Openerp] 
+2.2.- Abelardo Concilia cuentas por pagar para determinar diferencias (120 min)
+
+3. Para minimizar el [DIFF] se debe modificar el proceso de importación del Facturas de Compras, para que revise los productos en las líneas de factura determinando si el valor de standard_price actual es cero (0) cambiarlo al valor unitario que viene en la línea, de esta forma el producto contará con un valor mas cercano a la realidad en las proximas iteraciones. (150 min)
+    3.1  Si el producto ya posee un standard_price se debe actualizar al momento de realizar la compra o se debe mantener el que ya posee?
+Respuesta, se debe actualizar
+
+4. Obtener [Valor Diferencial_COGS] entre [Valor de Inventario Vendido en Openerp] (COGS = STOCK_OUT) y [Valor de Inventario Vendido en SSOD] (Ventas = Reporte de SSOD de Ventas para el Período_Consultado), (120 min)
+
+5.- Generar una provisión de [Valor Diferencial_COGS] = 9000 Dolares (**)
+de esta forma,
+Provision (Dr) 9000.00
+Stock Out (Cr) 9000.00
+Para luego distribuirla es partes iguales durante
+los once períodos del 2014 de esta forma:
+COGS Antiguas (Dr) xxx
+Provision (Cr) xxx 
+Generar una provision con asientos recurrentes (60 min)
+
+6. Para minimizar el [Valor Diferencial_COGS] se debe modificar el proceso de importación del Facturas de Ventas, para que revise los productos en las líneas de factura determinando si el valor de standard_price actual es cero (0) cambiarlo al valor unitario que viene en la línea, de esta forma el producto contará con un valor mas cercano a la realidad en las proximas iteraciones.(150 min)
+
+7.- Como proceso de Mitigación mas acucioso al del paso 6. Se Obtendrá un listado de los productos 
+El CSV contendrá: id de openerp, el nombre del producto, costo estandar del producto, el codigo del producto.
+En los productos se colocorá el valor que ILT proporciones
+
+ (120 min)
+
+8.- Con el fin de poder reportar de forma mas acertada los resultados de la empresa se debe tener una politica para la Generación de Asientos Contables de Ajustes del COGS, esto debido a que la Valoracion de Inventario de SSOD es FIFO y la de Openerp es STD, se considera que debería ser mensual y de la siguente forma de Stock Out contra COGS:
+COGS (Dr) xxx
+Stock Out (Cr) xxx (120 min)
+
+9.- Documentar Proceso de Sincronización.(240 min)
+
+10.- Despliegue funcional al usuario (180min)
+
+(**) 9000 Dolares: Valor revisado a Mediados de Febrero",1380,23.00,archivo csv de productos: https://drive.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hdDYxMC1lQTF1ZlJ4Q0tWOUR2N2Q0QmEzMU9r/edit?usp=sharing
+2014-03-17,11,"Yo como (1) deseo Reorganizar los Contactos de Openerp
+
+Hito: 1.8 - Reorganización de Contactos.
+Hito: 1.9 - Repoblación de Información de Contactos.",,1.9 Poder Repoblar la Información de los Contactos con los CSVs y la documentación en H.U. (2) Criterio de Aceptación (5),,BAJA,NO,BAJA,1.- Documentar el proceso para importación de los CSVs en el modelo res.partner (120 min),,0.00,
+2014-03-17,12,"Yo como (1) deseo poder contar con una batería de reportes para la gestión de las cobranzas para el Análisis de las Cuentas por Cobrar
+
+Hito: 2.. - Módulo de Envejecimiento",,"1.- Poder Generar un reporte de Envejecimiento con lapsos de 30 días para la actividad de cobranza en CR (H.U.8, 1.5.1) con los todos los clientes de clientes de ILT Costa Rica
+Y no aparezca el error siguiente cuando se emite con todos los clientes
+https://docs.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hMTM0SlpwbUlwNU0/edit?usp=drivesdk
+2.- Poder Generar un reporte de Envejecimiento con lapsos de 90 días para la actividad de provisiones de cuentas Dudosas. “AR Provision”, Estas son las columnas de totales a presentar y en una segunda fila colocar las provisiones. Not Due (0%), 1-90(0%), 91-180(25%),181-270(50%),271-360(75%),+360(100%), con los todos los clientes de clientes de ILT Costa Rica
+3.- Poder apreciar en la columna Documento del reporte  “Customer Formal Report of Debts” campo “SSOD Folio” de la Factura de Ventas.
+4.- Poder tener en consideración el término de pago para el cálculo de la fecha de vencimiento en las facturas de Venta.",OK,ALTA,NO,MEDIO,"1.- Generar plantilla para account.payment.term (60 min)
+
+2.- Documentar el proceso de generación de nuevos términos de pago. (120 min)
+
+3.- Importar a los Partner (customer=true) el campo de término de pago.(60 min) 
+
+4.- Documentar el proceso de asignación de terminos de pagos a factura de Venta, que no lo tengan establecido, para que se tome en los mov. contables el vencimiento de la factura. (120 min)
+
+
+5. Podría existir la otra opción de generar un algoritmo donde se tome de las líneas de la factura de ssod el elemento común de termino de pago, mapear ese valor a Openerp y luego usarlo para establecerlo en la factura, esto implica modificar el algoritmo de Importación de Facturas de Cliente. (Conclusión se descarta esta opción dado que implica mucho desarrollo).
+
+6.- Generar Reporte en PDF con lapsos de 90 días para la actividad de provisiones de cuentas Dudosas. “AR Provision”, Estas son las columnas de totales a presentar y en una segunda fila colocar las provisiones. Not Due (0%), 1-90(0%), 91-180(25%),181-270(50%),271-360(75%),+360(100%)  (120 min)
+
+7.- Generar  “Customer Formal Report of Debts” campo “SSOD Folio” de la Factura de Ventas en Columna Document. (60 min)
+
+8.- Resolver bug de Reporte de Envejecimiento para períodos de 30 días https://docs.google.com/a/vauxoo.com/file/d/0B1w9gokcJL9hMTM0SlpwbUlwNU0/edit?usp=drivesdk",540,9.00,
+2014-03-17,13,"Yo como (1) deseo contar con una nueva entidad para la gestion de procesos de ILT LatinoAmerica
+
+Hito: 3. - Entidad Adicional
+
+Basándonos en el Concepto D.E.E.P (Detallado, Emergente, Estimado, Priorizado) no se detallará esta historia de usuario, es decir, Épica",,"3.1.  Alcance
+3.1.1.- Establecer el alcance de esto que en principio va a tener ILT Latinoamerica
+3.1.2.- Catálogo de Cuentas
+3.2. Informe Gerencial.
+3.2.1.- Por Productos
+3.2.1.1.- Definir y Criterios de Aceptación.
+3.2.2.- Por Clientes
+3.2.2.1.- Definir y Criterios de Aceptación.
+3.3.- Productos.
+3.3.1.- El manejo de productos Famila (Excel Adjunto.) 
+3.3.1.1. - Criterios de Aceptación: La descripción puede ser diferente de acuerdo al cliente.
+3.3.2.- Definición de productos
+3.3.2.1.- Importación desde ILT CR.
+3.3.2.1.1.- Criterio de Aceptación: tenemos el problema que algunos son las descripciones propias de Argentina revisar si __hay__ id de sucursal., ANTES de arrancar éstos productos incorrectos se eliminarán de la importación hecha hacia ILT Latinoamerica, a través de un proceso manual que hará Marutza revisando la información en Openerp exportandola a Excel y limpiando para luego importar desde éstos archivos.. @ILT
+3.3.3.- Dudas: validar si existe un Product Code en Singapur común por familia ¿? y si lo pueden colocar en las Facturas. @ILT
+3.4.- Clientes
+3.4.1.- Fuente de Datos: Abelardo enviará lista de clientes de ILT Latinoamerica a marutza para su importación. @ILT
+3.5.- Inicialización / Linea de Factura.
+3.5.1. Definir Tipo de Datos: Factura de Cliente? Factura de Proveedor?
+3.6.- Capacidad de Facturación,
+3.7.- Generación de Reportes Financieros,
+3.7.1.- Criterios de Aceptación: Cuales reportes financieros.
+3.7.2.- Cuales Existen?
+3.7.3.- Cierre de Brechas (Desarrollo)
+3.8.- Reportes Gerenciales
+3.8.1.- Criterios de Aceptación
+3.8.2.- Cuales existen,
+3.8.3.- Cierre de Brechas (Desarrollo)",,BAJA,NO,ALTA,"Basándonos en el Concepto D.E.E.P (##) (Detallado, Emergente, Estimado, Priorizado) no se detallará esta historia de usuario, es decir, ésta es Épica (&&)
+
+(&&) Épica: es una gran historia de usuario sin detalles, puesto que se deben alcanzar los objetivos anteriores para luego entrar en una nueva estimación de cuanto se podrá tomar en cumplir, se puede dar un número grueso, pero solo para tomar previsiones.
+
+(##) D.E.E.P. Documentado en celda F3",3600,60.00,

@@ -1,0 +1,3 @@
+model,name,title,state,ifrs_ids,do_compute,code,fiscalyear_id,company_id
+ifrs.ifrs,Rolling Cash Flow,Rolling Cash Flow,draft,,False,00001,,
+ifrs.ifrs,Monthly Evaluation,Monthly Evaluation,draft,,False,00002,,
